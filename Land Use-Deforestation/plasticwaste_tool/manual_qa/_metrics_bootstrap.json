@@ -1,0 +1,22 @@
+{
+  "n_blocks": 34,
+  "C": 0.001,
+  "results": [
+    {
+      "metric": "ROC-AUC",
+      "delta": 0.0552,
+      "ci_low": -0.0483,
+      "ci_high": 0.1434,
+      "p": 0.277,
+      "excludes_zero": false
+    },
+    {
+      "metric": "avg precision",
+      "delta": 0.0692,
+      "ci_low": -0.0934,
+      "ci_high": 0.208,
+      "p": 0.385,
+      "excludes_zero": false
+    }
+  ]
+}

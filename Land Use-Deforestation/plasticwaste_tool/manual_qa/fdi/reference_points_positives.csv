@@ -1,0 +1,8 @@
+point_id,longitude,latitude,sample_type,confidence_level,area_ha,concentration_score,n_pixels,mean_ndvi,mean_fdi,imagery_window,chip_png,label,interpreter_confidence,material_guess,evidence_note
+patch_HIGH_21,-13.58192822,9.541815116389143,flagged_patch,HIGH,0.24,0.88,6.0,0.09951,0.11471,2024-01-01 to 2024-02-01,D:/gee_cache\cache\qa\reference_candidates\patch_HIGH_21.png,positive,low,not sure,could be debris
+patch_HIGH_22,-13.57762229,9.53096346775698,flagged_patch,HIGH,0.2,0.823,5.0,0.10494,0.11173,2024-01-01 to 2024-02-01,D:/gee_cache\cache\qa\reference_candidates\patch_HIGH_22.png,positive,low,not sure,could be debris
+patch_MEDIUM_16,-13.58700071,9.551301325789447,flagged_patch,MEDIUM,0.2,0.58,5.0,0.10388,0.09879,2024-01-01 to 2024-02-01,D:/gee_cache\cache\qa\reference_candidates\patch_MEDIUM_16.png,positive,low,not sure,could be debris
+patch_MEDIUM_17,-13.58643477,9.550304195824078,flagged_patch,MEDIUM,0.16,0.649,4.0,0.1039,0.10246,2024-01-01 to 2024-02-01,D:/gee_cache\cache\qa\reference_candidates\patch_MEDIUM_17.png,positive,low,not sure,could be debris
+patch_MEDIUM_18,-13.58333558,9.543342252372147,flagged_patch,MEDIUM,0.08,0.525,2.0,0.09785,0.09591,2024-01-01 to 2024-02-01,D:/gee_cache\cache\qa\reference_candidates\patch_MEDIUM_18.png,positive,low,not sure,could be debris
+patch_MEDIUM_19,-13.58261693,9.543072757786913,flagged_patch,MEDIUM,0.12,0.65,3.0,0.09905,0.10252,2024-01-01 to 2024-02-01,D:/gee_cache\cache\qa\reference_candidates\patch_MEDIUM_19.png,positive,low,not sure,could be debris
+patch_MEDIUM_20,-13.58315592,9.542623600144854,flagged_patch,MEDIUM,0.08,0.599,2.0,0.09628,0.09983,2024-01-01 to 2024-02-01,D:/gee_cache\cache\qa\reference_candidates\patch_MEDIUM_20.png,positive,low,not sure,could be debris

@@ -1,0 +1,42 @@
+[
+  {
+    "variant": "shipped probe.joblib",
+    "n_train": 651,
+    "n_pos": 111,
+    "C": 0.01,
+    "ROC-AUC": 0.692,
+    "avg precision": 0.485,
+    "prec@0.9": 0.561,
+    "recall@0.9": 0.377
+  },
+  {
+    "variant": "A: rural-heavy base only",
+    "n_train": 651,
+    "n_pos": 111,
+    "C": 0.01,
+    "ROC-AUC": 0.692,
+    "avg precision": 0.485,
+    "prec@0.9": 0.561,
+    "recall@0.9": 0.377
+  },
+  {
+    "variant": "B: base + urban west",
+    "n_train": 853,
+    "n_pos": 160,
+    "C": 0.001,
+    "ROC-AUC": 0.688,
+    "avg precision": 0.504,
+    "prec@0.9": 0.667,
+    "recall@0.9": 0.131
+  },
+  {
+    "variant": "C: urban west ONLY",
+    "n_train": 202,
+    "n_pos": 49,
+    "C": 0.001,
+    "ROC-AUC": 0.747,
+    "avg precision": 0.555,
+    "prec@0.9": 0.0,
+    "recall@0.9": 0.0
+  }
+]

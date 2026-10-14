@@ -1,0 +1,7 @@
+# Large intermediates stay local; commit summaries under results/ instead.
+experiments/**/outputs/
+experiments/**/*.tif
+experiments/**/*.tiff
+experiments/**/*.npy
+experiments/**/*.pth
+experiments/**/*.pt

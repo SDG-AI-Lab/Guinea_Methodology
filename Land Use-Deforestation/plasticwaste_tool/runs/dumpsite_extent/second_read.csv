@@ -1,0 +1,13 @@
+point_id,tile_id,region,box_w_m,box_h_m,note
+nat_labe_0036_p0,nat_labe_0036,Labe,13,14,bright debris scatter below centre in settlement
+nat_boke_0042_p0,nat_boke_0042,Boke,18,14,shadowed bare patch with light specks; ambiguous
+nat_cona_0043_p0,nat_cona_0043,Conakry,17,24,elongated bright scatter NNW-SSE
+nat_kank_0028_p0,nat_kank_0028,Kankan,13,13,small bare patch bounded by trees
+nat_fara_0038_p0,nat_fara_0038,Faranah,25,23,grey mottled disturbed patch on laterite; edges unclear
+nat_cona_0051_p0,nat_cona_0051,Conakry,14,12,central cluster only; further scatter east not counted
+nat_kank_0058_p0,nat_kank_0058,Kankan,12,13,white debris between houses
+nat_fara_0025_p0,nat_fara_0025,Faranah,19,19,very low contrast; low confidence
+nat_cona_0000_p0,nat_cona_0000,Conakry,25,20,bright rubble pile
+nat_cona_0037_p0,nat_cona_0037,Conakry,10,10,small rubble cluster in dense urban yard
+nat_cona_0057_p0,nat_cona_0057,Conakry,13,8,small linear pale scatter
+nat_cona_0068_p0,nat_cona_0068,Conakry,32,14,shoreline debris band; waterside site

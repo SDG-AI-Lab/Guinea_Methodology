@@ -1,0 +1,27 @@
+{
+  "population": {
+    "area_weighted_total": 13211010.071600731,
+    "naive_pixel_sum": 15698904.422635257,
+    "un_wpp_2020": 13132795,
+    "relative_error": 0.005955706428123708,
+    "naive_relative_error": 0.19539705162802412,
+    "within_tolerance": true,
+    "mean_pixel_area_km2": 0.8408408134663774,
+    "passes": true
+  },
+  "collection": {
+    "urban_fraction": 0.38988373934883164,
+    "implied_national_collection": 0.10521488769934763,
+    "reported_national_collection": 0.097,
+    "ratio": 1.0846895639108003,
+    "agrees_within_20pct": true,
+    "passes": true
+  },
+  "generation": {
+    "modelled_msw_t_yr": 1493436.9821678456,
+    "waw_reported_msw_t_yr": 1568192.34,
+    "relative_error": -0.047669763411900434,
+    "passes": true
+  },
+  "note": "All three checks exercise the FRONT of the chain only. Open burning, environmental leakage and transport to water have no Guinean measurement to be checked against, which is why they dominate the variance decomposition."
+}

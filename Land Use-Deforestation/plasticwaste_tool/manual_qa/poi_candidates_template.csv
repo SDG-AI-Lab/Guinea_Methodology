@@ -1,0 +1,7 @@
+poi_id,name,lat,lon,source,visual_check,tile_m,notes
+POI_01,Dechetterie de Dar-El-Salam,9.577571540929023,-13.642974386507541,https://maps.app.goo.gl/Sg2uusnATao4Te516,,150,"it is a wide area, not only one point"
+POI_02,Dépotoir d'ordures de Kakimbo,9.589532627867698,-13.639544835895167,https://maps.app.goo.gl/f4FNHZzCMjtEhEzY7,,,"this place may be closed, but on the map there are still traces can be used for labelling"
+POI_03,unknown,9.62220596186835,-13.63036537828614,,,,"just observed from visual, nothing placed there yet on the map"
+POI_04,unknown,9.610120121091938,-13.644856845671052,,,,"just observed from visual, nothing placed there yet on the map"
+POI_05,unknown,9.60889487682986,-13.644747114659355,,,,"just observed from visual, nothing placed there yet on the map"
+POI_06,Centre de Compostage de KM36,9.698617915980153,-13.501392917519478,https://maps.app.goo.gl/P1iJDYJyvr1qivURA,,150,"marking the area next to the compost center that looks like a dumpsite, not the formal center itself"

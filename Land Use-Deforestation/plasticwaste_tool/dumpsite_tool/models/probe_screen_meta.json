@@ -1,0 +1,16 @@
+{
+  "role": "stage-1 screen",
+  "backbone": "imagenet_resnet50_gap2048",
+  "img_size": 800,
+  "tile_m": 250.0,
+  "source": "esri",
+  "zoom": 17,
+  "C": 0.001,
+  "n_train": 595,
+  "n_pos": 55,
+  "screen_threshold": 0.3,
+  "held_out_roc_auc": 0.8555,
+  "cells_kept_at_threshold": 0.316,
+  "site_recall_at_threshold": 0.8545,
+  "note": "Deliberately generous. Its job is to discard empty country cheaply on free imagery, not to be accurate. Stage 2 removes the false positives it passes through."
+}

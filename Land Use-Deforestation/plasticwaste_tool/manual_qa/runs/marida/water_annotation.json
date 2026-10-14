@@ -1,0 +1,6 @@
+{
+  "status": "no_published_detections",
+  "note": "The current queue (single acquisition 2024-01-11) is empty: the published layer has no patches there, so there is nothing to score.",
+  "csv": "C:\\Users\\ASUS\\Guinea_Project\\Land Use-Deforestation\\plasticwaste_tool\\manual_qa\\water_annotations.csv",
+  "source": "single acquisition 2024-01-11"
+}

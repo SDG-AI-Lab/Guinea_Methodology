@@ -1,0 +1,184 @@
+{
+  "tile_m": 80.0,
+  "m_per_px": 0.1,
+  "max_measurable_radius_m": 33.0,
+  "n_measured": 651,
+  "n_missing": 0,
+  "brightness_radius_m": {
+    "dump": {
+      "n": 111,
+      "p25": 2.5,
+      "median": 4.5,
+      "p75": 7.5,
+      "p90": 14.5,
+      "censored_fraction": 0.0
+    },
+    "non-dump": {
+      "n": 540,
+      "p25": 1.5,
+      "median": 2.5,
+      "p75": 6.5,
+      "p90": 11.5,
+      "censored_fraction": 0.0
+    }
+  },
+  "texture_radius_m": {
+    "dump": {
+      "n": 111,
+      "p25": 2.5,
+      "median": 3.5,
+      "p75": 5.5,
+      "p90": 6.5,
+      "censored_fraction": 0.0
+    },
+    "non-dump": {
+      "n": 540,
+      "p25": 1.5,
+      "median": 2.5,
+      "p75": 4.5,
+      "p90": 7.5,
+      "censored_fraction": 0.0
+    }
+  },
+  "brightness_r50_m": {
+    "dump": {
+      "n": 111,
+      "p25": 11.5,
+      "median": 14.5,
+      "p75": 19.0,
+      "p90": 27.5,
+      "censored_fraction": 0.0
+    },
+    "non-dump": {
+      "n": 540,
+      "p25": 12.5,
+      "median": 16.5,
+      "p75": 21.75,
+      "p90": 29.5,
+      "censored_fraction": 0.0
+    }
+  },
+  "texture_r50_m": {
+    "dump": {
+      "n": 111,
+      "p25": 9.0,
+      "median": 13.5,
+      "p75": 18.5,
+      "p90": 23.5,
+      "censored_fraction": 0.0
+    },
+    "non-dump": {
+      "n": 540,
+      "p25": 13.5,
+      "median": 17.5,
+      "p75": 22.5,
+      "p90": 27.5,
+      "censored_fraction": 0.001851851851851852
+    }
+  },
+  "brightness_r90_m": {
+    "dump": {
+      "n": 111,
+      "p25": 22.5,
+      "median": 24.5,
+      "p75": 30.5,
+      "p90": 32.5,
+      "censored_fraction": 0.13513513513513514
+    },
+    "non-dump": {
+      "n": 540,
+      "p25": 23.5,
+      "median": 27.5,
+      "p75": 31.5,
+      "p90": 32.5,
+      "censored_fraction": 0.1962962962962963
+    }
+  },
+  "texture_r90_m": {
+    "dump": {
+      "n": 111,
+      "p25": 23.5,
+      "median": 27.5,
+      "p75": 30.5,
+      "p90": 32.5,
+      "censored_fraction": 0.10810810810810811
+    },
+    "non-dump": {
+      "n": 540,
+      "p25": 24.5,
+      "median": 28.5,
+      "p75": 31.5,
+      "p90": 32.5,
+      "censored_fraction": 0.21481481481481482
+    }
+  },
+  "centre_excess": {
+    "brightness_excess_sigma": {
+      "dump_median": 5.956113607645374,
+      "nondump_median": 0.28625234143165945
+    },
+    "texture_excess_sigma": {
+      "dump_median": 13.129297871724875,
+      "nondump_median": -0.5967462882380007
+    }
+  },
+  "estimator_control": {
+    "texture_radius_m": {
+      "dump_median": 3.5,
+      "nondump_median": 2.5,
+      "ratio": 1.4,
+      "censored": 0.0,
+      "passes": true
+    },
+    "brightness_radius_m": {
+      "dump_median": 4.5,
+      "nondump_median": 2.5,
+      "ratio": 1.8,
+      "censored": 0.0,
+      "passes": true
+    },
+    "texture_r50_m": {
+      "dump_median": 13.5,
+      "nondump_median": 17.5,
+      "ratio": 0.7714285714285715,
+      "censored": 0.0,
+      "passes": false
+    },
+    "brightness_r50_m": {
+      "dump_median": 14.5,
+      "nondump_median": 16.5,
+      "ratio": 0.8787878787878788,
+      "censored": 0.0,
+      "passes": false
+    },
+    "texture_r90_m": {
+      "dump_median": 27.5,
+      "nondump_median": 28.5,
+      "ratio": 0.9649122807017544,
+      "censored": 0.10810810810810811,
+      "passes": false
+    },
+    "brightness_r90_m": {
+      "dump_median": 24.5,
+      "nondump_median": 27.5,
+      "ratio": 0.8909090909090909,
+      "censored": 0.13513513513513514,
+      "passes": false
+    }
+  },
+  "extent_measurable": "core_only_lower_bound",
+  "estimator_used": "texture_radius_m",
+  "median_core_radius_m": 3.5,
+  "implied_core_diameter_m": 7.0,
+  "core_pixels": {
+    "Sentinel-2 SWIR": 0.1225,
+    "EnMAP": 0.05444444444444444,
+    "EMIT": 0.01361111111111111
+  },
+  "excess_sigma": {
+    "texture_dump_median": 13.129297871724875,
+    "texture_nondump_median": -0.5967462882380007,
+    "brightness_dump_median": 5.956113607645374,
+    "brightness_nondump_median": 0.28625234143165945
+  }
+}

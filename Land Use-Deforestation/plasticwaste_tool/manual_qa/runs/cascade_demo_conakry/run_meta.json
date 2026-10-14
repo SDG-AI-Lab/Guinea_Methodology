@@ -1,0 +1,17 @@
+{
+  "bounds": [
+    -13.5763,
+    9.6519,
+    -13.5591,
+    9.6602
+  ],
+  "budget_cap": 440,
+  "cache_dir": "E:\\SDG AI Lab\\Guinea\\Land Use-Deforestation\\plasticwaste_tool\\manual_qa\\scan_demo_cache",
+  "n_candidates_all_tiers": 18,
+  "by_tier": {
+    "high": 5,
+    "medium": 3,
+    "all": 10
+  },
+  "elapsed_s": 642.4
+}

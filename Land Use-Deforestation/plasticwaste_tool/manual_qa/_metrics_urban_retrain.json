@@ -1,0 +1,21 @@
+{
+  "C": 0.001,
+  "rows": [
+    {
+      "model": "current (probe.joblib)",
+      "ROC-AUC": 0.692,
+      "avg precision": 0.485,
+      "prec@0.9": 0.561,
+      "recall@0.9": 0.377,
+      "flagged@0.9": 41
+    },
+    {
+      "model": "retrained (+urban)",
+      "ROC-AUC": 0.688,
+      "avg precision": 0.504,
+      "prec@0.9": 0.667,
+      "recall@0.9": 0.131,
+      "flagged@0.9": 12
+    }
+  ]
+}

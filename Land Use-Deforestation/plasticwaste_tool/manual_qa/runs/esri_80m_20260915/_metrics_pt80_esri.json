@@ -1,0 +1,55 @@
+{
+  "source": "esri",
+  "tile_m": 80.0,
+  "zoom": 17,
+  "n": 651,
+  "n_pos": 111,
+  "n_neg": 540,
+  "eval_prevalence": 0.17050691244239632,
+  "deploy_prevalence": 0.020614966744437094,
+  "roc_auc": 0.8320987654320987,
+  "avg_precision": 0.5433944149927573,
+  "mean_score_dumps": 0.6249547098352023,
+  "mean_score_residential": 0.5388837735177805,
+  "detector": "waste",
+  "top40_precision_per_window": 0.7,
+  "top40_precision_per_site": 0.5,
+  "operating_points": [
+    {
+      "threshold": 0.5,
+      "recall": 0.6396396396396397,
+      "fpr": 0.1259259259259259,
+      "precision_eval": 0.5107913669064749
+    },
+    {
+      "threshold": 0.6,
+      "recall": 0.6036036036036037,
+      "fpr": 0.09444444444444444,
+      "precision_eval": 0.5677966101694916
+    },
+    {
+      "threshold": 0.7,
+      "recall": 0.5135135135135135,
+      "fpr": 0.06666666666666667,
+      "precision_eval": 0.6129032258064516
+    },
+    {
+      "threshold": 0.8,
+      "recall": 0.43243243243243246,
+      "fpr": 0.05185185185185185,
+      "precision_eval": 0.631578947368421
+    },
+    {
+      "threshold": 0.9,
+      "recall": 0.2972972972972973,
+      "fpr": 0.025925925925925925,
+      "precision_eval": 0.7021276595744681
+    },
+    {
+      "threshold": 0.95,
+      "recall": 0.16216216216216217,
+      "fpr": 0.012962962962962963,
+      "precision_eval": 0.72
+    }
+  ]
+}

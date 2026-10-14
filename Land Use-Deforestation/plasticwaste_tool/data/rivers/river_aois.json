@@ -1,0 +1,2305 @@
+{
+  "source": "HydroRIVERS v1.0 (Lehner & Grill 2013), clipped to geoBoundaries GIN ADM1",
+  "min_discharge_cms": 25.0,
+  "buffer_m": 250.0,
+  "min_system_km": 10.0,
+  "max_tile_km2": 2500.0,
+  "width_relation": "w = 7.2 * Q^0.5 (Andreadis et al. 2013)",
+  "n_systems": 20,
+  "n_tiles": 117,
+  "n_reaches": 1929,
+  "total_length_km": 5971.7,
+  "total_corridor_km2": 2864.5,
+  "total_fetch_bbox_km2": 80751.7,
+  "note": "Each entry in `aois` is a TILE, not a whole river system -- see the module docstring ('A whole river system is not one fetch'). `systems` groups tile keys by MAIN_RIV for reporting. est_water_fraction is REPORTED, not enforced; rivers are gated on absolute water pixel count (DETECTION_CONFIG['min_water_px']).",
+  "systems": {
+    "10877687": {
+      "main_riv": 10877687,
+      "length_km": 2424.2,
+      "max_discharge_cms": 819.5,
+      "corridor_km2": 1185.9,
+      "tiles": [
+        "river_10877687_t01",
+        "river_10877687_t02",
+        "river_10877687_t03",
+        "river_10877687_t04",
+        "river_10877687_t05",
+        "river_10877687_t06",
+        "river_10877687_t07",
+        "river_10877687_t08",
+        "river_10877687_t09",
+        "river_10877687_t10",
+        "river_10877687_t11",
+        "river_10877687_t12",
+        "river_10877687_t13",
+        "river_10877687_t14",
+        "river_10877687_t15",
+        "river_10877687_t16",
+        "river_10877687_t17",
+        "river_10877687_t18",
+        "river_10877687_t19",
+        "river_10877687_t20",
+        "river_10877687_t21",
+        "river_10877687_t22",
+        "river_10877687_t23",
+        "river_10877687_t24",
+        "river_10877687_t25",
+        "river_10877687_t26",
+        "river_10877687_t27",
+        "river_10877687_t28",
+        "river_10877687_t29",
+        "river_10877687_t30",
+        "river_10877687_t31",
+        "river_10877687_t32",
+        "river_10877687_t33",
+        "river_10877687_t34",
+        "river_10877687_t35",
+        "river_10877687_t36",
+        "river_10877687_t37",
+        "river_10877687_t38",
+        "river_10877687_t39"
+      ],
+      "n_tiles": 39
+    },
+    "10633048": {
+      "main_riv": 10633048,
+      "length_km": 547.1,
+      "max_discharge_cms": 639.9,
+      "corridor_km2": 271.6,
+      "tiles": [
+        "river_10633048_t01",
+        "river_10633048_t02",
+        "river_10633048_t03",
+        "river_10633048_t04",
+        "river_10633048_t05",
+        "river_10633048_t06",
+        "river_10633048_t07",
+        "river_10633048_t08",
+        "river_10633048_t09"
+      ],
+      "n_tiles": 9
+    },
+    "10765964": {
+      "main_riv": 10765964,
+      "length_km": 344.1,
+      "max_discharge_cms": 321.1,
+      "corridor_km2": 156.8,
+      "tiles": [
+        "river_10765964_t01",
+        "river_10765964_t02",
+        "river_10765964_t03",
+        "river_10765964_t04",
+        "river_10765964_t05",
+        "river_10765964_t06"
+      ],
+      "n_tiles": 6
+    },
+    "10623835": {
+      "main_riv": 10623835,
+      "length_km": 187.4,
+      "max_discharge_cms": 312.4,
+      "corridor_km2": 93.2,
+      "tiles": [
+        "river_10623835_t01",
+        "river_10623835_t02",
+        "river_10623835_t03",
+        "river_10623835_t04"
+      ],
+      "n_tiles": 4
+    },
+    "10676918": {
+      "main_riv": 10676918,
+      "length_km": 178.5,
+      "max_discharge_cms": 298.6,
+      "corridor_km2": 71.3,
+      "tiles": [
+        "river_10676918_t01",
+        "river_10676918_t02",
+        "river_10676918_t03",
+        "river_10676918_t04"
+      ],
+      "n_tiles": 4
+    },
+    "10588694": {
+      "main_riv": 10588694,
+      "length_km": 336.4,
+      "max_discharge_cms": 289.3,
+      "corridor_km2": 167.2,
+      "tiles": [
+        "river_10588694_t01",
+        "river_10588694_t02",
+        "river_10588694_t03",
+        "river_10588694_t04",
+        "river_10588694_t05"
+      ],
+      "n_tiles": 5
+    },
+    "10428478": {
+      "main_riv": 10428478,
+      "length_km": 454.5,
+      "max_discharge_cms": 212.0,
+      "corridor_km2": 203.0,
+      "tiles": [
+        "river_10428478_t01",
+        "river_10428478_t02",
+        "river_10428478_t03",
+        "river_10428478_t04",
+        "river_10428478_t05",
+        "river_10428478_t06",
+        "river_10428478_t07",
+        "river_10428478_t08",
+        "river_10428478_t09"
+      ],
+      "n_tiles": 9
+    },
+    "10597624": {
+      "main_riv": 10597624,
+      "length_km": 185.8,
+      "max_discharge_cms": 208.1,
+      "corridor_km2": 92.3,
+      "tiles": [
+        "river_10597624_t01",
+        "river_10597624_t02",
+        "river_10597624_t03"
+      ],
+      "n_tiles": 3
+    },
+    "10558276": {
+      "main_riv": 10558276,
+      "length_km": 483.3,
+      "max_discharge_cms": 185.7,
+      "corridor_km2": 229.5,
+      "tiles": [
+        "river_10558276_t01",
+        "river_10558276_t02",
+        "river_10558276_t03",
+        "river_10558276_t04",
+        "river_10558276_t05",
+        "river_10558276_t06",
+        "river_10558276_t07",
+        "river_10558276_t08",
+        "river_10558276_t09"
+      ],
+      "n_tiles": 9
+    },
+    "10794161": {
+      "main_riv": 10794161,
+      "length_km": 281.6,
+      "max_discharge_cms": 184.3,
+      "corridor_km2": 138.8,
+      "tiles": [
+        "river_10794161_t01",
+        "river_10794161_t02",
+        "river_10794161_t03",
+        "river_10794161_t04",
+        "river_10794161_t05"
+      ],
+      "n_tiles": 5
+    },
+    "10660486": {
+      "main_riv": 10660486,
+      "length_km": 73.8,
+      "max_discharge_cms": 100.4,
+      "corridor_km2": 36.8,
+      "tiles": [
+        "river_10660486_t01",
+        "river_10660486_t02",
+        "river_10660486_t03"
+      ],
+      "n_tiles": 3
+    },
+    "10680378": {
+      "main_riv": 10680378,
+      "length_km": 36.9,
+      "max_discharge_cms": 99.7,
+      "corridor_km2": 17.8,
+      "tiles": [
+        "river_10680378_t01",
+        "river_10680378_t02"
+      ],
+      "n_tiles": 2
+    },
+    "10508677": {
+      "main_riv": 10508677,
+      "length_km": 118.1,
+      "max_discharge_cms": 88.6,
+      "corridor_km2": 55.9,
+      "tiles": [
+        "river_10508677_t01",
+        "river_10508677_t02",
+        "river_10508677_t03",
+        "river_10508677_t04"
+      ],
+      "n_tiles": 4
+    },
+    "10815473": {
+      "main_riv": 10815473,
+      "length_km": 79.2,
+      "max_discharge_cms": 69.4,
+      "corridor_km2": 36.2,
+      "tiles": [
+        "river_10815473_t01",
+        "river_10815473_t02"
+      ],
+      "n_tiles": 2
+    },
+    "10857729": {
+      "main_riv": 10857729,
+      "length_km": 138.4,
+      "max_discharge_cms": 63.4,
+      "corridor_km2": 60.7,
+      "tiles": [
+        "river_10857729_t01",
+        "river_10857729_t02",
+        "river_10857729_t03",
+        "river_10857729_t04",
+        "river_10857729_t05"
+      ],
+      "n_tiles": 5
+    },
+    "10666122": {
+      "main_riv": 10666122,
+      "length_km": 19.6,
+      "max_discharge_cms": 50.4,
+      "corridor_km2": 10.0,
+      "tiles": [
+        "river_10666122_t01",
+        "river_10666122_t02"
+      ],
+      "n_tiles": 2
+    },
+    "10658530": {
+      "main_riv": 10658530,
+      "length_km": 23.2,
+      "max_discharge_cms": 45.3,
+      "corridor_km2": 11.7,
+      "tiles": [
+        "river_10658530_t01"
+      ],
+      "n_tiles": 1
+    },
+    "10612286": {
+      "main_riv": 10612286,
+      "length_km": 21.5,
+      "max_discharge_cms": 43.0,
+      "corridor_km2": 10.3,
+      "tiles": [
+        "river_10612286_t01",
+        "river_10612286_t02"
+      ],
+      "n_tiles": 2
+    },
+    "10784308": {
+      "main_riv": 10784308,
+      "length_km": 13.2,
+      "max_discharge_cms": 41.0,
+      "corridor_km2": 5.2,
+      "tiles": [
+        "river_10784308_t01"
+      ],
+      "n_tiles": 1
+    },
+    "10878253": {
+      "main_riv": 10878253,
+      "length_km": 24.7,
+      "max_discharge_cms": 40.7,
+      "corridor_km2": 10.4,
+      "tiles": [
+        "river_10878253_t01",
+        "river_10878253_t02"
+      ],
+      "n_tiles": 2
+    }
+  },
+  "aois": {
+    "river_10428478_t01": {
+      "bbox": [
+        -11.89604,
+        10.99566,
+        -11.80396,
+        11.02101
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_16_24",
+      "length_km": 11.3,
+      "corridor_km2": 5.8,
+      "bbox_km2": 28.2,
+      "max_discharge_cms": 42.6,
+      "est_channel_width_m": 47.0,
+      "est_water_px": 5316
+    },
+    "river_10428478_t02": {
+      "bbox": [
+        -11.78353,
+        10.54566,
+        -11.57897,
+        10.85851
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_17_23",
+      "length_km": 59.9,
+      "corridor_km2": 30.0,
+      "bbox_km2": 774.0,
+      "max_discharge_cms": 58.4,
+      "est_channel_width_m": 55.0,
+      "est_water_px": 32970
+    },
+    "river_10428478_t03": {
+      "bbox": [
+        -11.80854,
+        10.85399,
+        -11.3373,
+        11.27517
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_17_24",
+      "length_km": 107.5,
+      "corridor_km2": 53.6,
+      "bbox_km2": 2397.6,
+      "max_discharge_cms": 138.3,
+      "est_channel_width_m": 84.7,
+      "est_water_px": 91020
+    },
+    "river_10428478_t04": {
+      "bbox": [
+        -11.34187,
+        11.26649,
+        -10.8748,
+        11.60851
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_18_25",
+      "length_km": 87.8,
+      "corridor_km2": 43.9,
+      "bbox_km2": 1927.2,
+      "max_discharge_cms": 175.4,
+      "est_channel_width_m": 95.3,
+      "est_water_px": 83751
+    },
+    "river_10428478_t05": {
+      "bbox": [
+        -10.87937,
+        11.56233,
+        -10.7623,
+        11.74184
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_19_25",
+      "length_km": 32.0,
+      "corridor_km2": 16.1,
+      "bbox_km2": 253.4,
+      "max_discharge_cms": 179.5,
+      "est_channel_width_m": 96.5,
+      "est_water_px": 30841
+    },
+    "river_10428478_t06": {
+      "bbox": [
+        -10.76687,
+        11.73733,
+        -10.40813,
+        12.16188
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_19_26",
+      "length_km": 72.5,
+      "corridor_km2": 28.6,
+      "bbox_km2": 1834.1,
+      "max_discharge_cms": 191.3,
+      "est_channel_width_m": 99.6,
+      "est_water_px": 72167
+    },
+    "river_10428478_t07": {
+      "bbox": [
+        -10.36313,
+        12.17466,
+        -10.32896,
+        12.22704
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_20_27",
+      "length_km": 18.4,
+      "corridor_km2": 2.6,
+      "bbox_km2": 21.5,
+      "max_discharge_cms": 212.0,
+      "est_channel_width_m": 104.8,
+      "est_water_px": 19236
+    },
+    "river_10428478_t08": {
+      "bbox": [
+        -9.31687,
+        12.08317,
+        -9.27896,
+        12.16683
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_22_26",
+      "length_km": 10.7,
+      "corridor_km2": 5.5,
+      "bbox_km2": 38.2,
+      "max_discharge_cms": 28.1,
+      "est_channel_width_m": 38.2,
+      "est_water_px": 4064
+    },
+    "river_10428478_t09": {
+      "bbox": [
+        -9.40736,
+        12.16233,
+        -9.29563,
+        12.50273
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10428478,
+      "tile_key": "10428478_22_27",
+      "length_km": 54.5,
+      "corridor_km2": 18.1,
+      "bbox_km2": 457.4,
+      "max_discharge_cms": 51.9,
+      "est_channel_width_m": 51.9,
+      "est_water_px": 28254
+    },
+    "river_10508677_t01": {
+      "bbox": [
+        -13.29647,
+        12.57482,
+        -13.25812,
+        12.65018
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10508677,
+      "tile_key": "10508677_13_27",
+      "length_km": 14.7,
+      "corridor_km2": 5.9,
+      "bbox_km2": 34.7,
+      "max_discharge_cms": 32.5,
+      "est_channel_width_m": 41.0,
+      "est_water_px": 6037
+    },
+    "river_10508677_t02": {
+      "bbox": [
+        -12.06688,
+        11.89566,
+        -11.78729,
+        12.17101
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10508677,
+      "tile_key": "10508677_16_26",
+      "length_km": 47.2,
+      "corridor_km2": 23.9,
+      "bbox_km2": 926.7,
+      "max_discharge_cms": 71.9,
+      "est_channel_width_m": 61.1,
+      "est_water_px": 28810
+    },
+    "river_10508677_t03": {
+      "bbox": [
+        -12.1839,
+        12.16649,
+        -12.04979,
+        12.37063
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10508677,
+      "tile_key": "10508677_16_27",
+      "length_km": 39.9,
+      "corridor_km2": 18.4,
+      "bbox_km2": 329.3,
+      "max_discharge_cms": 88.6,
+      "est_channel_width_m": 67.8,
+      "est_water_px": 27043
+    },
+    "river_10508677_t04": {
+      "bbox": [
+        -11.80021,
+        11.89983,
+        -11.74562,
+        12.00017
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10508677,
+      "tile_key": "10508677_17_26",
+      "length_km": 16.3,
+      "corridor_km2": 8.3,
+      "bbox_km2": 66.0,
+      "max_discharge_cms": 47.7,
+      "est_channel_width_m": 49.7,
+      "est_water_px": 8123
+    },
+    "river_10558276_t01": {
+      "bbox": [
+        -13.85854,
+        11.71649,
+        -13.83685,
+        11.74644
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_12_25",
+      "length_km": 6.2,
+      "corridor_km2": 2.5,
+      "bbox_km2": 7.8,
+      "max_discharge_cms": 41.6,
+      "est_channel_width_m": 46.5,
+      "est_water_px": 2870
+    },
+    "river_10558276_t02": {
+      "bbox": [
+        -13.94838,
+        12.19982,
+        -13.62479,
+        12.29967
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_12_27",
+      "length_km": 67.9,
+      "corridor_km2": 24.1,
+      "bbox_km2": 388.6,
+      "max_discharge_cms": 185.7,
+      "est_channel_width_m": 98.1,
+      "est_water_px": 66645
+    },
+    "river_10558276_t03": {
+      "bbox": [
+        -13.28354,
+        11.12482,
+        -13.22479,
+        11.29601
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_13_24",
+      "length_km": 21.5,
+      "corridor_km2": 10.9,
+      "bbox_km2": 121.4,
+      "max_discharge_cms": 34.4,
+      "est_channel_width_m": 42.2,
+      "est_water_px": 9085
+    },
+    "river_10558276_t04": {
+      "bbox": [
+        -13.29187,
+        11.29149,
+        -13.17896,
+        11.76268
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_13_25",
+      "length_km": 69.6,
+      "corridor_km2": 34.7,
+      "bbox_km2": 641.7,
+      "max_discharge_cms": 90.8,
+      "est_channel_width_m": 68.6,
+      "est_water_px": 47748
+    },
+    "river_10558276_t05": {
+      "bbox": [
+        -13.35438,
+        11.75816,
+        -13.14146,
+        12.21684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_13_26",
+      "length_km": 120.8,
+      "corridor_km2": 60.4,
+      "bbox_km2": 1175.9,
+      "max_discharge_cms": 172.6,
+      "est_channel_width_m": 94.6,
+      "est_water_px": 114281
+    },
+    "river_10558276_t06": {
+      "bbox": [
+        -13.62938,
+        12.21232,
+        -13.34145,
+        12.31684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_13_27",
+      "length_km": 63.7,
+      "corridor_km2": 31.8,
+      "bbox_km2": 362.0,
+      "max_discharge_cms": 180.0,
+      "est_channel_width_m": 96.6,
+      "est_water_px": 61540
+    },
+    "river_10558276_t07": {
+      "bbox": [
+        -13.14188,
+        11.62066,
+        -12.72479,
+        11.75434
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_14_25",
+      "length_km": 94.3,
+      "corridor_km2": 46.9,
+      "bbox_km2": 672.1,
+      "max_discharge_cms": 91.2,
+      "est_channel_width_m": 68.8,
+      "est_water_px": 64814
+    },
+    "river_10558276_t08": {
+      "bbox": [
+        -13.18354,
+        11.73316,
+        -13.13729,
+        11.83351
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_14_26",
+      "length_km": 14.2,
+      "corridor_km2": 7.4,
+      "bbox_km2": 55.9,
+      "max_discharge_cms": 157.6,
+      "est_channel_width_m": 90.4,
+      "est_water_px": 12788
+    },
+    "river_10558276_t09": {
+      "bbox": [
+        -12.72938,
+        11.65399,
+        -12.54146,
+        11.72934
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10558276,
+      "tile_key": "10558276_15_25",
+      "length_km": 25.2,
+      "corridor_km2": 12.7,
+      "bbox_km2": 170.7,
+      "max_discharge_cms": 29.3,
+      "est_channel_width_m": 38.9,
+      "est_water_px": 9806
+    },
+    "river_10588694_t01": {
+      "bbox": [
+        -14.74187,
+        11.06649,
+        -14.65396,
+        11.30434
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10588694,
+      "tile_key": "10588694_10_24",
+      "length_km": 47.1,
+      "corridor_km2": 23.6,
+      "bbox_km2": 252.5,
+      "max_discharge_cms": 289.3,
+      "est_channel_width_m": 122.5,
+      "est_water_px": 57697
+    },
+    "river_10588694_t02": {
+      "bbox": [
+        -14.71271,
+        11.29982,
+        -14.54146,
+        11.40851
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10588694,
+      "tile_key": "10588694_10_25",
+      "length_km": 38.4,
+      "corridor_km2": 19.3,
+      "bbox_km2": 224.6,
+      "max_discharge_cms": 252.2,
+      "est_channel_width_m": 114.3,
+      "est_water_px": 43880
+    },
+    "river_10588694_t03": {
+      "bbox": [
+        -14.54604,
+        11.32066,
+        -14.08729,
+        11.64184
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10588694,
+      "tile_key": "10588694_11_25",
+      "length_km": 104.7,
+      "corridor_km2": 52.1,
+      "bbox_km2": 1777.3,
+      "max_discharge_cms": 230.3,
+      "est_channel_width_m": 109.3,
+      "est_water_px": 114411
+    },
+    "river_10588694_t04": {
+      "bbox": [
+        -13.87937,
+        10.96649,
+        -13.69146,
+        11.30434
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10588694,
+      "tile_key": "10588694_12_24",
+      "length_km": 61.9,
+      "corridor_km2": 30.9,
+      "bbox_km2": 766.7,
+      "max_discharge_cms": 115.6,
+      "est_channel_width_m": 77.4,
+      "est_water_px": 47941
+    },
+    "river_10588694_t05": {
+      "bbox": [
+        -14.09188,
+        11.29566,
+        -13.65813,
+        11.59601
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10588694,
+      "tile_key": "10588694_12_25",
+      "length_km": 84.3,
+      "corridor_km2": 42.3,
+      "bbox_km2": 1571.7,
+      "max_discharge_cms": 163.8,
+      "est_channel_width_m": 92.1,
+      "est_water_px": 77696
+    },
+    "river_10597624_t01": {
+      "bbox": [
+        -14.5377,
+        10.56649,
+        -14.1498,
+        10.86268
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10597624,
+      "tile_key": "10597624_11_23",
+      "length_km": 59.2,
+      "corridor_km2": 29.7,
+      "bbox_km2": 1389.5,
+      "max_discharge_cms": 197.9,
+      "est_channel_width_m": 101.3,
+      "est_water_px": 59961
+    },
+    "river_10597624_t02": {
+      "bbox": [
+        -14.52104,
+        10.84566,
+        -14.07479,
+        11.10018
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10597624,
+      "tile_key": "10597624_11_24",
+      "length_km": 96.7,
+      "corridor_km2": 48.1,
+      "bbox_km2": 1372.4,
+      "max_discharge_cms": 208.1,
+      "est_channel_width_m": 103.9,
+      "est_water_px": 100471
+    },
+    "river_10597624_t03": {
+      "bbox": [
+        -14.08354,
+        10.88732,
+        -13.97896,
+        11.06684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10597624,
+      "tile_key": "10597624_12_24",
+      "length_km": 29.9,
+      "corridor_km2": 15.0,
+      "bbox_km2": 226.9,
+      "max_discharge_cms": 64.4,
+      "est_channel_width_m": 57.8,
+      "est_water_px": 17248
+    },
+    "river_10612286_t01": {
+      "bbox": [
+        -14.55629,
+        10.4604,
+        -14.54147,
+        10.49601
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10612286,
+      "tile_key": "10612286_10_23",
+      "length_km": 5.2,
+      "corridor_km2": 2.1,
+      "bbox_km2": 6.4,
+      "max_discharge_cms": 43.0,
+      "est_channel_width_m": 47.2,
+      "est_water_px": 2446
+    },
+    "river_10612286_t02": {
+      "bbox": [
+        -14.54603,
+        10.49149,
+        -14.4748,
+        10.59601
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10612286,
+      "tile_key": "10612286_11_23",
+      "length_km": 16.4,
+      "corridor_km2": 8.3,
+      "bbox_km2": 90.1,
+      "max_discharge_cms": 32.1,
+      "est_channel_width_m": 40.8,
+      "est_water_px": 6664
+    },
+    "river_10623835_t01": {
+      "bbox": [
+        -14.02937,
+        10.16649,
+        -13.7873,
+        10.40851
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10623835,
+      "tile_key": "10623835_12_22",
+      "length_km": 53.0,
+      "corridor_km2": 26.5,
+      "bbox_km2": 709.5,
+      "max_discharge_cms": 312.4,
+      "est_channel_width_m": 127.3,
+      "est_water_px": 67405
+    },
+    "river_10623835_t02": {
+      "bbox": [
+        -13.8752,
+        10.40399,
+        -13.6248,
+        10.70434
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10623835,
+      "tile_key": "10623835_12_23",
+      "length_km": 77.8,
+      "corridor_km2": 38.7,
+      "bbox_km2": 910.1,
+      "max_discharge_cms": 219.0,
+      "est_channel_width_m": 106.6,
+      "est_water_px": 82856
+    },
+    "river_10623835_t03": {
+      "bbox": [
+        -13.62937,
+        10.69982,
+        -13.37063,
+        10.86684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10623835,
+      "tile_key": "10623835_13_23",
+      "length_km": 34.5,
+      "corridor_km2": 17.5,
+      "bbox_km2": 522.5,
+      "max_discharge_cms": 93.3,
+      "est_channel_width_m": 69.6,
+      "est_water_px": 23977
+    },
+    "river_10623835_t04": {
+      "bbox": [
+        -13.4252,
+        10.84566,
+        -13.2623,
+        10.90434
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10623835,
+      "tile_key": "10623835_13_24",
+      "length_km": 22.2,
+      "corridor_km2": 11.4,
+      "bbox_km2": 115.6,
+      "max_discharge_cms": 63.0,
+      "est_channel_width_m": 57.1,
+      "est_water_px": 12679
+    },
+    "river_10633048_t01": {
+      "bbox": [
+        -13.69186,
+        9.94566,
+        -13.62897,
+        10.19184
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_12_22",
+      "length_km": 35.3,
+      "corridor_km2": 17.7,
+      "bbox_km2": 187.7,
+      "max_discharge_cms": 639.9,
+      "est_channel_width_m": 182.1,
+      "est_water_px": 64310
+    },
+    "river_10633048_t02": {
+      "bbox": [
+        -13.2377,
+        9.86649,
+        -13.1873,
+        9.95434
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_13_21",
+      "length_km": 17.8,
+      "corridor_km2": 9.0,
+      "bbox_km2": 53.7,
+      "max_discharge_cms": 110.6,
+      "est_channel_width_m": 75.7,
+      "est_water_px": 13470
+    },
+    "river_10633048_t03": {
+      "bbox": [
+        -13.63353,
+        9.94982,
+        -13.1748,
+        10.39601
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_13_22",
+      "length_km": 97.4,
+      "corridor_km2": 48.7,
+      "bbox_km2": 2479.7,
+      "max_discharge_cms": 612.6,
+      "est_channel_width_m": 178.2,
+      "est_water_px": 173519
+    },
+    "river_10633048_t04": {
+      "bbox": [
+        -13.52103,
+        10.39149,
+        -13.16647,
+        10.52101
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_13_23",
+      "length_km": 59.0,
+      "corridor_km2": 29.6,
+      "bbox_km2": 555.9,
+      "max_discharge_cms": 378.8,
+      "est_channel_width_m": 140.1,
+      "est_water_px": 82724
+    },
+    "river_10633048_t05": {
+      "bbox": [
+        -13.15436,
+        9.89566,
+        -13.02897,
+        9.95851
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_14_21",
+      "length_km": 26.3,
+      "corridor_km2": 13.2,
+      "bbox_km2": 95.6,
+      "max_discharge_cms": 56.1,
+      "est_channel_width_m": 53.9,
+      "est_water_px": 14159
+    },
+    "river_10633048_t06": {
+      "bbox": [
+        -13.17936,
+        9.94149,
+        -12.9873,
+        9.96684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_14_22",
+      "length_km": 8.7,
+      "corridor_km2": 4.7,
+      "bbox_km2": 59.0,
+      "max_discharge_cms": 65.3,
+      "est_channel_width_m": 58.2,
+      "est_water_px": 5079
+    },
+    "river_10633048_t07": {
+      "bbox": [
+        -13.17103,
+        10.40399,
+        -12.7123,
+        10.85018
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_14_23",
+      "length_km": 172.5,
+      "corridor_km2": 85.7,
+      "bbox_km2": 2476.1,
+      "max_discharge_cms": 289.5,
+      "est_channel_width_m": 122.5,
+      "est_water_px": 211360
+    },
+    "river_10633048_t08": {
+      "bbox": [
+        -12.95437,
+        10.83732,
+        -12.6998,
+        11.20851
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_14_24",
+      "length_km": 72.3,
+      "corridor_km2": 36.2,
+      "bbox_km2": 1141.6,
+      "max_discharge_cms": 62.9,
+      "est_channel_width_m": 57.1,
+      "est_water_px": 41268
+    },
+    "river_10633048_t09": {
+      "bbox": [
+        -12.71687,
+        10.46649,
+        -12.39563,
+        10.63351
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10633048,
+      "tile_key": "10633048_15_23",
+      "length_km": 57.8,
+      "corridor_km2": 29.0,
+      "bbox_km2": 649.2,
+      "max_discharge_cms": 74.0,
+      "est_channel_width_m": 61.9,
+      "est_water_px": 35815
+    },
+    "river_10658530_t01": {
+      "bbox": [
+        -13.31269,
+        9.34149,
+        -13.23731,
+        9.46684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10658530,
+      "tile_key": "10658530_13_20",
+      "length_km": 23.2,
+      "corridor_km2": 11.7,
+      "bbox_km2": 114.8,
+      "max_discharge_cms": 45.3,
+      "est_channel_width_m": 48.5,
+      "est_water_px": 11263
+    },
+    "river_10660486_t01": {
+      "bbox": [
+        -13.30853,
+        9.29566,
+        -13.17481,
+        9.41268
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10660486,
+      "tile_key": "10660486_13_20",
+      "length_km": 25.9,
+      "corridor_km2": 13.1,
+      "bbox_km2": 190.0,
+      "max_discharge_cms": 100.4,
+      "est_channel_width_m": 72.1,
+      "est_water_px": 18676
+    },
+    "river_10660486_t02": {
+      "bbox": [
+        -13.17936,
+        9.38316,
+        -13.03731,
+        9.49184
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10660486,
+      "tile_key": "10660486_14_20",
+      "length_km": 28.5,
+      "corridor_km2": 14.3,
+      "bbox_km2": 187.5,
+      "max_discharge_cms": 87.1,
+      "est_channel_width_m": 67.2,
+      "est_water_px": 19175
+    },
+    "river_10660486_t03": {
+      "bbox": [
+        -13.06269,
+        9.48732,
+        -13.00814,
+        9.61684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10660486,
+      "tile_key": "10660486_14_21",
+      "length_km": 19.4,
+      "corridor_km2": 9.8,
+      "bbox_km2": 85.8,
+      "max_discharge_cms": 60.3,
+      "est_channel_width_m": 55.9,
+      "est_water_px": 10833
+    },
+    "river_10666122_t01": {
+      "bbox": [
+        -13.22936,
+        9.16649,
+        -13.17898,
+        9.17934
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10666122,
+      "tile_key": "10666122_13_20",
+      "length_km": 5.8,
+      "corridor_km2": 3.1,
+      "bbox_km2": 7.9,
+      "max_discharge_cms": 50.4,
+      "est_channel_width_m": 51.1,
+      "est_water_px": 2964
+    },
+    "river_10666122_t02": {
+      "bbox": [
+        -13.18352,
+        9.16649,
+        -13.08314,
+        9.22518
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10666122,
+      "tile_key": "10666122_14_20",
+      "length_km": 13.8,
+      "corridor_km2": 7.1,
+      "bbox_km2": 71.6,
+      "max_discharge_cms": 44.5,
+      "est_channel_width_m": 48.0,
+      "est_water_px": 6653
+    },
+    "river_10676918_t01": {
+      "bbox": [
+        -12.89835,
+        9.26833,
+        -12.72481,
+        9.40434
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10676918,
+      "tile_key": "10676918_14_20",
+      "length_km": 22.2,
+      "corridor_km2": 7.5,
+      "bbox_km2": 286.7,
+      "max_discharge_cms": 298.6,
+      "est_channel_width_m": 124.4,
+      "est_water_px": 27621
+    },
+    "river_10676918_t02": {
+      "bbox": [
+        -12.72936,
+        9.38895,
+        -12.67868,
+        9.44214
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10676918,
+      "tile_key": "10676918_15_20",
+      "length_km": 11.2,
+      "corridor_km2": 2.9,
+      "bbox_km2": 32.7,
+      "max_discharge_cms": 270.6,
+      "est_channel_width_m": 118.4,
+      "est_water_px": 13276
+    },
+    "river_10676918_t03": {
+      "bbox": [
+        -12.69186,
+        9.5472,
+        -12.4748,
+        9.94601
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10676918,
+      "tile_key": "10676918_15_21",
+      "length_km": 91.9,
+      "corridor_km2": 34.8,
+      "bbox_km2": 1050.1,
+      "max_discharge_cms": 227.6,
+      "est_channel_width_m": 108.6,
+      "est_water_px": 99843
+    },
+    "river_10676918_t04": {
+      "bbox": [
+        -12.66686,
+        9.93316,
+        -12.4248,
+        10.17101
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10676918,
+      "tile_key": "10676918_15_22",
+      "length_km": 53.2,
+      "corridor_km2": 26.8,
+      "bbox_km2": 697.8,
+      "max_discharge_cms": 50.2,
+      "est_channel_width_m": 51.0,
+      "est_water_px": 27124
+    },
+    "river_10680378_t01": {
+      "bbox": [
+        -12.12936,
+        9.86938,
+        -12.12064,
+        9.87934
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10680378,
+      "tile_key": "10680378_16_21",
+      "length_km": 1.8,
+      "corridor_km2": 0.6,
+      "bbox_km2": 1.1,
+      "max_discharge_cms": 26.4,
+      "est_channel_width_m": 37.0,
+      "est_water_px": 650
+    },
+    "river_10680378_t02": {
+      "bbox": [
+        -11.91269,
+        9.93578,
+        -11.82064,
+        10.17934
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10680378,
+      "tile_key": "10680378_16_22",
+      "length_km": 35.1,
+      "corridor_km2": 17.2,
+      "bbox_km2": 271.7,
+      "max_discharge_cms": 99.7,
+      "est_channel_width_m": 71.9,
+      "est_water_px": 25256
+    },
+    "river_10765964_t01": {
+      "bbox": [
+        -10.70018,
+        8.30366,
+        -10.45303,
+        8.571
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10765964,
+      "tile_key": "10765964_19_18",
+      "length_km": 68.8,
+      "corridor_km2": 27.5,
+      "bbox_km2": 804.5,
+      "max_discharge_cms": 321.1,
+      "est_channel_width_m": 129.0,
+      "est_water_px": 88694
+    },
+    "river_10765964_t02": {
+      "bbox": [
+        -10.58768,
+        8.5665,
+        -10.45815,
+        8.821
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10765964,
+      "tile_key": "10765964_19_19",
+      "length_km": 50.3,
+      "corridor_km2": 24.0,
+      "bbox_km2": 401.1,
+      "max_discharge_cms": 108.4,
+      "est_channel_width_m": 75.0,
+      "est_water_px": 37704
+    },
+    "river_10765964_t03": {
+      "bbox": [
+        -10.38266,
+        8.42483,
+        -10.02899,
+        8.57934
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10765964,
+      "tile_key": "10765964_20_18",
+      "length_km": 69.3,
+      "corridor_km2": 30.3,
+      "bbox_km2": 665.2,
+      "max_discharge_cms": 288.8,
+      "est_channel_width_m": 122.4,
+      "est_water_px": 84783
+    },
+    "river_10765964_t04": {
+      "bbox": [
+        -10.46685,
+        8.56233,
+        -9.98732,
+        8.8335
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10765964,
+      "tile_key": "10765964_20_19",
+      "length_km": 94.3,
+      "corridor_km2": 47.6,
+      "bbox_km2": 1582.2,
+      "max_discharge_cms": 63.6,
+      "est_channel_width_m": 57.4,
+      "est_water_px": 54159
+    },
+    "river_10765964_t05": {
+      "bbox": [
+        -10.03351,
+        8.43316,
+        -9.77482,
+        8.56684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10765964,
+      "tile_key": "10765964_21_18",
+      "length_km": 36.5,
+      "corridor_km2": 16.1,
+      "bbox_km2": 421.0,
+      "max_discharge_cms": 87.3,
+      "est_channel_width_m": 67.3,
+      "est_water_px": 24532
+    },
+    "river_10765964_t06": {
+      "bbox": [
+        -9.78351,
+        8.56233,
+        -9.61649,
+        8.696
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10765964,
+      "tile_key": "10765964_21_19",
+      "length_km": 25.0,
+      "corridor_km2": 12.7,
+      "bbox_km2": 271.7,
+      "max_discharge_cms": 56.5,
+      "est_channel_width_m": 54.1,
+      "est_water_px": 13502
+    },
+    "river_10784308_t01": {
+      "bbox": [
+        -9.51828,
+        8.31923,
+        -9.47482,
+        8.4085
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10784308,
+      "tile_key": "10784308_22_18",
+      "length_km": 13.2,
+      "corridor_km2": 5.2,
+      "bbox_km2": 47.2,
+      "max_discharge_cms": 41.0,
+      "est_channel_width_m": 46.1,
+      "est_water_px": 6088
+    },
+    "river_10794161_t01": {
+      "bbox": [
+        -9.46886,
+        7.3915,
+        -9.20816,
+        7.65017
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10794161,
+      "tile_key": "10794161_22_16",
+      "length_km": 59.2,
+      "corridor_km2": 27.8,
+      "bbox_km2": 822.9,
+      "max_discharge_cms": 120.2,
+      "est_channel_width_m": 78.9,
+      "est_water_px": 46759
+    },
+    "river_10794161_t02": {
+      "bbox": [
+        -9.34783,
+        7.64567,
+        -9.10399,
+        8.00433
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10794161,
+      "tile_key": "10794161_22_17",
+      "length_km": 67.8,
+      "corridor_km2": 34.0,
+      "bbox_km2": 1066.5,
+      "max_discharge_cms": 184.3,
+      "est_channel_width_m": 97.8,
+      "est_water_px": 66246
+    },
+    "river_10794161_t03": {
+      "bbox": [
+        -9.12517,
+        8.12067,
+        -9.10816,
+        8.18767
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10794161,
+      "tile_key": "10794161_22_18",
+      "length_km": 8.1,
+      "corridor_km2": 4.2,
+      "bbox_km2": 13.9,
+      "max_discharge_cms": 84.0,
+      "est_channel_width_m": 66.0,
+      "est_water_px": 5339
+    },
+    "river_10794161_t04": {
+      "bbox": [
+        -9.11267,
+        7.7415,
+        -8.84566,
+        8.121
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10794161,
+      "tile_key": "10794161_23_17",
+      "length_km": 69.8,
+      "corridor_km2": 35.3,
+      "bbox_km2": 1235.3,
+      "max_discharge_cms": 143.3,
+      "est_channel_width_m": 86.2,
+      "est_water_px": 60204
+    },
+    "river_10794161_t05": {
+      "bbox": [
+        -9.11267,
+        8.08317,
+        -8.93316,
+        8.50017
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10794161,
+      "tile_key": "10794161_23_18",
+      "length_km": 76.7,
+      "corridor_km2": 38.9,
+      "bbox_km2": 911.8,
+      "max_discharge_cms": 87.7,
+      "est_channel_width_m": 67.4,
+      "est_water_px": 51691
+    },
+    "river_10815473_t01": {
+      "bbox": [
+        -9.12934,
+        7.27335,
+        -9.12334,
+        7.27933
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10815473,
+      "tile_key": "10815473_22_16",
+      "length_km": 2.0,
+      "corridor_km2": 0.3,
+      "bbox_km2": 0.4,
+      "max_discharge_cms": 29.1,
+      "est_channel_width_m": 38.9,
+      "est_water_px": 792
+    },
+    "river_10815473_t02": {
+      "bbox": [
+        -9.10773,
+        7.19983,
+        -8.70459,
+        7.51683
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10815473,
+      "tile_key": "10815473_23_16",
+      "length_km": 77.2,
+      "corridor_km2": 35.9,
+      "bbox_km2": 1560.0,
+      "max_discharge_cms": 69.4,
+      "est_channel_width_m": 60.0,
+      "est_water_px": 46300
+    },
+    "river_10857729_t01": {
+      "bbox": [
+        -8.246,
+        8.01234,
+        -8.20816,
+        8.0335
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10857729,
+      "tile_key": "10857729_24_17",
+      "length_km": 5.1,
+      "corridor_km2": 2.7,
+      "bbox_km2": 9.8,
+      "max_discharge_cms": 30.9,
+      "est_channel_width_m": 40.0,
+      "est_water_px": 2041
+    },
+    "river_10857729_t02": {
+      "bbox": [
+        -8.22934,
+        8.46234,
+        -8.21992,
+        8.46683
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10857729,
+      "tile_key": "10857729_24_18",
+      "length_km": 3.3,
+      "corridor_km2": 0.5,
+      "bbox_km2": 0.5,
+      "max_discharge_cms": 25.0,
+      "est_channel_width_m": 36.0,
+      "est_water_px": 1199
+    },
+    "river_10857729_t03": {
+      "bbox": [
+        -8.21267,
+        8.01369,
+        -7.94449,
+        8.05016
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10857729,
+      "tile_key": "10857729_25_17",
+      "length_km": 35.7,
+      "corridor_km2": 17.6,
+      "bbox_km2": 119.2,
+      "max_discharge_cms": 62.4,
+      "est_channel_width_m": 56.9,
+      "est_water_px": 20318
+    },
+    "river_10857729_t04": {
+      "bbox": [
+        -8.19238,
+        8.37901,
+        -7.7415,
+        8.51266
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10857729,
+      "tile_key": "10857729_25_18",
+      "length_km": 81.2,
+      "corridor_km2": 33.8,
+      "bbox_km2": 733.7,
+      "max_discharge_cms": 58.5,
+      "est_channel_width_m": 55.1,
+      "est_water_px": 44745
+    },
+    "river_10857729_t05": {
+      "bbox": [
+        -7.746,
+        8.37484,
+        -7.63987,
+        8.38349
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10857729,
+      "tile_key": "10857729_26_18",
+      "length_km": 13.0,
+      "corridor_km2": 6.5,
+      "bbox_km2": 11.2,
+      "max_discharge_cms": 63.4,
+      "est_channel_width_m": 57.4,
+      "est_water_px": 7455
+    },
+    "river_10877687_t01": {
+      "bbox": [
+        -10.91686,
+        10.04983,
+        -10.89564,
+        10.09184
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_18_22",
+      "length_km": 4.9,
+      "corridor_km2": 2.6,
+      "bbox_km2": 10.8,
+      "max_discharge_cms": 28.2,
+      "est_channel_width_m": 38.3,
+      "est_water_px": 1881
+    },
+    "river_10877687_t02": {
+      "bbox": [
+        -10.70852,
+        9.5415,
+        -10.62898,
+        9.9335
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_19_21",
+      "length_km": 50.6,
+      "corridor_km2": 25.4,
+      "bbox_km2": 378.3,
+      "max_discharge_cms": 63.9,
+      "est_channel_width_m": 57.5,
+      "est_water_px": 29143
+    },
+    "river_10877687_t03": {
+      "bbox": [
+        -10.90019,
+        9.929,
+        -10.63314,
+        10.3585
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_19_22",
+      "length_km": 102.0,
+      "corridor_km2": 50.9,
+      "bbox_km2": 1389.8,
+      "max_discharge_cms": 119.8,
+      "est_channel_width_m": 78.8,
+      "est_water_px": 80367
+    },
+    "river_10877687_t04": {
+      "bbox": [
+        -10.65853,
+        10.354,
+        -10.42481,
+        10.5085
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_19_23",
+      "length_km": 44.8,
+      "corridor_km2": 22.6,
+      "bbox_km2": 437.1,
+      "max_discharge_cms": 139.7,
+      "est_channel_width_m": 85.1,
+      "est_water_px": 38152
+    },
+    "river_10877687_t05": {
+      "bbox": [
+        -10.71687,
+        11.0415,
+        -10.56647,
+        11.27517
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_19_24",
+      "length_km": 39.0,
+      "corridor_km2": 19.6,
+      "bbox_km2": 424.4,
+      "max_discharge_cms": 63.9,
+      "est_channel_width_m": 57.5,
+      "est_water_px": 22461
+    },
+    "river_10877687_t06": {
+      "bbox": [
+        -10.62103,
+        11.27066,
+        -10.4248,
+        11.42517
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_19_25",
+      "length_km": 61.3,
+      "corridor_km2": 30.6,
+      "bbox_km2": 365.9,
+      "max_discharge_cms": 72.0,
+      "est_channel_width_m": 61.1,
+      "est_water_px": 37426
+    },
+    "river_10877687_t07": {
+      "bbox": [
+        -10.06685,
+        9.23733,
+        -9.98732,
+        9.36267
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_20_20",
+      "length_km": 22.4,
+      "corridor_km2": 11.4,
+      "bbox_km2": 121.1,
+      "max_discharge_cms": 52.7,
+      "est_channel_width_m": 52.3,
+      "est_water_px": 11723
+    },
+    "river_10877687_t08": {
+      "bbox": [
+        -10.33769,
+        9.879,
+        -10.02481,
+        9.91684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_20_21",
+      "length_km": 7.7,
+      "corridor_km2": 4.2,
+      "bbox_km2": 143.6,
+      "max_discharge_cms": 31.9,
+      "est_channel_width_m": 40.7,
+      "est_water_px": 3130
+    },
+    "river_10877687_t09": {
+      "bbox": [
+        -10.35852,
+        9.91233,
+        -9.97481,
+        10.35017
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_20_22",
+      "length_km": 90.2,
+      "corridor_km2": 45.3,
+      "bbox_km2": 2035.7,
+      "max_discharge_cms": 59.0,
+      "est_channel_width_m": 55.3,
+      "est_water_px": 49859
+    },
+    "river_10877687_t10": {
+      "bbox": [
+        -10.42936,
+        10.34566,
+        -9.97481,
+        10.61267
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_20_23",
+      "length_km": 97.4,
+      "corridor_km2": 48.8,
+      "bbox_km2": 1469.0,
+      "max_discharge_cms": 202.5,
+      "est_channel_width_m": 102.5,
+      "est_water_px": 99824
+    },
+    "river_10877687_t11": {
+      "bbox": [
+        -10.3002,
+        11.129,
+        -10.17897,
+        11.2585
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_20_24",
+      "length_km": 21.9,
+      "corridor_km2": 11.1,
+      "bbox_km2": 189.6,
+      "max_discharge_cms": 30.8,
+      "est_channel_width_m": 40.0,
+      "est_water_px": 8749
+    },
+    "river_10877687_t12": {
+      "bbox": [
+        -10.42937,
+        11.254,
+        -9.9873,
+        11.42517
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_20_25",
+      "length_km": 130.0,
+      "corridor_km2": 64.7,
+      "bbox_km2": 913.2,
+      "max_discharge_cms": 134.3,
+      "est_channel_width_m": 83.4,
+      "est_water_px": 108467
+    },
+    "river_10877687_t13": {
+      "bbox": [
+        -10.01685,
+        9.2165,
+        -9.92482,
+        9.47934
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_21_20",
+      "length_km": 37.6,
+      "corridor_km2": 19.0,
+      "bbox_km2": 293.8,
+      "max_discharge_cms": 89.0,
+      "est_channel_width_m": 67.9,
+      "est_water_px": 25509
+    },
+    "river_10877687_t14": {
+      "bbox": [
+        -9.94602,
+        9.47483,
+        -9.54982,
+        9.92517
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_21_21",
+      "length_km": 130.3,
+      "corridor_km2": 65.0,
+      "bbox_km2": 2164.8,
+      "max_discharge_cms": 153.2,
+      "est_channel_width_m": 89.1,
+      "est_water_px": 116136
+    },
+    "river_10877687_t15": {
+      "bbox": [
+        -9.97936,
+        9.92066,
+        -9.67481,
+        10.35433
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_21_22",
+      "length_km": 120.9,
+      "corridor_km2": 60.4,
+      "bbox_km2": 1600.2,
+      "max_discharge_cms": 212.2,
+      "est_channel_width_m": 104.9,
+      "est_water_px": 126778
+    },
+    "river_10877687_t16": {
+      "bbox": [
+        -9.97936,
+        10.34983,
+        -9.52064,
+        10.771
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_21_23",
+      "length_km": 142.8,
+      "corridor_km2": 71.4,
+      "bbox_km2": 2337.7,
+      "max_discharge_cms": 419.3,
+      "est_channel_width_m": 147.4,
+      "est_water_px": 210509
+    },
+    "river_10877687_t17": {
+      "bbox": [
+        -9.99187,
+        11.35817,
+        -9.50397,
+        11.46684
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_21_25",
+      "length_km": 109.7,
+      "corridor_km2": 54.8,
+      "bbox_km2": 639.7,
+      "max_discharge_cms": 154.6,
+      "est_channel_width_m": 89.5,
+      "est_water_px": 98210
+    },
+    "river_10877687_t18": {
+      "bbox": [
+        -9.29185,
+        9.204,
+        -9.08732,
+        9.446
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_22_20",
+      "length_km": 44.7,
+      "corridor_km2": 22.6,
+      "bbox_km2": 601.2,
+      "max_discharge_cms": 46.5,
+      "est_channel_width_m": 49.1,
+      "est_water_px": 21925
+    },
+    "river_10877687_t19": {
+      "bbox": [
+        -9.39185,
+        9.4415,
+        -9.08732,
+        9.90433
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_22_21",
+      "length_km": 106.6,
+      "corridor_km2": 53.3,
+      "bbox_km2": 1710.2,
+      "max_discharge_cms": 112.6,
+      "est_channel_width_m": 76.4,
+      "est_water_px": 81431
+    },
+    "river_10877687_t20": {
+      "bbox": [
+        -9.45019,
+        9.89983,
+        -9.33314,
+        10.35433
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_22_22",
+      "length_km": 66.3,
+      "corridor_km2": 33.3,
+      "bbox_km2": 644.6,
+      "max_discharge_cms": 140.0,
+      "est_channel_width_m": 85.2,
+      "est_water_px": 56497
+    },
+    "river_10877687_t21": {
+      "bbox": [
+        -9.52519,
+        10.34983,
+        -9.17898,
+        10.80433
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_22_23",
+      "length_km": 84.4,
+      "corridor_km2": 42.6,
+      "bbox_km2": 1903.9,
+      "max_discharge_cms": 414.4,
+      "est_channel_width_m": 146.6,
+      "est_water_px": 123747
+    },
+    "river_10877687_t22": {
+      "bbox": [
+        -9.49186,
+        10.7915,
+        -9.09564,
+        11.26683
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_22_24",
+      "length_km": 136.3,
+      "corridor_km2": 68.4,
+      "bbox_km2": 2275.4,
+      "max_discharge_cms": 633.5,
+      "est_channel_width_m": 181.2,
+      "est_water_px": 247061
+    },
+    "river_10877687_t23": {
+      "bbox": [
+        -9.50853,
+        11.26233,
+        -9.05397,
+        11.43767
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_22_25",
+      "length_km": 97.2,
+      "corridor_km2": 48.7,
+      "bbox_km2": 961.8,
+      "max_discharge_cms": 801.5,
+      "est_channel_width_m": 203.8,
+      "est_water_px": 198196
+    },
+    "river_10877687_t24": {
+      "bbox": [
+        -8.75434,
+        8.97067,
+        -8.73732,
+        8.996
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_23_19",
+      "length_km": 2.9,
+      "corridor_km2": 1.6,
+      "bbox_km2": 5.2,
+      "max_discharge_cms": 25.3,
+      "est_channel_width_m": 36.2,
+      "est_water_px": 1042
+    },
+    "river_10877687_t25": {
+      "bbox": [
+        -9.09602,
+        8.9915,
+        -8.63732,
+        9.396
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_23_20",
+      "length_km": 81.2,
+      "corridor_km2": 40.9,
+      "bbox_km2": 2254.4,
+      "max_discharge_cms": 43.4,
+      "est_channel_width_m": 47.5,
+      "est_water_px": 38518
+    },
+    "river_10877687_t26": {
+      "bbox": [
+        -9.09185,
+        9.43733,
+        -8.63315,
+        9.89183
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_23_21",
+      "length_km": 59.2,
+      "corridor_km2": 29.9,
+      "bbox_km2": 2529.6,
+      "max_discharge_cms": 96.3,
+      "est_channel_width_m": 70.7,
+      "est_water_px": 41817
+    },
+    "river_10877687_t27": {
+      "bbox": [
+        -8.85018,
+        9.88733,
+        -8.62481,
+        10.246
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_23_22",
+      "length_km": 77.1,
+      "corridor_km2": 38.6,
+      "bbox_km2": 979.6,
+      "max_discharge_cms": 295.9,
+      "est_channel_width_m": 123.9,
+      "est_water_px": 95457
+    },
+    "river_10877687_t28": {
+      "bbox": [
+        -8.69186,
+        10.42484,
+        -8.58315,
+        10.7835
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_23_23",
+      "length_km": 71.9,
+      "corridor_km2": 36.5,
+      "bbox_km2": 471.7,
+      "max_discharge_cms": 328.5,
+      "est_channel_width_m": 130.5,
+      "est_water_px": 93789
+    },
+    "river_10877687_t29": {
+      "bbox": [
+        -8.69602,
+        10.779,
+        -8.59981,
+        10.96683
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_23_24",
+      "length_km": 39.5,
+      "corridor_km2": 18.6,
+      "bbox_km2": 218.4,
+      "max_discharge_cms": 334.6,
+      "est_channel_width_m": 131.7,
+      "est_water_px": 52087
+    },
+    "river_10877687_t30": {
+      "bbox": [
+        -9.05853,
+        11.354,
+        -8.59564,
+        11.63191
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_23_25",
+      "length_km": 65.6,
+      "corridor_km2": 32.2,
+      "bbox_km2": 1551.7,
+      "max_discharge_cms": 819.5,
+      "est_channel_width_m": 206.1,
+      "est_water_px": 135193
+    },
+    "river_10877687_t31": {
+      "bbox": [
+        -8.64185,
+        9.2665,
+        -8.60815,
+        9.4335
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_24_20",
+      "length_km": 21.2,
+      "corridor_km2": 10.8,
+      "bbox_km2": 68.3,
+      "max_discharge_cms": 67.2,
+      "est_channel_width_m": 59.0,
+      "est_water_px": 12532
+    },
+    "river_10877687_t32": {
+      "bbox": [
+        -8.63768,
+        9.429,
+        -8.33315,
+        9.87516
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_24_21",
+      "length_km": 20.8,
+      "corridor_km2": 10.8,
+      "bbox_km2": 1648.7,
+      "max_discharge_cms": 72.1,
+      "est_channel_width_m": 61.1,
+      "est_water_px": 12698
+    },
+    "river_10877687_t33": {
+      "bbox": [
+        -8.62935,
+        9.87067,
+        -8.17898,
+        10.35433
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_24_22",
+      "length_km": 113.9,
+      "corridor_km2": 57.3,
+      "bbox_km2": 2639.5,
+      "max_discharge_cms": 297.4,
+      "est_channel_width_m": 124.2,
+      "est_water_px": 141452
+    },
+    "river_10877687_t34": {
+      "bbox": [
+        -8.62102,
+        10.34984,
+        -8.55398,
+        10.59183
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_24_23",
+      "length_km": 20.3,
+      "corridor_km2": 10.8,
+      "bbox_km2": 196.4,
+      "max_discharge_cms": 316.1,
+      "est_channel_width_m": 128.0,
+      "est_water_px": 26048
+    },
+    "river_10877687_t35": {
+      "bbox": [
+        -8.60852,
+        10.92067,
+        -8.48376,
+        11.22933
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_24_24",
+      "length_km": 18.2,
+      "corridor_km2": 6.7,
+      "bbox_km2": 465.2,
+      "max_discharge_cms": 339.4,
+      "est_channel_width_m": 132.6,
+      "est_water_px": 24179
+    },
+    "river_10877687_t36": {
+      "bbox": [
+        -8.60019,
+        11.27484,
+        -8.369,
+        11.4516
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_24_25",
+      "length_km": 32.4,
+      "corridor_km2": 8.3,
+      "bbox_km2": 493.1,
+      "max_discharge_cms": 335.9,
+      "est_channel_width_m": 132.0,
+      "est_water_px": 42757
+    },
+    "river_10877687_t37": {
+      "bbox": [
+        -8.17101,
+        9.404,
+        -8.16232,
+        9.42516
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_25_20",
+      "length_km": 2.2,
+      "corridor_km2": 1.3,
+      "bbox_km2": 2.2,
+      "max_discharge_cms": 25.7,
+      "est_channel_width_m": 36.5,
+      "est_water_px": 814
+    },
+    "river_10877687_t38": {
+      "bbox": [
+        -8.17101,
+        9.42067,
+        -8.12841,
+        9.53348
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_25_21",
+      "length_km": 16.1,
+      "corridor_km2": 6.3,
+      "bbox_km2": 58.3,
+      "max_discharge_cms": 37.5,
+      "est_channel_width_m": 44.1,
+      "est_water_px": 7074
+    },
+    "river_10877687_t39": {
+      "bbox": [
+        -8.18352,
+        9.87899,
+        -8.1154,
+        10.02516
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10877687,
+      "tile_key": "10877687_25_22",
+      "length_km": 32.7,
+      "corridor_km2": 8.1,
+      "bbox_km2": 120.7,
+      "max_discharge_cms": 99.8,
+      "est_channel_width_m": 71.9,
+      "est_water_px": 23519
+    },
+    "river_10878253_t01": {
+      "bbox": [
+        -8.25017,
+        7.54964,
+        -8.23317,
+        7.62933
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10878253,
+      "tile_key": "10878253_24_16",
+      "length_km": 13.8,
+      "corridor_km2": 5.0,
+      "bbox_km2": 16.5,
+      "max_discharge_cms": 40.7,
+      "est_channel_width_m": 46.0,
+      "est_water_px": 6351
+    },
+    "river_10878253_t02": {
+      "bbox": [
+        -8.271,
+        7.62484,
+        -8.24567,
+        7.7085
+      ],
+      "kind": "river_corridor",
+      "main_riv": 10878253,
+      "tile_key": "10878253_24_17",
+      "length_km": 10.9,
+      "corridor_km2": 5.6,
+      "bbox_km2": 25.9,
+      "max_discharge_cms": 32.0,
+      "est_channel_width_m": 40.8,
+      "est_water_px": 4438
+    }
+  }
+}

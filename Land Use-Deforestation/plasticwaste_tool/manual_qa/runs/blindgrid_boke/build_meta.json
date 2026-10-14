@@ -1,0 +1,22 @@
+{
+  "town": "boke",
+  "requested_bounds": [
+    -14.3,
+    10.93,
+    -14.28,
+    10.945
+  ],
+  "actual_extent": [
+    -14.302572925774541,
+    10.927161900627638,
+    -14.277436175727063,
+    10.94597283267314
+  ],
+  "windows_in_aoi": 622,
+  "windows_scored": 557,
+  "coverage_fraction": 0.8955,
+  "budget": 422,
+  "review_geojson": "E:\\SDG AI Lab\\Guinea\\Land Use-Deforestation\\plasticwaste_tool\\manual_qa\\regions\\boke_blindgrid_review.geojson",
+  "cache_dir": "E:\\SDG AI Lab\\Guinea\\Land Use-Deforestation\\plasticwaste_tool\\manual_qa\\blindgrid_cache_boke",
+  "candidates_at_scan_tier": 17
+}

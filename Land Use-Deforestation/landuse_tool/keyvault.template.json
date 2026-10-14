@@ -1,0 +1,15 @@
+{
+  "_comment": "AZURE KEY VAULT TEMPLATE -- SAFE TO COMMIT (no real values). Store this as ONE secret in Key Vault (default name 'landuse-config') with the value being this JSON, filled in. Then set AZURE_KEY_VAULT_URL on the running service. Key Vault secret names can't contain underscores, which is why all the real variables live inside one JSON secret. Do NOT keep real values in this file.",
+
+  "GEE_PROJECT_ID": "tribal-mapper-275801",
+  "GEE_SERVICE_ACCOUNT": "guinea-environment-digital-hub@tribal-mapper-275801.iam.gserviceaccount.com",
+  "GEE_SA_KEY": "./secrets/gee-service-account.json",
+
+  "OPENTOPO_API_KEY": "f2d9369421551787c85542ce4d5463a0",
+
+  "CDSE_CLIENT_ID": "",
+  "CDSE_CLIENT_SECRET": "",
+
+  "AZURE_BLOB_CONTAINER": "landuse",
+  "AZURE_STORAGE_CONNECTION_STRING": "PASTE_STORAGE_ACCOUNT_CONNECTION_STRING_OR_LEAVE_BLANK_IF_USING_MANAGED_IDENTITY"
+}

@@ -1,0 +1,57 @@
+# ==========================================================================
+#  SECRETS  --  never commit these
+# ==========================================================================
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*-service-account*.json
+gee-service-account.json
+*_secret*.json
+credentials.json
+
+# ==========================================================================
+#  Data / caches (fetched layers, temp downloads)
+# ==========================================================================
+/tmp/landuse/
+data/cache/
+data/temp/
+data/processed/
+data/admin_boundaries/
+*.tif
+*.tiff
+*.osm.pbf
+!tests/**/*.tif          # keep any tiny fixture rasters used by tests
+
+# ==========================================================================
+#  Python
+# ==========================================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ==========================================================================
+#  Azure local dev
+# ==========================================================================
+local.settings.json      # Azure Functions local settings (often holds secrets)
+.azure/
+__azurite_db*__.json
+
+# ==========================================================================
+#  Tooling / OS
+# ==========================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.DS_Store
+.idea/
+.vscode/

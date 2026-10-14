@@ -1,0 +1,1180 @@
+{
+  "scale_m": 20,
+  "min_water_px": 1000,
+  "water_mask_asset": "ESA/WorldCover/v200",
+  "water_mask_class": 80,
+  "n_assessable": 65,
+  "n_total": 117,
+  "rows": [
+    {
+      "main_riv": 10877687,
+      "length_km": 65.6,
+      "max_discharge_cms": 819.5,
+      "est_channel_width_m": 206.1,
+      "est_water_px": 135193,
+      "aoi": "river_10877687_t30",
+      "actual_water_px": 41536,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 97.2,
+      "max_discharge_cms": 801.5,
+      "est_channel_width_m": 203.8,
+      "est_water_px": 198196,
+      "aoi": "river_10877687_t23",
+      "actual_water_px": 47710,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 35.3,
+      "max_discharge_cms": 639.9,
+      "est_channel_width_m": 182.1,
+      "est_water_px": 64310,
+      "aoi": "river_10633048_t01",
+      "actual_water_px": 15325,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 136.3,
+      "max_discharge_cms": 633.5,
+      "est_channel_width_m": 181.2,
+      "est_water_px": 247061,
+      "aoi": "river_10877687_t22",
+      "actual_water_px": 80194,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 97.4,
+      "max_discharge_cms": 612.6,
+      "est_channel_width_m": 178.2,
+      "est_water_px": 173519,
+      "aoi": "river_10633048_t03",
+      "actual_water_px": 16691,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 142.8,
+      "max_discharge_cms": 419.3,
+      "est_channel_width_m": 147.4,
+      "est_water_px": 210509,
+      "aoi": "river_10877687_t16",
+      "actual_water_px": 50563,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 84.4,
+      "max_discharge_cms": 414.4,
+      "est_channel_width_m": 146.6,
+      "est_water_px": 123747,
+      "aoi": "river_10877687_t21",
+      "actual_water_px": 10500,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 59.0,
+      "max_discharge_cms": 378.8,
+      "est_channel_width_m": 140.1,
+      "est_water_px": 82724,
+      "aoi": "river_10633048_t04",
+      "actual_water_px": 29816,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 18.2,
+      "max_discharge_cms": 339.4,
+      "est_channel_width_m": 132.6,
+      "est_water_px": 24179,
+      "aoi": "river_10877687_t35",
+      "actual_water_px": 4314,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 32.4,
+      "max_discharge_cms": 335.9,
+      "est_channel_width_m": 132.0,
+      "est_water_px": 42757,
+      "aoi": "river_10877687_t36",
+      "actual_water_px": 6281,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 39.5,
+      "max_discharge_cms": 334.6,
+      "est_channel_width_m": 131.7,
+      "est_water_px": 52087,
+      "aoi": "river_10877687_t29",
+      "actual_water_px": 6898,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 71.9,
+      "max_discharge_cms": 328.5,
+      "est_channel_width_m": 130.5,
+      "est_water_px": 93789,
+      "aoi": "river_10877687_t28",
+      "actual_water_px": 12358,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10765964,
+      "length_km": 68.8,
+      "max_discharge_cms": 321.1,
+      "est_channel_width_m": 129.0,
+      "est_water_px": 88694,
+      "aoi": "river_10765964_t01",
+      "actual_water_px": 6822,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 20.3,
+      "max_discharge_cms": 316.1,
+      "est_channel_width_m": 128.0,
+      "est_water_px": 26048,
+      "aoi": "river_10877687_t34",
+      "actual_water_px": 2963,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10623835,
+      "length_km": 53.0,
+      "max_discharge_cms": 312.4,
+      "est_channel_width_m": 127.3,
+      "est_water_px": 67405,
+      "aoi": "river_10623835_t01",
+      "actual_water_px": 29057,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10676918,
+      "length_km": 22.2,
+      "max_discharge_cms": 298.6,
+      "est_channel_width_m": 124.4,
+      "est_water_px": 27621,
+      "aoi": "river_10676918_t01",
+      "actual_water_px": 2520,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 113.9,
+      "max_discharge_cms": 297.4,
+      "est_channel_width_m": 124.2,
+      "est_water_px": 141452,
+      "aoi": "river_10877687_t33",
+      "actual_water_px": 3510,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 77.1,
+      "max_discharge_cms": 295.9,
+      "est_channel_width_m": 123.9,
+      "est_water_px": 95457,
+      "aoi": "river_10877687_t27",
+      "actual_water_px": 4091,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 172.5,
+      "max_discharge_cms": 289.5,
+      "est_channel_width_m": 122.5,
+      "est_water_px": 211360,
+      "aoi": "river_10633048_t07",
+      "actual_water_px": 59193,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10588694,
+      "length_km": 47.1,
+      "max_discharge_cms": 289.3,
+      "est_channel_width_m": 122.5,
+      "est_water_px": 57697,
+      "aoi": "river_10588694_t01",
+      "actual_water_px": 31666,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10765964,
+      "length_km": 69.3,
+      "max_discharge_cms": 288.8,
+      "est_channel_width_m": 122.4,
+      "est_water_px": 84783,
+      "aoi": "river_10765964_t03",
+      "actual_water_px": 5274,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10676918,
+      "length_km": 11.2,
+      "max_discharge_cms": 270.6,
+      "est_channel_width_m": 118.4,
+      "est_water_px": 13276,
+      "aoi": "river_10676918_t02",
+      "actual_water_px": 860,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10588694,
+      "length_km": 38.4,
+      "max_discharge_cms": 252.2,
+      "est_channel_width_m": 114.3,
+      "est_water_px": 43880,
+      "aoi": "river_10588694_t02",
+      "actual_water_px": 7001,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10588694,
+      "length_km": 104.7,
+      "max_discharge_cms": 230.3,
+      "est_channel_width_m": 109.3,
+      "est_water_px": 114411,
+      "aoi": "river_10588694_t03",
+      "actual_water_px": 19147,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10676918,
+      "length_km": 91.9,
+      "max_discharge_cms": 227.6,
+      "est_channel_width_m": 108.6,
+      "est_water_px": 99843,
+      "aoi": "river_10676918_t03",
+      "actual_water_px": 2197,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10623835,
+      "length_km": 77.8,
+      "max_discharge_cms": 219.0,
+      "est_channel_width_m": 106.6,
+      "est_water_px": 82856,
+      "aoi": "river_10623835_t02",
+      "actual_water_px": 9280,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 120.9,
+      "max_discharge_cms": 212.2,
+      "est_channel_width_m": 104.9,
+      "est_water_px": 126778,
+      "aoi": "river_10877687_t15",
+      "actual_water_px": 19563,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 18.4,
+      "max_discharge_cms": 212.0,
+      "est_channel_width_m": 104.8,
+      "est_water_px": 19236,
+      "aoi": "river_10428478_t07",
+      "actual_water_px": 1915,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10597624,
+      "length_km": 96.7,
+      "max_discharge_cms": 208.1,
+      "est_channel_width_m": 103.9,
+      "est_water_px": 100471,
+      "aoi": "river_10597624_t02",
+      "actual_water_px": 32449,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 97.4,
+      "max_discharge_cms": 202.5,
+      "est_channel_width_m": 102.5,
+      "est_water_px": 99824,
+      "aoi": "river_10877687_t10",
+      "actual_water_px": 10843,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10597624,
+      "length_km": 59.2,
+      "max_discharge_cms": 197.9,
+      "est_channel_width_m": 101.3,
+      "est_water_px": 59961,
+      "aoi": "river_10597624_t01",
+      "actual_water_px": 5090,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 72.5,
+      "max_discharge_cms": 191.3,
+      "est_channel_width_m": 99.6,
+      "est_water_px": 72167,
+      "aoi": "river_10428478_t06",
+      "actual_water_px": 7483,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 67.9,
+      "max_discharge_cms": 185.7,
+      "est_channel_width_m": 98.1,
+      "est_water_px": 66645,
+      "aoi": "river_10558276_t02",
+      "actual_water_px": 13362,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10794161,
+      "length_km": 67.8,
+      "max_discharge_cms": 184.3,
+      "est_channel_width_m": 97.8,
+      "est_water_px": 66246,
+      "aoi": "river_10794161_t02",
+      "actual_water_px": 4698,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 63.7,
+      "max_discharge_cms": 180.0,
+      "est_channel_width_m": 96.6,
+      "est_water_px": 61540,
+      "aoi": "river_10558276_t06",
+      "actual_water_px": 12686,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 32.0,
+      "max_discharge_cms": 179.5,
+      "est_channel_width_m": 96.5,
+      "est_water_px": 30841,
+      "aoi": "river_10428478_t05",
+      "actual_water_px": 5545,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 87.8,
+      "max_discharge_cms": 175.4,
+      "est_channel_width_m": 95.3,
+      "est_water_px": 83751,
+      "aoi": "river_10428478_t04",
+      "actual_water_px": 12790,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 120.8,
+      "max_discharge_cms": 172.6,
+      "est_channel_width_m": 94.6,
+      "est_water_px": 114281,
+      "aoi": "river_10558276_t05",
+      "actual_water_px": 25715,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10588694,
+      "length_km": 84.3,
+      "max_discharge_cms": 163.8,
+      "est_channel_width_m": 92.1,
+      "est_water_px": 77696,
+      "aoi": "river_10588694_t05",
+      "actual_water_px": 5121,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 14.2,
+      "max_discharge_cms": 157.6,
+      "est_channel_width_m": 90.4,
+      "est_water_px": 12788,
+      "aoi": "river_10558276_t08",
+      "actual_water_px": 2655,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 109.7,
+      "max_discharge_cms": 154.6,
+      "est_channel_width_m": 89.5,
+      "est_water_px": 98210,
+      "aoi": "river_10877687_t17",
+      "actual_water_px": 12705,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 130.3,
+      "max_discharge_cms": 153.2,
+      "est_channel_width_m": 89.1,
+      "est_water_px": 116136,
+      "aoi": "river_10877687_t14",
+      "actual_water_px": 5308,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10794161,
+      "length_km": 69.8,
+      "max_discharge_cms": 143.3,
+      "est_channel_width_m": 86.2,
+      "est_water_px": 60204,
+      "aoi": "river_10794161_t04",
+      "actual_water_px": 1300,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 66.3,
+      "max_discharge_cms": 140.0,
+      "est_channel_width_m": 85.2,
+      "est_water_px": 56497,
+      "aoi": "river_10877687_t20",
+      "actual_water_px": 6512,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 44.8,
+      "max_discharge_cms": 139.7,
+      "est_channel_width_m": 85.1,
+      "est_water_px": 38152,
+      "aoi": "river_10877687_t04",
+      "actual_water_px": 4876,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 107.5,
+      "max_discharge_cms": 138.3,
+      "est_channel_width_m": 84.7,
+      "est_water_px": 91020,
+      "aoi": "river_10428478_t03",
+      "actual_water_px": 7805,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 130.0,
+      "max_discharge_cms": 134.3,
+      "est_channel_width_m": 83.4,
+      "est_water_px": 108467,
+      "aoi": "river_10877687_t12",
+      "actual_water_px": 5041,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10794161,
+      "length_km": 59.2,
+      "max_discharge_cms": 120.2,
+      "est_channel_width_m": 78.9,
+      "est_water_px": 46759,
+      "aoi": "river_10794161_t01",
+      "actual_water_px": 2304,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 102.0,
+      "max_discharge_cms": 119.8,
+      "est_channel_width_m": 78.8,
+      "est_water_px": 80367,
+      "aoi": "river_10877687_t03",
+      "actual_water_px": 2508,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10588694,
+      "length_km": 61.9,
+      "max_discharge_cms": 115.6,
+      "est_channel_width_m": 77.4,
+      "est_water_px": 47941,
+      "aoi": "river_10588694_t04",
+      "actual_water_px": 316,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 106.6,
+      "max_discharge_cms": 112.6,
+      "est_channel_width_m": 76.4,
+      "est_water_px": 81431,
+      "aoi": "river_10877687_t19",
+      "actual_water_px": 6253,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 17.8,
+      "max_discharge_cms": 110.6,
+      "est_channel_width_m": 75.7,
+      "est_water_px": 13470,
+      "aoi": "river_10633048_t02",
+      "actual_water_px": 69,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10765964,
+      "length_km": 50.3,
+      "max_discharge_cms": 108.4,
+      "est_channel_width_m": 75.0,
+      "est_water_px": 37704,
+      "aoi": "river_10765964_t02",
+      "actual_water_px": 1007,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10660486,
+      "length_km": 25.9,
+      "max_discharge_cms": 100.4,
+      "est_channel_width_m": 72.1,
+      "est_water_px": 18676,
+      "aoi": "river_10660486_t01",
+      "actual_water_px": 22799,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 32.7,
+      "max_discharge_cms": 99.8,
+      "est_channel_width_m": 71.9,
+      "est_water_px": 23519,
+      "aoi": "river_10877687_t39",
+      "actual_water_px": 39,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10680378,
+      "length_km": 35.1,
+      "max_discharge_cms": 99.7,
+      "est_channel_width_m": 71.9,
+      "est_water_px": 25256,
+      "aoi": "river_10680378_t02",
+      "actual_water_px": 325,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 59.2,
+      "max_discharge_cms": 96.3,
+      "est_channel_width_m": 70.7,
+      "est_water_px": 41817,
+      "aoi": "river_10877687_t26",
+      "actual_water_px": 2129,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10623835,
+      "length_km": 34.5,
+      "max_discharge_cms": 93.3,
+      "est_channel_width_m": 69.6,
+      "est_water_px": 23977,
+      "aoi": "river_10623835_t03",
+      "actual_water_px": 339,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 94.3,
+      "max_discharge_cms": 91.2,
+      "est_channel_width_m": 68.8,
+      "est_water_px": 64814,
+      "aoi": "river_10558276_t07",
+      "actual_water_px": 7850,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 69.6,
+      "max_discharge_cms": 90.8,
+      "est_channel_width_m": 68.6,
+      "est_water_px": 47748,
+      "aoi": "river_10558276_t04",
+      "actual_water_px": 3444,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 37.6,
+      "max_discharge_cms": 89.0,
+      "est_channel_width_m": 67.9,
+      "est_water_px": 25509,
+      "aoi": "river_10877687_t13",
+      "actual_water_px": 1354,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10508677,
+      "length_km": 39.9,
+      "max_discharge_cms": 88.6,
+      "est_channel_width_m": 67.8,
+      "est_water_px": 27043,
+      "aoi": "river_10508677_t03",
+      "actual_water_px": 899,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10794161,
+      "length_km": 76.7,
+      "max_discharge_cms": 87.7,
+      "est_channel_width_m": 67.4,
+      "est_water_px": 51691,
+      "aoi": "river_10794161_t05",
+      "actual_water_px": 577,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10765964,
+      "length_km": 36.5,
+      "max_discharge_cms": 87.3,
+      "est_channel_width_m": 67.3,
+      "est_water_px": 24532,
+      "aoi": "river_10765964_t05",
+      "actual_water_px": 961,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10660486,
+      "length_km": 28.5,
+      "max_discharge_cms": 87.1,
+      "est_channel_width_m": 67.2,
+      "est_water_px": 19175,
+      "aoi": "river_10660486_t02",
+      "actual_water_px": 10213,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10794161,
+      "length_km": 8.1,
+      "max_discharge_cms": 84.0,
+      "est_channel_width_m": 66.0,
+      "est_water_px": 5339,
+      "aoi": "river_10794161_t03",
+      "actual_water_px": 331,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 57.8,
+      "max_discharge_cms": 74.0,
+      "est_channel_width_m": 61.9,
+      "est_water_px": 35815,
+      "aoi": "river_10633048_t09",
+      "actual_water_px": 46772,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 20.8,
+      "max_discharge_cms": 72.1,
+      "est_channel_width_m": 61.1,
+      "est_water_px": 12698,
+      "aoi": "river_10877687_t32",
+      "actual_water_px": 279,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 61.3,
+      "max_discharge_cms": 72.0,
+      "est_channel_width_m": 61.1,
+      "est_water_px": 37426,
+      "aoi": "river_10877687_t06",
+      "actual_water_px": 8,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10508677,
+      "length_km": 47.2,
+      "max_discharge_cms": 71.9,
+      "est_channel_width_m": 61.1,
+      "est_water_px": 28810,
+      "aoi": "river_10508677_t02",
+      "actual_water_px": 489,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10815473,
+      "length_km": 77.2,
+      "max_discharge_cms": 69.4,
+      "est_channel_width_m": 60.0,
+      "est_water_px": 46300,
+      "aoi": "river_10815473_t02",
+      "actual_water_px": 481,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 21.2,
+      "max_discharge_cms": 67.2,
+      "est_channel_width_m": 59.0,
+      "est_water_px": 12532,
+      "aoi": "river_10877687_t31",
+      "actual_water_px": 363,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 8.7,
+      "max_discharge_cms": 65.3,
+      "est_channel_width_m": 58.2,
+      "est_water_px": 5079,
+      "aoi": "river_10633048_t06",
+      "actual_water_px": 208,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10597624,
+      "length_km": 29.9,
+      "max_discharge_cms": 64.4,
+      "est_channel_width_m": 57.8,
+      "est_water_px": 17248,
+      "aoi": "river_10597624_t03",
+      "actual_water_px": 335,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 50.6,
+      "max_discharge_cms": 63.9,
+      "est_channel_width_m": 57.5,
+      "est_water_px": 29143,
+      "aoi": "river_10877687_t02",
+      "actual_water_px": 23,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 39.0,
+      "max_discharge_cms": 63.9,
+      "est_channel_width_m": 57.5,
+      "est_water_px": 22461,
+      "aoi": "river_10877687_t05",
+      "actual_water_px": 2,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10765964,
+      "length_km": 94.3,
+      "max_discharge_cms": 63.6,
+      "est_channel_width_m": 57.4,
+      "est_water_px": 54159,
+      "aoi": "river_10765964_t04",
+      "actual_water_px": 665,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10857729,
+      "length_km": 13.0,
+      "max_discharge_cms": 63.4,
+      "est_channel_width_m": 57.4,
+      "est_water_px": 7455,
+      "aoi": "river_10857729_t05",
+      "actual_water_px": 182,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10623835,
+      "length_km": 22.2,
+      "max_discharge_cms": 63.0,
+      "est_channel_width_m": 57.1,
+      "est_water_px": 12679,
+      "aoi": "river_10623835_t04",
+      "actual_water_px": 10,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 72.3,
+      "max_discharge_cms": 62.9,
+      "est_channel_width_m": 57.1,
+      "est_water_px": 41268,
+      "aoi": "river_10633048_t08",
+      "actual_water_px": 234,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10857729,
+      "length_km": 35.7,
+      "max_discharge_cms": 62.4,
+      "est_channel_width_m": 56.9,
+      "est_water_px": 20318,
+      "aoi": "river_10857729_t03",
+      "actual_water_px": 6,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10660486,
+      "length_km": 19.4,
+      "max_discharge_cms": 60.3,
+      "est_channel_width_m": 55.9,
+      "est_water_px": 10833,
+      "aoi": "river_10660486_t03",
+      "actual_water_px": 338,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 90.2,
+      "max_discharge_cms": 59.0,
+      "est_channel_width_m": 55.3,
+      "est_water_px": 49859,
+      "aoi": "river_10877687_t09",
+      "actual_water_px": 418,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10857729,
+      "length_km": 81.2,
+      "max_discharge_cms": 58.5,
+      "est_channel_width_m": 55.1,
+      "est_water_px": 44745,
+      "aoi": "river_10857729_t04",
+      "actual_water_px": 1167,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 59.9,
+      "max_discharge_cms": 58.4,
+      "est_channel_width_m": 55.0,
+      "est_water_px": 32970,
+      "aoi": "river_10428478_t02",
+      "actual_water_px": 1899,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10765964,
+      "length_km": 25.0,
+      "max_discharge_cms": 56.5,
+      "est_channel_width_m": 54.1,
+      "est_water_px": 13502,
+      "aoi": "river_10765964_t06",
+      "actual_water_px": 87,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10633048,
+      "length_km": 26.3,
+      "max_discharge_cms": 56.1,
+      "est_channel_width_m": 53.9,
+      "est_water_px": 14159,
+      "aoi": "river_10633048_t05",
+      "actual_water_px": 1344,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 22.4,
+      "max_discharge_cms": 52.7,
+      "est_channel_width_m": 52.3,
+      "est_water_px": 11723,
+      "aoi": "river_10877687_t07",
+      "actual_water_px": 77,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 54.5,
+      "max_discharge_cms": 51.9,
+      "est_channel_width_m": 51.9,
+      "est_water_px": 28254,
+      "aoi": "river_10428478_t09",
+      "actual_water_px": 229,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10666122,
+      "length_km": 5.8,
+      "max_discharge_cms": 50.4,
+      "est_channel_width_m": 51.1,
+      "est_water_px": 2964,
+      "aoi": "river_10666122_t01",
+      "actual_water_px": 6359,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10676918,
+      "length_km": 53.2,
+      "max_discharge_cms": 50.2,
+      "est_channel_width_m": 51.0,
+      "est_water_px": 27124,
+      "aoi": "river_10676918_t04",
+      "actual_water_px": 273,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10508677,
+      "length_km": 16.3,
+      "max_discharge_cms": 47.7,
+      "est_channel_width_m": 49.7,
+      "est_water_px": 8123,
+      "aoi": "river_10508677_t04",
+      "actual_water_px": 65,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 44.7,
+      "max_discharge_cms": 46.5,
+      "est_channel_width_m": 49.1,
+      "est_water_px": 21925,
+      "aoi": "river_10877687_t18",
+      "actual_water_px": 916,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10658530,
+      "length_km": 23.2,
+      "max_discharge_cms": 45.3,
+      "est_channel_width_m": 48.5,
+      "est_water_px": 11263,
+      "aoi": "river_10658530_t01",
+      "actual_water_px": 15885,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10666122,
+      "length_km": 13.8,
+      "max_discharge_cms": 44.5,
+      "est_channel_width_m": 48.0,
+      "est_water_px": 6653,
+      "aoi": "river_10666122_t02",
+      "actual_water_px": 8541,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 81.2,
+      "max_discharge_cms": 43.4,
+      "est_channel_width_m": 47.5,
+      "est_water_px": 38518,
+      "aoi": "river_10877687_t25",
+      "actual_water_px": 138,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10612286,
+      "length_km": 5.2,
+      "max_discharge_cms": 43.0,
+      "est_channel_width_m": 47.2,
+      "est_water_px": 2446,
+      "aoi": "river_10612286_t01",
+      "actual_water_px": 1408,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 11.3,
+      "max_discharge_cms": 42.6,
+      "est_channel_width_m": 47.0,
+      "est_water_px": 5316,
+      "aoi": "river_10428478_t01",
+      "actual_water_px": 157,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 6.2,
+      "max_discharge_cms": 41.6,
+      "est_channel_width_m": 46.5,
+      "est_water_px": 2870,
+      "aoi": "river_10558276_t01",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10784308,
+      "length_km": 13.2,
+      "max_discharge_cms": 41.0,
+      "est_channel_width_m": 46.1,
+      "est_water_px": 6088,
+      "aoi": "river_10784308_t01",
+      "actual_water_px": 2,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10878253,
+      "length_km": 13.8,
+      "max_discharge_cms": 40.7,
+      "est_channel_width_m": 46.0,
+      "est_water_px": 6351,
+      "aoi": "river_10878253_t01",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 16.1,
+      "max_discharge_cms": 37.5,
+      "est_channel_width_m": 44.1,
+      "est_water_px": 7074,
+      "aoi": "river_10877687_t38",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 21.5,
+      "max_discharge_cms": 34.4,
+      "est_channel_width_m": 42.2,
+      "est_water_px": 9085,
+      "aoi": "river_10558276_t03",
+      "actual_water_px": 37,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10508677,
+      "length_km": 14.7,
+      "max_discharge_cms": 32.5,
+      "est_channel_width_m": 41.0,
+      "est_water_px": 6037,
+      "aoi": "river_10508677_t01",
+      "actual_water_px": 1,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10612286,
+      "length_km": 16.4,
+      "max_discharge_cms": 32.1,
+      "est_channel_width_m": 40.8,
+      "est_water_px": 6664,
+      "aoi": "river_10612286_t02",
+      "actual_water_px": 1606,
+      "would_assess": true
+    },
+    {
+      "main_riv": 10878253,
+      "length_km": 10.9,
+      "max_discharge_cms": 32.0,
+      "est_channel_width_m": 40.8,
+      "est_water_px": 4438,
+      "aoi": "river_10878253_t02",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 7.7,
+      "max_discharge_cms": 31.9,
+      "est_channel_width_m": 40.7,
+      "est_water_px": 3130,
+      "aoi": "river_10877687_t08",
+      "actual_water_px": 1,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10857729,
+      "length_km": 5.1,
+      "max_discharge_cms": 30.9,
+      "est_channel_width_m": 40.0,
+      "est_water_px": 2041,
+      "aoi": "river_10857729_t01",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 21.9,
+      "max_discharge_cms": 30.8,
+      "est_channel_width_m": 40.0,
+      "est_water_px": 8749,
+      "aoi": "river_10877687_t11",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10558276,
+      "length_km": 25.2,
+      "max_discharge_cms": 29.3,
+      "est_channel_width_m": 38.9,
+      "est_water_px": 9806,
+      "aoi": "river_10558276_t09",
+      "actual_water_px": 16,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10815473,
+      "length_km": 2.0,
+      "max_discharge_cms": 29.1,
+      "est_channel_width_m": 38.9,
+      "est_water_px": 792,
+      "aoi": "river_10815473_t01",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 4.9,
+      "max_discharge_cms": 28.2,
+      "est_channel_width_m": 38.3,
+      "est_water_px": 1881,
+      "aoi": "river_10877687_t01",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10428478,
+      "length_km": 10.7,
+      "max_discharge_cms": 28.1,
+      "est_channel_width_m": 38.2,
+      "est_water_px": 4064,
+      "aoi": "river_10428478_t08",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10680378,
+      "length_km": 1.8,
+      "max_discharge_cms": 26.4,
+      "est_channel_width_m": 37.0,
+      "est_water_px": 650,
+      "aoi": "river_10680378_t01",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 2.2,
+      "max_discharge_cms": 25.7,
+      "est_channel_width_m": 36.5,
+      "est_water_px": 814,
+      "aoi": "river_10877687_t37",
+      "actual_water_px": 0,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10877687,
+      "length_km": 2.9,
+      "max_discharge_cms": 25.3,
+      "est_channel_width_m": 36.2,
+      "est_water_px": 1042,
+      "aoi": "river_10877687_t24",
+      "actual_water_px": 1,
+      "would_assess": false
+    },
+    {
+      "main_riv": 10857729,
+      "length_km": 3.3,
+      "max_discharge_cms": 25.0,
+      "est_channel_width_m": 36.0,
+      "est_water_px": 1199,
+      "aoi": "river_10857729_t02",
+      "actual_water_px": 0,
+      "would_assess": false
+    }
+  ]
+}

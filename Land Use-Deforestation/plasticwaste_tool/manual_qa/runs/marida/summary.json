@@ -1,0 +1,614 @@
+{
+  "generated": "C:\\Users\\ASUS\\Guinea_Project\\Land Use-Deforestation\\plasticwaste_tool\\32_run_marida.py",
+  "trees": 300,
+  "data": {
+    "n_train_px": 429412,
+    "n_test_px": 194863,
+    "n_train_debris": 1943,
+    "n_test_debris": 381,
+    "test_px_unseen_tiles": 2045,
+    "unseen_tiles": [
+      "50LLR",
+      "51PTS"
+    ],
+    "train_tiles": [
+      "16PCC",
+      "16PDC",
+      "16PEC",
+      "16QED",
+      "18QWF",
+      "18QYF",
+      "19QDA",
+      "30VWH",
+      "36JUN",
+      "48MXU",
+      "48MYU",
+      "48PZC",
+      "52SDD"
+    ]
+  },
+  "rule": {
+    "scores": {
+      "tp": 239,
+      "fp": 2021,
+      "fn": 142,
+      "tn": 154104,
+      "precision": 0.10575221238938053,
+      "recall": 0.6272965879265092,
+      "f1": 0.18099204846648997,
+      "base_rate": 0.0024344114602635044,
+      "lift": 43.44056627877267,
+      "n_scored": 156506
+    },
+    "detection_composition": [
+      {
+        "code": 3,
+        "class": "Sparse Sargassum",
+        "pixels": 881,
+        "flagged": 718,
+        "recall_within_class": 0.8149829738933031,
+        "share_of_all_detections": 0.3176991150442478,
+        "role": "floating confuser"
+      },
+      {
+        "code": 5,
+        "class": "Ship",
+        "pixels": 1174,
+        "flagged": 392,
+        "recall_within_class": 0.3339011925042589,
+        "share_of_all_detections": 0.17345132743362832,
+        "role": "floating confuser"
+      },
+      {
+        "code": 2,
+        "class": "Dense Sargassum",
+        "pixels": 760,
+        "flagged": 376,
+        "recall_within_class": 0.49473684210526314,
+        "share_of_all_detections": 0.1663716814159292,
+        "role": "floating confuser"
+      },
+      {
+        "code": 1,
+        "class": "Marine Debris",
+        "pixels": 381,
+        "flagged": 239,
+        "recall_within_class": 0.6272965879265092,
+        "share_of_all_detections": 0.10575221238938053,
+        "role": "TARGET"
+      },
+      {
+        "code": 9,
+        "class": "Foam",
+        "pixels": 387,
+        "flagged": 205,
+        "recall_within_class": 0.5297157622739018,
+        "share_of_all_detections": 0.09070796460176991,
+        "role": "floating confuser"
+      },
+      {
+        "code": 14,
+        "class": "Wakes",
+        "pixels": 1570,
+        "flagged": 121,
+        "recall_within_class": 0.07707006369426751,
+        "share_of_all_detections": 0.05353982300884956,
+        "role": "floating confuser"
+      },
+      {
+        "code": 11,
+        "class": "Shallow Water",
+        "pixels": 2506,
+        "flagged": 68,
+        "recall_within_class": 0.02713487629688747,
+        "share_of_all_detections": 0.03008849557522124,
+        "role": "water background"
+      },
+      {
+        "code": 10,
+        "class": "Turbid Water",
+        "pixels": 32226,
+        "flagged": 61,
+        "recall_within_class": 0.0018928815242350897,
+        "share_of_all_detections": 0.026991150442477876,
+        "role": "water background"
+      },
+      {
+        "code": 4,
+        "class": "Natural Organic Material",
+        "pixels": 49,
+        "flagged": 45,
+        "recall_within_class": 0.9183673469387755,
+        "share_of_all_detections": 0.01991150442477876,
+        "role": "floating confuser"
+      },
+      {
+        "code": 8,
+        "class": "Sediment-Laden Water",
+        "pixels": 93037,
+        "flagged": 20,
+        "recall_within_class": 0.0002149682384427701,
+        "share_of_all_detections": 0.008849557522123894,
+        "role": "water background"
+      },
+      {
+        "code": 15,
+        "class": "Mixed Water",
+        "pixels": 92,
+        "flagged": 10,
+        "recall_within_class": 0.10869565217391304,
+        "share_of_all_detections": 0.004424778761061947,
+        "role": "water background"
+      },
+      {
+        "code": 7,
+        "class": "Marine Water",
+        "pixels": 23443,
+        "flagged": 5,
+        "recall_within_class": 0.00021328328285628973,
+        "share_of_all_detections": 0.0022123893805309734,
+        "role": "water background"
+      },
+      {
+        "code": 6,
+        "class": "Clouds",
+        "pixels": 32843,
+        "flagged": 0,
+        "recall_within_class": 0.0,
+        "share_of_all_detections": 0.0,
+        "role": "other"
+      },
+      {
+        "code": 12,
+        "class": "Waves",
+        "pixels": 1865,
+        "flagged": 0,
+        "recall_within_class": 0.0,
+        "share_of_all_detections": 0.0,
+        "role": "other"
+      },
+      {
+        "code": 13,
+        "class": "Cloud Shadows",
+        "pixels": 3649,
+        "flagged": 0,
+        "recall_within_class": 0.0,
+        "share_of_all_detections": 0.0,
+        "role": "other"
+      }
+    ]
+  },
+  "comparison": {
+    "full": {
+      "all_test": {
+        "n_scored": 156506,
+        "n_debris": 381,
+        "base_rate": 0.0024344114602635044,
+        "rule_recall": 0.6272965879265092,
+        "rule_precision": 0.10575221238938053,
+        "rule_lift": 43.44056627877267,
+        "rule_false_positives": 2021,
+        "model_cut_at_matched_recall": 0.7758456468442336,
+        "model_recall": 0.6272965879265092,
+        "model_precision": 0.9192307692307692,
+        "model_lift": 377.59876842317783,
+        "model_false_positives": 21,
+        "precision_ratio": 8.692307692307692,
+        "false_positives_removed": 2000,
+        "model_roc_auc": 0.9993696668620986,
+        "model_average_precision": 0.9044715134329966,
+        "rule_roc_auc_equivalent": 0.8071759160609326
+      },
+      "unseen_locations": {
+        "n_scored": 802,
+        "n_debris": 79,
+        "base_rate": 0.09850374064837905,
+        "rule_recall": 0.9620253164556962,
+        "rule_precision": 0.3220338983050847,
+        "rule_lift": 3.2692555245655437,
+        "rule_false_positives": 160,
+        "model_cut_at_matched_recall": 0.45277388793199247,
+        "model_recall": 0.9620253164556962,
+        "model_precision": 0.8735632183908046,
+        "model_lift": 8.868325331005384,
+        "model_false_positives": 11,
+        "precision_ratio": 2.71264367816092,
+        "false_positives_removed": 149,
+        "model_roc_auc": 0.9977764938634732,
+        "model_average_precision": 0.9807548826197318,
+        "rule_roc_auc_equivalent": 0.870362589071555
+      }
+    },
+    "pipeline": {
+      "all_test": {
+        "n_scored": 156506,
+        "n_debris": 381,
+        "base_rate": 0.0024344114602635044,
+        "rule_recall": 0.6272965879265092,
+        "rule_precision": 0.10575221238938053,
+        "rule_lift": 43.44056627877267,
+        "rule_false_positives": 2021,
+        "model_cut_at_matched_recall": 0.7826751948991755,
+        "model_recall": 0.6272965879265092,
+        "model_precision": 0.908745247148289,
+        "model_lift": 373.2915581369819,
+        "model_false_positives": 24,
+        "precision_ratio": 8.593155893536123,
+        "false_positives_removed": 1997,
+        "model_roc_auc": 0.9973364686499857,
+        "model_average_precision": 0.8652764520278139,
+        "rule_roc_auc_equivalent": 0.8071759160609326
+      },
+      "unseen_locations": {
+        "n_scored": 802,
+        "n_debris": 79,
+        "base_rate": 0.09850374064837905,
+        "rule_recall": 0.9620253164556962,
+        "rule_precision": 0.3220338983050847,
+        "rule_lift": 3.2692555245655437,
+        "rule_false_positives": 160,
+        "model_cut_at_matched_recall": 0.5693787882590299,
+        "model_recall": 0.9620253164556962,
+        "model_precision": 0.8735632183908046,
+        "model_lift": 8.868325331005384,
+        "model_false_positives": 11,
+        "precision_ratio": 2.71264367816092,
+        "false_positives_removed": 149,
+        "model_roc_auc": 0.9962533046203407,
+        "model_average_precision": 0.9674368011917517,
+        "rule_roc_auc_equivalent": 0.870362589071555
+      }
+    }
+  },
+  "bootstrap_unseen": {
+    "n_patches": 30,
+    "n_debris_px": 79,
+    "auc_median": 0.9964815337094015,
+    "auc_p05": 0.9927797271326392,
+    "auc_p95": 0.9991691022226412,
+    "ratio_median": 2.626376811594203,
+    "ratio_p05": 1.5611856823266217,
+    "ratio_p95": 4.77823315118397,
+    "frac_gt_1": 1.0
+  },
+  "transfer": {
+    "threshold": 0.06803736463189125,
+    "n_flagged": 102827,
+    "p_debris_median": 0.04653133596247482,
+    "p_debris_mean": 0.1762580000837372,
+    "named": [
+      {
+        "code": 5,
+        "predicted_class": "Ship",
+        "pixels": 64185,
+        "share": 0.6242037597129159
+      },
+      {
+        "code": 1,
+        "predicted_class": "Marine Debris",
+        "pixels": 25043,
+        "share": 0.24354498332150115
+      },
+      {
+        "code": 9,
+        "predicted_class": "Foam",
+        "pixels": 3794,
+        "share": 0.0368969239596604
+      },
+      {
+        "code": 8,
+        "predicted_class": "Sediment-Laden Water",
+        "pixels": 3707,
+        "share": 0.036050842677506884
+      },
+      {
+        "code": 2,
+        "predicted_class": "Dense Sargassum",
+        "pixels": 3422,
+        "share": 0.033279197098038456
+      },
+      {
+        "code": 4,
+        "predicted_class": "Natural Organic Material",
+        "pixels": 1870,
+        "share": 0.018185885030196348
+      },
+      {
+        "code": 6,
+        "predicted_class": "Clouds",
+        "pixels": 751,
+        "share": 0.007303529228704523
+      },
+      {
+        "code": 3,
+        "predicted_class": "Sparse Sargassum",
+        "pixels": 54,
+        "share": 0.0005251538992677021
+      },
+      {
+        "code": 14,
+        "predicted_class": "Wakes",
+        "pixels": 1,
+        "share": 9.72507220866115e-06
+      }
+    ],
+    "band_shift": [
+      {
+        "band": "B03",
+        "marida_median": 0.06323567032814026,
+        "deploy_median": 0.05480000004172325,
+        "ratio": 0.866599496097014,
+        "marida_p05": 0.014584359712898731,
+        "marida_p95": 0.1184159517288208,
+        "deploy_p95": 0.08335000276565552,
+        "deploy_outside_training_range": 0.0,
+        "shift_flag": "ok"
+      },
+      {
+        "band": "B04",
+        "marida_median": 0.0426885150372982,
+        "deploy_median": 0.036249998956918716,
+        "ratio": 0.8491745127523418,
+        "marida_p05": 0.007238432765007019,
+        "marida_p95": 0.1560981422662735,
+        "deploy_p95": 0.07464999705553055,
+        "deploy_outside_training_range": 0.0,
+        "shift_flag": "ok"
+      },
+      {
+        "band": "B06",
+        "marida_median": 0.03300147131085396,
+        "deploy_median": 0.028300000354647636,
+        "ratio": 0.8575375348595431,
+        "marida_p05": 0.004919450264424086,
+        "marida_p95": 0.12118454277515411,
+        "deploy_p95": 0.05285000056028366,
+        "deploy_outside_training_range": 0.0,
+        "shift_flag": "ok"
+      },
+      {
+        "band": "B08",
+        "marida_median": 0.030543016269803047,
+        "deploy_median": 0.024450000375509262,
+        "ratio": 0.8005103412030146,
+        "marida_p05": 0.003952610306441784,
+        "marida_p95": 0.10845902562141418,
+        "deploy_p95": 0.04670000076293945,
+        "deploy_outside_training_range": 0.0,
+        "shift_flag": "ok"
+      },
+      {
+        "band": "B8A",
+        "marida_median": 0.0329076424241066,
+        "deploy_median": 0.024399999529123306,
+        "ratio": 0.7414690853468436,
+        "marida_p05": 0.0041913907043635845,
+        "marida_p95": 0.11017860472202301,
+        "deploy_p95": 0.042100001126527786,
+        "deploy_outside_training_range": 0.0,
+        "shift_flag": "ok"
+      },
+      {
+        "band": "B11",
+        "marida_median": 0.005993604194372892,
+        "deploy_median": 0.014399999752640724,
+        "ratio": 2.4025610109790354,
+        "marida_p05": 0.0014723187778145075,
+        "marida_p95": 0.02875116840004921,
+        "deploy_p95": 0.020649999380111694,
+        "deploy_outside_training_range": 0.0,
+        "shift_flag": "SHIFTED"
+      },
+      {
+        "band": "B12",
+        "marida_median": 0.003956289030611515,
+        "deploy_median": 0.01140000019222498,
+        "ratio": 2.8814882087780394,
+        "marida_p05": 0.0008571766666136682,
+        "marida_p95": 0.021464165300130844,
+        "deploy_p95": 0.015850000083446503,
+        "deploy_outside_training_range": 0.0,
+        "shift_flag": "SHIFTED"
+      }
+    ],
+    "feature_shift": [
+      {
+        "feature": "B12",
+        "marida_median": 0.003956289030611515,
+        "deploy_median": 0.012900000438094139,
+        "shift_in_training_sd": 0.6621813086527311,
+        "deploy_outside_training_range": 9.72507220866115e-06,
+        "severity": "ok"
+      },
+      {
+        "feature": "B11",
+        "marida_median": 0.005993604194372892,
+        "deploy_median": 0.016699999570846558,
+        "shift_in_training_sd": 0.5972704496925266,
+        "deploy_outside_training_range": 9.72507220866115e-06,
+        "severity": "ok"
+      },
+      {
+        "feature": "NDVI",
+        "marida_median": -0.27617377042770386,
+        "deploy_median": -0.14050716161727905,
+        "shift_in_training_sd": 0.4753172281319943,
+        "deploy_outside_training_range": 0.032384490454841625,
+        "severity": "ok"
+      },
+      {
+        "feature": "PI",
+        "marida_median": 0.36191311478614807,
+        "deploy_median": 0.4297463893890381,
+        "shift_in_training_sd": 0.47531704411804016,
+        "deploy_outside_training_range": 0.032384490454841625,
+        "severity": "ok"
+      },
+      {
+        "feature": "NDWI",
+        "marida_median": 0.35234534740448,
+        "deploy_median": 0.14593817293643951,
+        "shift_in_training_sd": -0.4197839915911936,
+        "deploy_outside_training_range": 0.05414920205782528,
+        "severity": "ok"
+      },
+      {
+        "feature": "FDI",
+        "marida_median": 0.01846897229552269,
+        "deploy_median": 0.07909750938415527,
+        "shift_in_training_sd": 0.41206894940888256,
+        "deploy_outside_training_range": 0.001701887636515701,
+        "severity": "ok"
+      },
+      {
+        "feature": "B08",
+        "marida_median": 0.030543016269803047,
+        "deploy_median": 0.05990000069141388,
+        "shift_in_training_sd": 0.3551172119295317,
+        "deploy_outside_training_range": 9.72507220866115e-06,
+        "severity": "ok"
+      },
+      {
+        "feature": "B06",
+        "marida_median": 0.03300147131085396,
+        "deploy_median": 0.06560000032186508,
+        "shift_in_training_sd": 0.34911658823453373,
+        "deploy_outside_training_range": 9.72507220866115e-06,
+        "severity": "ok"
+      },
+      {
+        "feature": "B04",
+        "marida_median": 0.0426885150372982,
+        "deploy_median": 0.07829999923706055,
+        "shift_in_training_sd": 0.2781233207151488,
+        "deploy_outside_training_range": 9.72507220866115e-06,
+        "severity": "ok"
+      },
+      {
+        "feature": "B8A",
+        "marida_median": 0.0329076424241066,
+        "deploy_median": 0.054099999368190765,
+        "shift_in_training_sd": 0.2692992646411398,
+        "deploy_outside_training_range": 9.72507220866115e-06,
+        "severity": "ok"
+      },
+      {
+        "feature": "B03",
+        "marida_median": 0.06323567032814026,
+        "deploy_median": 0.07900000363588333,
+        "shift_in_training_sd": 0.1810575178233389,
+        "deploy_outside_training_range": 9.72507220866115e-06,
+        "severity": "ok"
+      },
+      {
+        "feature": "FAI",
+        "marida_median": -0.011860953643918037,
+        "deploy_median": -0.008290737867355347,
+        "shift_in_training_sd": 0.08737899882637537,
+        "deploy_outside_training_range": 0.024886459781963882,
+        "severity": "ok"
+      }
+    ],
+    "flagged_shift": [
+      {
+        "feature": "B03",
+        "marida_flagged_median": 0.058474499732255936,
+        "deploy_flagged_median": 0.07900000363588333,
+        "shift_in_training_sd": 0.21781440197733465,
+        "deploy_outside_1_99pct": 1.94501444173223e-05,
+        "severity": "ok"
+      },
+      {
+        "feature": "NDWI",
+        "marida_flagged_median": 0.002463650656864047,
+        "deploy_flagged_median": 0.14593817293643951,
+        "shift_in_training_sd": 0.21506104740692836,
+        "deploy_outside_1_99pct": 0.01176733737247999,
+        "severity": "ok"
+      },
+      {
+        "feature": "FAI",
+        "marida_flagged_median": 0.006108790636062622,
+        "deploy_flagged_median": -0.008290737867355347,
+        "shift_in_training_sd": -0.2050496976498564,
+        "deploy_outside_1_99pct": 0.007089577640113978,
+        "severity": "ok"
+      },
+      {
+        "feature": "PI",
+        "marida_flagged_median": 0.5033797025680542,
+        "deploy_flagged_median": 0.4297463893890381,
+        "shift_in_training_sd": -0.2025370903561754,
+        "deploy_outside_1_99pct": 0.012710669376720123,
+        "severity": "ok"
+      },
+      {
+        "feature": "NDVI",
+        "marida_flagged_median": 0.006759387906640768,
+        "deploy_flagged_median": -0.14050716161727905,
+        "shift_in_training_sd": -0.20253698904988812,
+        "deploy_outside_1_99pct": 0.012710669376720123,
+        "severity": "ok"
+      },
+      {
+        "feature": "B04",
+        "marida_flagged_median": 0.056971266865730286,
+        "deploy_flagged_median": 0.07829999923706055,
+        "shift_in_training_sd": 0.19173597116859348,
+        "deploy_outside_1_99pct": 2.917521662598345e-05,
+        "severity": "ok"
+      },
+      {
+        "feature": "B12",
+        "marida_flagged_median": 0.009265775792300701,
+        "deploy_flagged_median": 0.012900000438094139,
+        "shift_in_training_sd": 0.11274658045666656,
+        "deploy_outside_1_99pct": 0.0005835043325196689,
+        "severity": "ok"
+      },
+      {
+        "feature": "FDI",
+        "marida_flagged_median": 0.06649509072303772,
+        "deploy_flagged_median": 0.07909750938415527,
+        "shift_in_training_sd": 0.09800140332089613,
+        "deploy_outside_1_99pct": 0.0,
+        "severity": "ok"
+      },
+      {
+        "feature": "B06",
+        "marida_flagged_median": 0.058275479823350906,
+        "deploy_flagged_median": 0.06560000032186508,
+        "shift_in_training_sd": 0.06531516390258275,
+        "deploy_outside_1_99pct": 2.917521662598345e-05,
+        "severity": "ok"
+      },
+      {
+        "feature": "B08",
+        "marida_flagged_median": 0.06796327233314514,
+        "deploy_flagged_median": 0.05990000069141388,
+        "shift_in_training_sd": -0.06298781697153781,
+        "deploy_outside_1_99pct": 7.78005776692892e-05,
+        "severity": "ok"
+      },
+      {
+        "feature": "B8A",
+        "marida_flagged_median": 0.059342700988054276,
+        "deploy_flagged_median": 0.054099999368190765,
+        "shift_in_training_sd": -0.0420948121158142,
+        "deploy_outside_1_99pct": 0.0005446040436850243,
+        "severity": "ok"
+      },
+      {
+        "feature": "B11",
+        "marida_flagged_median": 0.015604459680616856,
+        "deploy_flagged_median": 0.016699999570846558,
+        "shift_in_training_sd": 0.020538993322307214,
+        "deploy_outside_1_99pct": 0.0008169060655275366,
+        "severity": "ok"
+      }
+    ],
+    "frac_inside_training_support": 0.9849553132932012,
+    "verdict": "TRANSFER SUPPORTED. In the feature space the model actually uses, the largest standardised shift between training and deployment is 0.22 training spreads; 0 features exceed two spreads and 0 exceed one. 98% of deployment pixels fall inside the training support on every feature, so the model is interpolating rather than extrapolating for the great majority of what it scores. Raw band medians differ by more than 50% in B11, B12, but that ratio is not the operative test: shortwave infrared over water is a small number, so a large ratio can still be a small distance in the units the model was fitted in. Predictions for this deployment are therefore usable, subject to the caveats on label meaning and geographic representation that no distributional check can address. Independently of the measured shift, Guinea runs a monthly MEDIAN composite while MARIDA annotates single acquisitions. A median over a month suppresses transient floating material -- which is what debris is -- while preserving persistent features such as turbid plumes, shallow bathymetry and moored vessels. Deployment is therefore biased toward the confuser classes by construction, and no amount of retraining on single-date imagery removes that bias."
+  },
+  "geographic_caveat": "MARIDA covers UTM zones [16, 18, 19, 30, 36, 48, 50, 51, 52]. Guinea lies in zone 28. 1 MARIDA scene is within two zones of it, so applying this model to Guinea is a geographic extrapolation: the water optical properties, atmospheric correction residuals and floating-material mix are all unverified there. The model's MARIDA test scores are an upper bound on its Guinean performance, not an estimate of it. Additionally, MARIDA's 'Marine Debris' label is expert visual interpretation of Sentinel-2 imagery at sites with reported debris events -- not physical sampling -- so it supports claims about separability from other floating material, not claims that detected material is plastic."
+}

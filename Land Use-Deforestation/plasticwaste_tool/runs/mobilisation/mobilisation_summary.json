@@ -1,0 +1,124 @@
+{
+  "flood_validation": {
+    "status": "ok",
+    "n_sites": 111,
+    "n_flooded": 13,
+    "prevalence": 0.11711711711711711,
+    "flooded_by_region": {
+      "Kankan": 11,
+      "Conakry": 2
+    },
+    "components": {
+      "mobilisation_risk": {
+        "auc": 0.7708006279434851,
+        "ap": 0.42403808490765016,
+        "lift": 3.620632878826859,
+        "p": 0.0007901785549842663,
+        "median_flooded": 48.2672617910849,
+        "median_unflooded": 10.231471855452272
+      },
+      "ocean_leakage_risk": {
+        "auc": 0.24489795918367346,
+        "ap": 0.09392302282862952,
+        "lift": 0.8019581179982982,
+        "p": 0.9985832837105326,
+        "median_flooded": 2.2388139291444165,
+        "median_unflooded": 7.776050803369742
+      },
+      "p_mobilise": {
+        "auc": 0.7252747252747253,
+        "ap": 0.2524000671362031,
+        "lift": 2.1551082655475806,
+        "p": 0.004299303125245229,
+        "median_flooded": 0.75576950672701,
+        "median_unflooded": 0.5560193926767542
+      },
+      "p_washoff": {
+        "auc": 0.24725274725274726,
+        "ap": 0.09332862558221734,
+        "lift": 0.7968828799712404,
+        "p": 0.9984507103229205,
+        "median_flooded": 0.11504980858280857,
+        "median_unflooded": 0.30564904127018044
+      },
+      "p_inundation": {
+        "auc": 0.7664835164835165,
+        "ap": 0.4040986040986041,
+        "lift": 3.4503803888419275,
+        "p": 0.0009302316312292114,
+        "median_flooded": 0.7239368634986693,
+        "median_unflooded": 0.20993644038732287
+      },
+      "p_to_river": {
+        "auc": 0.749607535321821,
+        "ap": 0.33206049891570255,
+        "lift": 2.8352857984340756,
+        "p": 0.001795879656803366,
+        "median_flooded": 0.754862347024527,
+        "median_unflooded": 0.300635605053877
+      },
+      "p_to_ocean": {
+        "auc": 0.2032967032967033,
+        "ap": 0.13759087066779374,
+        "lift": 1.1748143572403928,
+        "p": 0.9997413151869923,
+        "median_flooded": 0.03689555524478659,
+        "median_unflooded": 0.930664859330803
+      },
+      "mass_proxy": {
+        "auc": 0.5490580847723705,
+        "ap": 0.12890442890442894,
+        "lift": 1.1006455083378164,
+        "p": 0.20654313487875564,
+        "median_flooded": 2.0,
+        "median_unflooded": 2.0
+      }
+    }
+  },
+  "n_sites": 111,
+  "wet_months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "wet_years": [
+    2020,
+    2025
+  ],
+  "acc_threshold_cells": 100,
+  "decay_river_m": 2000.0,
+  "decay_ocean_m": 150000.0,
+  "friction_by_worldcover": {
+    "50": 1.0,
+    "60": 1.1,
+    "30": 1.6,
+    "40": 1.8,
+    "20": 2.2,
+    "95": 2.6,
+    "90": 2.6,
+    "10": 3.0,
+    "80": 1.0,
+    "70": 2.0
+  },
+  "risk_class_counts": {
+    "low": 54,
+    "moderate": 32,
+    "high": 20,
+    "very high": 5
+  },
+  "region_mean_risk": {
+    "Boke": 13.194224567685996,
+    "Conakry": 18.84436136213142,
+    "Faranah": 4.117512260316576,
+    "Kankan": 1.811466768183961,
+    "Kindia": 31.700227358114457,
+    "Labe": 1.248953151023076,
+    "Mamou": 5.865695708550741,
+    "Nzerekore": 13.944600556447712
+  },
+  "calibrated": false,
+  "caveat": "relative ranking only; plastic fraction of each dump is unknown and no Guinean calibration data exists"
+}

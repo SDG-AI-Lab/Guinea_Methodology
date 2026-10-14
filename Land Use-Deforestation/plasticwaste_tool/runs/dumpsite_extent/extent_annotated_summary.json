@@ -1,0 +1,37 @@
+{
+  "n_annotated": 55,
+  "n_not_a_dump": 0,
+  "n_unclear": 9,
+  "n_usable": 46,
+  "longest_side": {
+    "n": 46,
+    "censored_fraction": 0.0,
+    "p25": 10.5,
+    "median": 16.38,
+    "p75": 25.13
+  },
+  "area_equivalent": {
+    "n": 46,
+    "censored_fraction": 0.0,
+    "p25": 9.906942010529788,
+    "median": 14.024621207005913,
+    "p75": 19.49915126358068
+  },
+  "pixels": {
+    "Sentinel-2 SWIR (B11/B12)": {
+      "gsd_m": 20,
+      "pixels": 0.4917249999999999,
+      "verdict": "sub-pixel"
+    },
+    "EnMAP": {
+      "gsd_m": 30,
+      "pixels": 0.2185444444444444,
+      "verdict": "sub-pixel"
+    },
+    "EMIT": {
+      "gsd_m": 60,
+      "pixels": 0.0546361111111111,
+      "verdict": "sub-pixel"
+    }
+  }
+}

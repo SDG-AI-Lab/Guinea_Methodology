@@ -1,0 +1,502 @@
+{
+  "generated": "e:\\SDG AI Lab\\Guinea\\Land Use-Deforestation\\plasticwaste_tool\\31_run_leakage.py",
+  "n_draws": 20000,
+  "seed": 20240119,
+  "population_source": "E:\\SDG AI Lab\\Guinea\\Land Use-Deforestation\\data\\gin_pd_2020_1km_UNadj.tif",
+  "population_total": 13211010.071600731,
+  "validation": {
+    "population": {
+      "area_weighted_total": 13211010.071600731,
+      "naive_pixel_sum": 15698904.422635257,
+      "un_wpp_2020": 13132795,
+      "relative_error": 0.005955706428123708,
+      "naive_relative_error": 0.19539705162802412,
+      "within_tolerance": true,
+      "mean_pixel_area_km2": 0.8408408134663774,
+      "passes": true
+    },
+    "collection": {
+      "urban_fraction": 0.38988373934883164,
+      "implied_national_collection": 0.10521488769934763,
+      "reported_national_collection": 0.097,
+      "ratio": 1.0846895639108003,
+      "agrees_within_20pct": true,
+      "passes": true
+    },
+    "generation": {
+      "modelled_msw_t_yr": 1493436.9821678456,
+      "waw_reported_msw_t_yr": 1568192.34,
+      "relative_error": -0.047669763411900434,
+      "passes": true
+    },
+    "note": "All three checks exercise the FRONT of the chain only. Open burning, environmental leakage and transport to water have no Guinean measurement to be checked against, which is why they dominate the variance decomposition."
+  },
+  "scenarios": {
+    "conakry_recent": {
+      "scenario": "conakry_recent",
+      "plastic_share": 0.185,
+      "deterministic": {
+        "msw_t_yr": 1493436.9821678456,
+        "plastic_t_yr": 276285.84170105145,
+        "collected_t_yr": 29069.383807495877,
+        "uncollected_t_yr": 247216.45789355558,
+        "burned_t_yr": 135969.05184145557,
+        "to_environment_t_yr": 84016.94221522492,
+        "contained_t_yr": 56299.847644370966,
+        "to_water_t_yr": 2520.5082664567476,
+        "scenario": "conakry_recent"
+      },
+      "national_quantiles": [
+        {
+          "quantity": "msw_t_yr",
+          "mean": 1515566.3574054188,
+          "p5": 1120032.6782078915,
+          "p25": 1325071.7963556116,
+          "p50": 1494812.4994849279,
+          "p75": 1677097.4334668086,
+          "p95": 1992533.2145713216,
+          "ratio_p95_p5": 1.778995607306275
+        },
+        {
+          "quantity": "plastic_t_yr",
+          "mean": 280706.19949495635,
+          "p5": 194283.28457121976,
+          "p25": 238560.24544755154,
+          "p50": 275061.2588949331,
+          "p75": 316254.5980090405,
+          "p95": 388135.72218442353,
+          "ratio_p95_p5": 1.9977823776298262
+        },
+        {
+          "quantity": "uncollected_t_yr",
+          "mean": 255621.86031095544,
+          "p5": 176657.77055204957,
+          "p25": 216997.06914295186,
+          "p50": 250513.64224531458,
+          "p75": 288108.640403486,
+          "p95": 353289.9302373,
+          "ratio_p95_p5": 1.9998550255291963
+        },
+        {
+          "quantity": "burned_t_yr",
+          "mean": 140627.60810609767,
+          "p5": 85545.00243638411,
+          "p25": 113257.76402722913,
+          "p50": 136493.55657386692,
+          "p75": 163545.37598330146,
+          "p95": 209691.2634866348,
+          "ratio_p95_p5": 2.4512392017590106
+        },
+        {
+          "quantity": "to_environment_t_yr",
+          "mean": 86816.43324999484,
+          "p5": 46990.36517891153,
+          "p25": 66114.46931887323,
+          "p50": 83208.36140716683,
+          "p75": 103502.42245513407,
+          "p95": 139248.30458393446,
+          "ratio_p95_p5": 2.9633373576425557
+        },
+        {
+          "quantity": "to_water_t_yr",
+          "mean": 3953.4549861377955,
+          "p5": 501.3492490524947,
+          "p25": 1293.249287680457,
+          "p50": 2487.0568942624363,
+          "p75": 4790.367658939364,
+          "p95": 12145.867477634294,
+          "ratio_p95_p5": 24.22636016826374
+        },
+        {
+          "quantity": "leak_kg_per_capita_yr",
+          "mean": 6.571521237170295,
+          "p5": 3.556909344874785,
+          "p25": 5.004497684927008,
+          "p50": 6.298410262061422,
+          "p75": 7.8345578342741415,
+          "p95": 10.540322339415358,
+          "ratio_p95_p5": 2.9633373576425552
+        }
+      ],
+      "variance_shares": [
+        {
+          "parameter": "open_burn_fraction",
+          "spearman_rho": -0.6009167828842918,
+          "rho_squared": 0.36110097995200713,
+          "share_of_variance": 0.39078458624453344
+        },
+        {
+          "parameter": "msw_rate",
+          "spearman_rho": 0.5088279421320698,
+          "rho_squared": 0.258905874694357,
+          "share_of_variance": 0.28018873039934805
+        },
+        {
+          "parameter": "leak_to_env",
+          "spearman_rho": 0.42601292502303223,
+          "rho_squared": 0.18148701228667968,
+          "share_of_variance": 0.1964058004346395
+        },
+        {
+          "parameter": "plastic_share",
+          "spearman_rho": 0.34689346821323364,
+          "rho_squared": 0.12033507828900573,
+          "share_of_variance": 0.13022699020679093
+        },
+        {
+          "parameter": "collection_rural",
+          "spearman_rho": -0.0297424820933562,
+          "rho_squared": 0.0008846152410736141,
+          "share_of_variance": 0.0009573333227024354
+        },
+        {
+          "parameter": "collection_urban",
+          "spearman_rho": -0.02416657003991642,
+          "rho_squared": 0.0005840231074941859,
+          "share_of_variance": 0.0006320315952886506
+        },
+        {
+          "parameter": "litter_rate_collected",
+          "spearman_rho": 0.022173415288433536,
+          "rho_squared": 0.0004916603455533381,
+          "share_of_variance": 0.0005320763314888855
+        },
+        {
+          "parameter": "urban_density_threshold",
+          "spearman_rho": 0.015241558220103894,
+          "rho_squared": 0.00023230509697681658,
+          "share_of_variance": 0.0002514012872982149
+        },
+        {
+          "parameter": "p_to_water",
+          "spearman_rho": -0.004410354572025886,
+          "rho_squared": 1.9451227450989637e-05,
+          "share_of_variance": 2.1050177909773478e-05
+        }
+      ],
+      "additivity": {
+        "national_p5_correct": 45911.631447679305,
+        "national_p50_correct": 81286.43500761612,
+        "national_p95_correct": 135964.7238018161,
+        "sum_of_regional_p5": 45859.438061993904,
+        "sum_of_regional_p95": 136053.4708433858,
+        "quadrature_p5": 64328.13258188486,
+        "quadrature_p95": 98129.56663057132,
+        "correct_interval_width": 90053.09235413678,
+        "quadrature_interval_width": 33801.43404868646,
+        "quadrature_understates_by": 2.6641796387818135,
+        "note": "Summing regional p5/p95 happens to reproduce the correct interval here BECAUSE the parameters are perfectly shared -- that is the correlated case, not a coincidence. The quadrature interval is the one that is wrong, and the ratio above is the factor by which it understates the true national uncertainty."
+      },
+      "adm1_top3": [
+        {
+          "adm1": "Kankan",
+          "to_env_t_yr_p50": 17142.937794242232
+        },
+        {
+          "adm1": "Kindia",
+          "to_env_t_yr_p50": 13201.404774397535
+        },
+        {
+          "adm1": "Nzerekore",
+          "to_env_t_yr_p50": 11386.423977456834
+        }
+      ],
+      "sites": {
+        "national_to_environment_t_yr": 84016.94221522492,
+        "sites_to_environment_t_yr": 18927.314215917948,
+        "share_of_national": 0.22527973188350672,
+        "n_sites": 111,
+        "catchment_radius_km": 5.0,
+        "population_in_catchments": 3407869.8326769625,
+        "national_population": 13211010.07160073,
+        "population_share": 0.2579567962030963,
+        "caveat": "The site inventory is a LABELLED SAMPLE from a national random grid, not a census of Guinea's dumpsites, so this share is a property of the sample and must not be read as 'the rest of the country has no sites'. It answers a narrower question: of the national leakage flow, how much originates from populations living near a site we have actually confirmed."
+      },
+      "cross_check": {
+        "to_environment_t_yr": 84016.94221522492,
+        "n_detected_sites": 111,
+        "n_fdi_patches": 44,
+        "implied_t_yr_per_detected_site": 756.9093893263506,
+        "interpretation": "If every tonne entering the environment passed through a detected site, each of the 111 sites would handle 757 t/yr. It does not: detection is incomplete, much leakage is diffuse littering that never forms a visible accumulation, and the site inventory is a labelled sample rather than a census. The figure is an UPPER BOUND on per-site throughput under a maximally concentrated assumption, useful for sanity-checking order of magnitude and nothing else.",
+        "is_validation": false
+      }
+    },
+    "waw_2007": {
+      "scenario": "waw_2007",
+      "plastic_share": 0.04,
+      "deterministic": {
+        "msw_t_yr": 1493436.9821678456,
+        "plastic_t_yr": 59737.47928671383,
+        "collected_t_yr": 6285.272174593709,
+        "uncollected_t_yr": 53452.20711212012,
+        "burned_t_yr": 29398.71391166607,
+        "to_environment_t_yr": 18165.825343832417,
+        "contained_t_yr": 12172.940031215345,
+        "to_water_t_yr": 544.9747603149725,
+        "scenario": "waw_2007"
+      },
+      "national_quantiles": [
+        {
+          "quantity": "msw_t_yr",
+          "mean": 1515566.3574054185,
+          "p5": 1120032.6782078918,
+          "p25": 1325071.7963556116,
+          "p50": 1494812.4994849279,
+          "p75": 1677097.4334668084,
+          "p95": 1992533.214571322,
+          "ratio_p95_p5": 1.778995607306275
+        },
+        {
+          "quantity": "plastic_t_yr",
+          "mean": 60710.98485635395,
+          "p5": 40200.13984007144,
+          "p25": 50486.67813443481,
+          "p50": 59261.983264311886,
+          "p75": 69261.0628370533,
+          "p95": 86367.12073692435,
+          "ratio_p95_p5": 2.148428365685279
+        },
+        {
+          "quantity": "uncollected_t_yr",
+          "mean": 55286.59211460303,
+          "p5": 36540.997521907295,
+          "p25": 45996.80195569317,
+          "p50": 53968.472159829325,
+          "p75": 63100.1521537701,
+          "p95": 78742.96137261526,
+          "ratio_p95_p5": 2.154920957628668
+        },
+        {
+          "quantity": "burned_t_yr",
+          "mean": 30396.330882323797,
+          "p5": 17924.09136636671,
+          "p25": 24147.13184260752,
+          "p50": 29359.72355430609,
+          "p75": 35483.099352464546,
+          "p95": 46490.2100523818,
+          "ratio_p95_p5": 2.59372757603866
+        },
+        {
+          "quantity": "to_environment_t_yr",
+          "mean": 18791.01526932351,
+          "p5": 9700.447205227842,
+          "p25": 14130.098334258151,
+          "p50": 17941.101057249572,
+          "p75": 22510.69475270642,
+          "p95": 30771.07897449841,
+          "ratio_p95_p5": 3.172129936227581
+        },
+        {
+          "quantity": "to_water_t_yr",
+          "mean": 860.4217115364401,
+          "p5": 105.67709541737405,
+          "p25": 275.7122674630879,
+          "p50": 536.2271848900141,
+          "p75": 1029.8646323162384,
+          "p95": 2610.8209311268383,
+          "ratio_p95_p5": 24.70564620285354
+        },
+        {
+          "quantity": "leak_kg_per_capita_yr",
+          "mean": 1.4223753647510973,
+          "p5": 0.7342699121909362,
+          "p25": 1.0695698707120929,
+          "p50": 1.3580415850122591,
+          "p75": 1.703934417633737,
+          "p95": 2.3291995697320664,
+          "ratio_p95_p5": 3.1721299362275817
+        }
+      ],
+      "variance_shares": [
+        {
+          "parameter": "open_burn_fraction",
+          "spearman_rho": -0.5793126149122814,
+          "rho_squared": 0.3356031057965052,
+          "share_of_variance": 0.3603594416024301
+        },
+        {
+          "parameter": "msw_rate",
+          "spearman_rho": 0.4902613852306534,
+          "rho_squared": 0.24035622584827912,
+          "share_of_variance": 0.2580865130159811
+        },
+        {
+          "parameter": "plastic_share",
+          "spearman_rho": 0.43562758126206896,
+          "rho_squared": 0.1897713895562405,
+          "share_of_variance": 0.20377019995181522
+        },
+        {
+          "parameter": "leak_to_env",
+          "spearman_rho": 0.4038795566956988,
+          "rho_squared": 0.1631186963167142,
+          "share_of_variance": 0.17515142531264266
+        },
+        {
+          "parameter": "collection_urban",
+          "spearman_rho": -0.02831010952977527,
+          "rho_squared": 0.0008014623015878725,
+          "share_of_variance": 0.0008605835359602673
+        },
+        {
+          "parameter": "urban_density_threshold",
+          "spearman_rho": 0.025559197824897992,
+          "rho_squared": 0.0006532725934522703,
+          "share_of_variance": 0.0007014623611182412
+        },
+        {
+          "parameter": "collection_rural",
+          "spearman_rho": -0.024724463496311154,
+          "rho_squared": 0.0006112990951804227,
+          "share_of_variance": 0.0006563926161185778
+        },
+        {
+          "parameter": "litter_rate_collected",
+          "spearman_rho": 0.018489538676723843,
+          "rho_squared": 0.0003418630404780669,
+          "share_of_variance": 0.00036708115104835845
+        },
+        {
+          "parameter": "p_to_water",
+          "spearman_rho": 0.006608966511022415,
+          "rho_squared": 4.36784383438158e-05,
+          "share_of_variance": 4.6900452885521363e-05
+        }
+      ],
+      "additivity": {
+        "national_p5_correct": 9465.666327344572,
+        "national_p50_correct": 17528.24560628189,
+        "national_p95_correct": 30062.549900661023,
+        "sum_of_regional_p5": 9466.856011321874,
+        "sum_of_regional_p95": 30075.148941838015,
+        "quadrature_p5": 13666.41443081199,
+        "quadrature_p95": 21389.357167214457,
+        "correct_interval_width": 20596.883573316452,
+        "quadrature_interval_width": 7722.942736402467,
+        "quadrature_understates_by": 2.6669734939548415,
+        "note": "Summing regional p5/p95 happens to reproduce the correct interval here BECAUSE the parameters are perfectly shared -- that is the correlated case, not a coincidence. The quadrature interval is the one that is wrong, and the ratio above is the factor by which it understates the true national uncertainty."
+      },
+      "adm1_top3": [
+        {
+          "adm1": "Kankan",
+          "to_env_t_yr_p50": 3699.781254365652
+        },
+        {
+          "adm1": "Kindia",
+          "to_env_t_yr_p50": 2847.629249723411
+        },
+        {
+          "adm1": "Nzerekore",
+          "to_env_t_yr_p50": 2456.9697222514524
+        }
+      ],
+      "sites": {
+        "national_to_environment_t_yr": 18165.825343832417,
+        "sites_to_environment_t_yr": 4092.392262901178,
+        "share_of_national": 0.22527973188350672,
+        "n_sites": 111,
+        "catchment_radius_km": 5.0,
+        "population_in_catchments": 3407869.8326769625,
+        "national_population": 13211010.07160073,
+        "population_share": 0.2579567962030963,
+        "caveat": "The site inventory is a LABELLED SAMPLE from a national random grid, not a census of Guinea's dumpsites, so this share is a property of the sample and must not be read as 'the rest of the country has no sites'. It answers a narrower question: of the national leakage flow, how much originates from populations living near a site we have actually confirmed."
+      },
+      "cross_check": {
+        "to_environment_t_yr": 18165.825343832417,
+        "n_detected_sites": 111,
+        "n_fdi_patches": 44,
+        "implied_t_yr_per_detected_site": 163.65608417867043,
+        "interpretation": "If every tonne entering the environment passed through a detected site, each of the 111 sites would handle 164 t/yr. It does not: detection is incomplete, much leakage is diffuse littering that never forms a visible accumulation, and the site inventory is a labelled sample rather than a census. The figure is an UPPER BOUND on per-site throughput under a maximally concentrated assumption, useful for sanity-checking order of magnitude and nothing else.",
+        "is_validation": false
+      }
+    }
+  },
+  "sensitivity": {
+    "urban_threshold": [
+      {
+        "threshold_per_km2": 300,
+        "urban_share": 0.38988373934883164,
+        "implied_national_collection": 0.10521488769934763,
+        "reported_national_collection": 0.097,
+        "collection_ratio": 1.0846895639108003,
+        "plastic_t_yr": 59737.47928671383,
+        "to_environment_t_yr": 18165.825343832417,
+        "to_water_t_yr": 544.9747603149725
+      },
+      {
+        "threshold_per_km2": 500,
+        "urban_share": 0.3484061251898699,
+        "implied_national_collection": 0.0962557230410119,
+        "reported_national_collection": 0.097,
+        "collection_ratio": 0.9923270416599165,
+        "plastic_t_yr": 59737.479286713824,
+        "to_environment_t_yr": 18335.750681274552,
+        "to_water_t_yr": 550.0725204382366
+      },
+      {
+        "threshold_per_km2": 1000,
+        "urban_share": 0.30385804967057045,
+        "implied_national_collection": 0.08663333872884321,
+        "reported_national_collection": 0.097,
+        "collection_ratio": 0.8931272033901362,
+        "plastic_t_yr": 59737.47928671381,
+        "to_environment_t_yr": 18518.255073547538,
+        "to_water_t_yr": 555.5476522064262
+      },
+      {
+        "threshold_per_km2": 1500,
+        "urban_share": 0.2742088693471933,
+        "implied_national_collection": 0.08022911577899375,
+        "reported_national_collection": 0.097,
+        "collection_ratio": 0.8271042863813788,
+        "plastic_t_yr": 59737.47928671383,
+        "to_environment_t_yr": 18639.721726668533,
+        "to_water_t_yr": 559.191651800056
+      }
+    ],
+    "catchment_radius": [
+      {
+        "radius_km": 2.0,
+        "pop_in_catchments": 1739517.3500900846,
+        "population_share": 0.13167179047342242,
+        "sites_to_env_t_yr": 2070.1700703132656,
+        "share_of_national": 0.11395959341952612,
+        "double_counted_pop": 3707544.4860680047,
+        "median_site_t_yr": 12.30924302211609
+      },
+      {
+        "radius_km": 5.0,
+        "pop_in_catchments": 3407869.8326769625,
+        "population_share": 0.2579567962030963,
+        "sites_to_env_t_yr": 4092.392262901178,
+        "share_of_national": 0.22527973188350672,
+        "double_counted_pop": 25014730.444302395,
+        "median_site_t_yr": 34.154074055745916
+      },
+      {
+        "radius_km": 10.0,
+        "pop_in_catchments": 4149993.0387425926,
+        "population_share": 0.3141313961801978,
+        "sites_to_env_t_yr": 5091.815801513089,
+        "share_of_national": 0.28029641952061596,
+        "double_counted_pop": 68561194.39256962,
+        "median_site_t_yr": 45.88064774349333
+      },
+      {
+        "radius_km": 20.0,
+        "pop_in_catchments": 5403257.969806752,
+        "population_share": 0.408996582435582,
+        "sites_to_env_t_yr": 6918.515663855466,
+        "share_of_national": 0.38085336244875934,
+        "double_counted_pop": 130886653.7790159,
+        "median_site_t_yr": 66.0369570429243
+      }
+    ]
+  },
+  "scenario_spread": {
+    "low_t_yr": 18165.825343832417,
+    "high_t_yr": 84016.94221522492,
+    "ratio": 4.624999999999999,
+    "note": "The gap between scenarios exceeds the Monte Carlo interval within either one. The binding constraint on this estimate is therefore not statistical -- it is that Guinea has no recent national waste composition survey. No amount of additional computation narrows it."
+  }
+}

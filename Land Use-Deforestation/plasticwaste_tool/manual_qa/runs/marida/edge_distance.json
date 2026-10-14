@@ -1,0 +1,162 @@
+{
+  "products": {
+    "composite": {
+      "label": "composite",
+      "stem": "conakry_a410b95f_2024-01-01_2024-02-01_composite",
+      "pixel_m": 20.000091485637025,
+      "threshold": 0.06803734688159278,
+      "n_water": 4524646,
+      "n_flagged": 102827,
+      "rings": {
+        "1": {
+          "metres": 20.000091485637025,
+          "flagged_share": 0.06640279304073833,
+          "water_share": 0.004703793401737948,
+          "enrichment": 14.116860025400767
+        },
+        "2": {
+          "metres": 40.00018297127405,
+          "flagged_share": 0.08764235074445428,
+          "water_share": 0.009922102193188152,
+          "enrichment": 8.833042538568453
+        },
+        "3": {
+          "metres": 60.00027445691107,
+          "flagged_share": 0.10459315160415066,
+          "water_share": 0.01550640646804192,
+          "enrichment": 6.745157352847221
+        },
+        "5": {
+          "metres": 100.00045742818513,
+          "flagged_share": 0.1318136287161932,
+          "water_share": 0.023292871972746598,
+          "enrichment": 5.658968497762721
+        }
+      },
+      "n_interior_gt3px": 92072,
+      "interior_share": 0.8954068483958494
+    },
+    "single": {
+      "label": "single",
+      "stem": "conakry_a410b95f_2024-01-11_2024-01-12_composite",
+      "pixel_m": 20.000091485637025,
+      "threshold": 0.08440540079437392,
+      "n_water": 4517101,
+      "n_flagged": 108520,
+      "rings": {
+        "1": {
+          "metres": 20.000091485637025,
+          "flagged_share": 0.03695171396977516,
+          "water_share": 0.004139159164251585,
+          "enrichment": 8.927347923441479
+        },
+        "2": {
+          "metres": 40.00018297127405,
+          "flagged_share": 0.04334684850718762,
+          "water_share": 0.008903940823993088,
+          "enrichment": 4.868276796088157
+        },
+        "3": {
+          "metres": 60.00027445691107,
+          "flagged_share": 0.048940287504607445,
+          "water_share": 0.014198929800329902,
+          "enrichment": 3.446758889072777
+        },
+        "5": {
+          "metres": 100.00045742818513,
+          "flagged_share": 0.060145595281975675,
+          "water_share": 0.021789196212349468,
+          "enrichment": 2.760340248250504
+        }
+      },
+      "n_interior_gt3px": 103209,
+      "interior_share": 0.9510597124953926
+    }
+  },
+  "annotation_geometry": {
+    "note": "current queue (single acquisition 2024-01-11) has no published detections; nothing to compare"
+  },
+  "classifier_by_ring": {
+    "edge_le2px": {
+      "n": 9012,
+      "p_debris_mean": 0.1470837981828658,
+      "p_debris_median": 0.019962670051031466,
+      "share_above_0.5": 0.1321571238348868,
+      "top_classes": [
+        [
+          "Dense Sargassum",
+          0.36950732356857524
+        ],
+        [
+          "Marine Debris",
+          0.20550377274744785
+        ],
+        [
+          "Natural Organic Material",
+          0.2036173990235242
+        ]
+      ]
+    },
+    "interior_gt2px": {
+      "n": 93815,
+      "p_debris_mean": 0.1790605146872724,
+      "p_debris_median": 0.04980548482186492,
+      "share_above_0.5": 0.1552949954698076,
+      "top_classes": [
+        [
+          "Ship",
+          0.6688376059265576
+        ],
+        [
+          "Marine Debris",
+          0.247199275169216
+        ],
+        [
+          "Sediment-Laden Water",
+          0.03951393700367745
+        ]
+      ]
+    },
+    "edge_le3px": {
+      "n": 10755,
+      "p_debris_mean": 0.1864963421318964,
+      "p_debris_median": 0.03321329938491973,
+      "share_above_0.5": 0.17721989772198976,
+      "top_classes": [
+        [
+          "Dense Sargassum",
+          0.31585309158530916
+        ],
+        [
+          "Marine Debris",
+          0.26936308693630867
+        ],
+        [
+          "Ship",
+          0.18391445839144585
+        ]
+      ]
+    },
+    "interior_gt3px": {
+      "n": 92072,
+      "p_debris_mean": 0.17506205160072444,
+      "p_debris_median": 0.04659660566603685,
+      "share_above_0.5": 0.1504691980189417,
+      "top_classes": [
+        [
+          "Ship",
+          0.6756342862107916
+        ],
+        [
+          "Marine Debris",
+          0.2405291510991398
+        ],
+        [
+          "Sediment-Laden Water",
+          0.04025110782865583
+        ]
+      ]
+    }
+  },
+  "note": "Edge enrichment does not by itself make a detection wrong: floating material accumulates against shorelines. It shows the two are confounded in this product, which is why the recommendation is to flag boundary-adjacent detections rather than to drop them."
+}

@@ -1,0 +1,132 @@
+{
+  "town": "boke",
+  "source": "C:\\Users\\ASUS\\Guinea_Project\\Land Use-Deforestation\\plasticwaste_tool\\manual_qa\\regions\\boke_blindgrid_review.geojson",
+  "n_windows": 557,
+  "n_positive": 243,
+  "n_digitised_points": 752,
+  "suspect_point_entries": 3,
+  "roc_auc_all": 0.7375429215485833,
+  "average_precision_all": 0.6399323007464077,
+  "base_rate": 0.4362657091561939,
+  "dose_response": {
+    "spearman_rho": -0.02694747558080673,
+    "p_value": 0.6759620997925644,
+    "n_positive": 243,
+    "bands": [
+      {
+        "band": "1 point",
+        "n": 59,
+        "mean_score": 0.6130240069757126,
+        "median_score": 0.6973736117159165,
+        "frac_high_tier": 0.2033898305084746
+      },
+      {
+        "band": "2-3 points",
+        "n": 104,
+        "mean_score": 0.5901431504361905,
+        "median_score": 0.6550091564050375,
+        "frac_high_tier": 0.17307692307692307
+      },
+      {
+        "band": "4-6 points",
+        "n": 64,
+        "mean_score": 0.5847837352656524,
+        "median_score": 0.7015740573279632,
+        "frac_high_tier": 0.234375
+      },
+      {
+        "band": "7+ points",
+        "n": 15,
+        "mean_score": 0.5049999822218035,
+        "median_score": 0.4372728277502718,
+        "frac_high_tier": 0.26666666666666666
+      }
+    ],
+    "detects_waste": false,
+    "interpretation": "Score does not rise with the amount of waste present, so the ranking is not driven by waste."
+  },
+  "centrality": {
+    "n_with_geometry": 242,
+    "median_distance_m": 24.806149416159627,
+    "n_near": 85,
+    "mean_score_near": 0.556538090960575,
+    "n_far": 157,
+    "mean_score_far": 0.6066160835389224,
+    "p_value": 0.39198203268249854,
+    "centrality_effect": false
+  },
+  "score_by_land_cover": {
+    "bare_or_sparse": {
+      "n": 14,
+      "labelled_positive": 0,
+      "mean_score": 0.1523737429225349,
+      "median_score": 0.031820078773826935,
+      "frac_high_tier": 0.0
+    },
+    "construction_site": {
+      "n": 5,
+      "labelled_positive": 0,
+      "mean_score": 0.9016411215768849,
+      "median_score": 0.9582522973859057,
+      "frac_high_tier": 0.8
+    },
+    "forest": {
+      "n": 83,
+      "labelled_positive": 0,
+      "mean_score": 0.003905118779439872,
+      "median_score": 0.0009834613124200882,
+      "frac_high_tier": 0.0
+    },
+    "plantation": {
+      "n": 3,
+      "labelled_positive": 0,
+      "mean_score": 0.27909083957388453,
+      "median_score": 0.07671107756626179,
+      "frac_high_tier": 0.0
+    },
+    "possible_waste": {
+      "n": 243,
+      "labelled_positive": 242,
+      "mean_score": 0.5914018524616261,
+      "median_score": 0.6606720045893124,
+      "frac_high_tier": 0.20164609053497942
+    },
+    "quarry_borrow_pit": {
+      "n": 3,
+      "labelled_positive": 0,
+      "mean_score": 0.35048829773742013,
+      "median_score": 0.27270337412759005,
+      "frac_high_tier": 0.0
+    },
+    "settlement_no_waste": {
+      "n": 178,
+      "labelled_positive": 0,
+      "mean_score": 0.49629805722404163,
+      "median_score": 0.4832116839878414,
+      "frac_high_tier": 0.12921348314606743
+    },
+    "waste_on_water": {
+      "n": 1,
+      "labelled_positive": 1,
+      "mean_score": 0.3484107650829023,
+      "median_score": 0.3484107650829023,
+      "frac_high_tier": 0.0
+    },
+    "water": {
+      "n": 27,
+      "labelled_positive": 0,
+      "mean_score": 0.012773731798966766,
+      "median_score": 0.0013050206902590685,
+      "frac_high_tier": 0.0
+    }
+  },
+  "_note": "`notes` group rows for reporting only. Every metric above is computed from `label` and `model_score` alone.",
+  "what_it_separates": {
+    "natural_cover_mean": 0.006081960156960109,
+    "disturbed_no_waste_mean": 0.5048426058439576,
+    "waste_mean": 0.5902093535356946,
+    "gap_natural_to_disturbed": 0.49876064568699746,
+    "gap_disturbed_to_waste": 0.08536674769173702
+  },
+  "verdict": "LAND-COVER PROXY. The model separates disturbed anthropogenic ground from natural cover and does not respond to waste itself: score is independent of how much waste a window contains. A blind-grid AUC above 0.5 is therefore not evidence of waste detection, and a national waste layer is not supportable on it."
+}

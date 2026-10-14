@@ -1,0 +1,55 @@
+{
+  "source": "google",
+  "tile_m": 80.0,
+  "zoom": 19,
+  "n": 651,
+  "n_pos": 111,
+  "n_neg": 540,
+  "eval_prevalence": 0.17050691244239632,
+  "deploy_prevalence": 0.020614966744437094,
+  "roc_auc": 0.9114114114114115,
+  "avg_precision": 0.6958853987431063,
+  "mean_score_dumps": 0.6485945107697554,
+  "mean_score_residential": 0.44575046218748315,
+  "detector": "waste",
+  "top40_precision_per_window": 0.85,
+  "top40_precision_per_site": 0.675,
+  "operating_points": [
+    {
+      "threshold": 0.5,
+      "recall": 0.6306306306306306,
+      "fpr": 0.11296296296296296,
+      "precision_eval": 0.5343511450381679
+    },
+    {
+      "threshold": 0.6,
+      "recall": 0.5945945945945946,
+      "fpr": 0.09074074074074075,
+      "precision_eval": 0.5739130434782609
+    },
+    {
+      "threshold": 0.7,
+      "recall": 0.5225225225225225,
+      "fpr": 0.05925925925925926,
+      "precision_eval": 0.6444444444444445
+    },
+    {
+      "threshold": 0.8,
+      "recall": 0.45045045045045046,
+      "fpr": 0.03148148148148148,
+      "precision_eval": 0.746268656716418
+    },
+    {
+      "threshold": 0.9,
+      "recall": 0.32432432432432434,
+      "fpr": 0.011111111111111112,
+      "precision_eval": 0.8571428571428571
+    },
+    {
+      "threshold": 0.95,
+      "recall": 0.23423423423423423,
+      "fpr": 0.007407407407407408,
+      "precision_eval": 0.8666666666666667
+    }
+  ]
+}

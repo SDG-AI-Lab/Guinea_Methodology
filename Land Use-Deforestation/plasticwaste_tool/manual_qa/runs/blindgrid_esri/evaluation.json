@@ -1,0 +1,196 @@
+{
+  "conakry": {
+    "esri": {
+      "n": 422,
+      "n_pos": 110,
+      "base_rate": 0.2607,
+      "unexamined": 0,
+      "roc_auc": 0.5941,
+      "avg_precision": 0.3594,
+      "operating_points": [
+        {
+          "threshold": 0.9,
+          "flagged": 77,
+          "true": 27,
+          "precision": 0.3506,
+          "recall": 0.2455,
+          "lift": 1.345,
+          "end_to_end_recall": 0.2097
+        },
+        {
+          "threshold": 0.7,
+          "flagged": 170,
+          "true": 59,
+          "precision": 0.3471,
+          "recall": 0.5364,
+          "lift": 1.331,
+          "end_to_end_recall": 0.4583
+        },
+        {
+          "threshold": 0.5,
+          "flagged": 298,
+          "true": 85,
+          "precision": 0.2852,
+          "recall": 0.7727,
+          "lift": 1.094,
+          "end_to_end_recall": 0.6603
+        },
+        {
+          "threshold": 0.3,
+          "flagged": 376,
+          "true": 100,
+          "precision": 0.266,
+          "recall": 0.9091,
+          "lift": 1.02,
+          "end_to_end_recall": 0.7768
+        }
+      ]
+    },
+    "google": {
+      "n": 422,
+      "n_pos": 110,
+      "base_rate": 0.2607,
+      "unexamined": 0,
+      "roc_auc": 0.6824,
+      "avg_precision": 0.4765,
+      "operating_points": [
+        {
+          "threshold": 0.9,
+          "flagged": 77,
+          "true": 45,
+          "precision": 0.5844,
+          "recall": 0.4091,
+          "lift": 2.242,
+          "end_to_end_recall": 0.3496
+        },
+        {
+          "threshold": 0.7,
+          "flagged": 140,
+          "true": 61,
+          "precision": 0.4357,
+          "recall": 0.5545,
+          "lift": 1.672,
+          "end_to_end_recall": 0.4739
+        },
+        {
+          "threshold": 0.5,
+          "flagged": 200,
+          "true": 72,
+          "precision": 0.36,
+          "recall": 0.6545,
+          "lift": 1.381,
+          "end_to_end_recall": 0.5593
+        },
+        {
+          "threshold": 0.3,
+          "flagged": 270,
+          "true": 88,
+          "precision": 0.3259,
+          "recall": 0.8,
+          "lift": 1.25,
+          "end_to_end_recall": 0.6836
+        }
+      ]
+    }
+  },
+  "boke": {
+    "esri": {
+      "n": 557,
+      "n_pos": 243,
+      "base_rate": 0.4363,
+      "unexamined": 0,
+      "roc_auc": 0.6868,
+      "avg_precision": 0.5801,
+      "operating_points": [
+        {
+          "threshold": 0.9,
+          "flagged": 25,
+          "true": 17,
+          "precision": 0.68,
+          "recall": 0.07,
+          "lift": 1.559,
+          "end_to_end_recall": 0.0598
+        },
+        {
+          "threshold": 0.7,
+          "flagged": 111,
+          "true": 65,
+          "precision": 0.5856,
+          "recall": 0.2675,
+          "lift": 1.342,
+          "end_to_end_recall": 0.2286
+        },
+        {
+          "threshold": 0.5,
+          "flagged": 294,
+          "true": 165,
+          "precision": 0.5612,
+          "recall": 0.679,
+          "lift": 1.286,
+          "end_to_end_recall": 0.5802
+        },
+        {
+          "threshold": 0.3,
+          "flagged": 444,
+          "true": 227,
+          "precision": 0.5113,
+          "recall": 0.9342,
+          "lift": 1.172,
+          "end_to_end_recall": 0.7982
+        }
+      ]
+    },
+    "google": {
+      "n": 557,
+      "n_pos": 243,
+      "base_rate": 0.4363,
+      "unexamined": 0,
+      "roc_auc": 0.7375,
+      "avg_precision": 0.6399,
+      "operating_points": [
+        {
+          "threshold": 0.9,
+          "flagged": 76,
+          "true": 49,
+          "precision": 0.6447,
+          "recall": 0.2016,
+          "lift": 1.478,
+          "end_to_end_recall": 0.1723
+        },
+        {
+          "threshold": 0.7,
+          "flagged": 173,
+          "true": 110,
+          "precision": 0.6358,
+          "recall": 0.4527,
+          "lift": 1.457,
+          "end_to_end_recall": 0.3868
+        },
+        {
+          "threshold": 0.5,
+          "flagged": 249,
+          "true": 153,
+          "precision": 0.6145,
+          "recall": 0.6296,
+          "lift": 1.408,
+          "end_to_end_recall": 0.538
+        },
+        {
+          "threshold": 0.3,
+          "flagged": 321,
+          "true": 189,
+          "precision": 0.5888,
+          "recall": 0.7778,
+          "lift": 1.35,
+          "end_to_end_recall": 0.6646
+        }
+      ]
+    }
+  },
+  "_meta": {
+    "stage2_head": "probe_esri.joblib",
+    "stage2_zoom": 17,
+    "screen_retention": 0.8545,
+    "note": "end_to_end_recall = stage-1 site retention x stage-2 blind-grid recall. Precision is cumulative: every window at or above the threshold. Unfetched windows are excluded, never scored 0."
+  }
+}

@@ -1,0 +1,128 @@
+# =====================================================================
+# Guinea_Methodology/.gitignore
+#
+# Calculation rules taken from Guinea_Project/.gitignore, which was verified
+# file by file. Excluded material is listed in LARGE_FILES.md with where it
+# lives instead.
+#
+# If you edit this file, re-check with:
+#   git check-ignore -v <path>     # MATCH = ignored, no output = committed
+# Two mistakes are easy to make here and both fail SILENTLY:
+#   1. quoting a path with spaces  -> the rule matches a literal quote
+#   2. `dir/**` with no `!dir/**/` -> git never descends, so every `!` below
+#                                     it is dead
+# On Windows git matches case-insensitively, so `*.TIF` also hides `*.tif`.
+# =====================================================================
+
+# --- credentials --------------------------------------------------------
+**/._google_api_key.txt
+**/._label_tool_config.json
+**/credentials/
+*.pem
+*.key
+*-key.json
+.env
+*.env
+.env.*
+!.env.example
+!**/.env.example
+
+# --- retained basemap imagery -------------------------------------------
+# Large AND a licensing question: retention/redistribution of Google Maps
+**/._tile_cache/
+**/tiles/
+**/tiles_*/
+**/scan_demo_cache/
+**/dumpsite_scan_cache/
+**/blindgrid_cache_*/
+**/_positive_review/
+**/_center_checks/
+**/_natcheck/
+**/_covmap/
+
+# --- raw scenes and model weights: large and regenerable ----------------
+**/enmap_scenes/
+**/*.TIF
+**/*.pth
+**/*.pt
+**/*.npz
+
+# AerialWaste is CC BY-NC-ND 4.0 -- NonCommercial and NoDerivatives
+Land Use-Deforestation/plasticwaste_tool/aerialwaste_model/
+
+# --- python -------------------------------------------------------------
+**/__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# --- OS / editor --------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+~$*
+.~lock.*
+.vscode/
+.idea/
+*.log
+
+# =====================================================================
+# runs/ (3.1 GB) and manual_qa/ (5.9 GB): exclude the contents, then
+# re-include what the methodology documents and the notebooks read.
+# =====================================================================
+Land Use-Deforestation/plasticwaste_tool/runs/**
+Land Use-Deforestation/plasticwaste_tool/manual_qa/**
+!Land Use-Deforestation/plasticwaste_tool/runs/**/
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/**/
+
+# --- runs/: the saved outputs every figure and number traces to ---------
+!Land Use-Deforestation/plasticwaste_tool/runs/hyperspectral_coverage/coverage_summary.json
+!Land Use-Deforestation/plasticwaste_tool/runs/s2_plastic_indices/*.json
+!Land Use-Deforestation/plasticwaste_tool/runs/s2_plastic_indices/*.csv
+!Land Use-Deforestation/plasticwaste_tool/runs/fdi_on_land/*.json
+!Land Use-Deforestation/plasticwaste_tool/runs/fdi_on_land/*.csv
+!Land Use-Deforestation/plasticwaste_tool/runs/enmap_spectra/*.json
+!Land Use-Deforestation/plasticwaste_tool/runs/enmap_spectra/*.csv
+!Land Use-Deforestation/plasticwaste_tool/runs/mobilisation/*.json
+!Land Use-Deforestation/plasticwaste_tool/runs/mobilisation/*.csv
+!Land Use-Deforestation/plasticwaste_tool/runs/dumpsite_extent/*.json
+!Land Use-Deforestation/plasticwaste_tool/runs/dumpsite_extent/*.csv
+!Land Use-Deforestation/plasticwaste_tool/runs/figures/*.png
+!Land Use-Deforestation/plasticwaste_tool/runs/figures_doc/*.png
+
+# --- manual_qa/: the labels and QA metrics -------------------------------
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/*.json
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/*.csv
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/regions/*.geojson
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/regions/*.md
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/fdi/*.csv
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/fdi/*.md
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/runs/**/*.json
+!Land Use-Deforestation/plasticwaste_tool/manual_qa/runs/**/*.md
+
+# Superseded grid; kept on disk for provenance, not worth committing.
+Land Use-Deforestation/plasticwaste_tool/manual_qa/regions_40m_deprecated/**
+
+# --- other old experiment outputs ----------------------------------------
+Land Use-Deforestation/plasticwaste_tool/queue/**
+Land Use-Deforestation/plasticwaste_tool/queue_*/**
+Land Use-Deforestation/plasticwaste_tool/dumpsite_data/**
+
+# =====================================================================
+# Re-includes that must win over the rules above
+# =====================================================================
+# Reference rasters are small and the land-use notebooks read them.
+!Land Use-Deforestation/data/**
+# The frozen heads ARE wanted (~67 KB each).
+!**/dumpsite_tool/models/*.joblib
+!**/dumpsite_tool/models/*.json
+
+# Secrets re-asserted last so no re-include above can expose them.
+**/._google_api_key.txt
+**/._label_tool_config.json
+**/credentials/
+.env
+*.env

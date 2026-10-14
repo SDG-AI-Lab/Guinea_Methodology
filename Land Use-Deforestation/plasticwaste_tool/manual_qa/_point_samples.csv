@@ -1,0 +1,652 @@
+sid,lat,lon,label,region,cell,note
+nat_labe_0059,11.268729799235699,-12.260691575879058,0,Labe,nat_labe_0059,"it is an open area, with trees and few houses. does not lok like there are dumpstie areas, but could be"
+nat_cona_0047,9.575719554438388,-13.600972239517972,0,Conakry,nat_cona_0047,forest area
+nat_fara_0074,10.96730721326643,-11.082202648896843,0,Faranah,nat_fara_0074,empty area of land and trees
+nat_mamo_0029,10.716890153755891,-12.062452702038179,0,Mamou,nat_mamo_0029,empty area of land and trees
+nat_fara_0055,9.189568108373312,-10.124258413161881,0,Faranah,nat_fara_0055,empty area of land and trees
+nat_nzer_0044,7.910285108628848,-8.238965183771022,0,Nzerekore,nat_nzer_0044,forest area
+nat_labe_0057,11.861747529368847,-11.887442934023607,0,Labe,nat_labe_0057,"it is an open area, with trees and few houses. does not lok like there are dumpstie areas, but could be"
+nat_nzer_0001,8.025963551468955,-8.22785413605093,0,Nzerekore,nat_nzer_0001,empty area of land and trees
+nat_labe_0064,11.297248952343468,-12.322037457255957,0,Labe,nat_labe_0064,"it is an open area, with few houses. does not lok like there are dumpstie areas, but could be"
+nat_fara_0012,10.169503469768264,-11.354118043706848,0,Faranah,nat_fara_0012,forest area
+nat_kind_0015,9.86239283454532,-13.089571393037673,0,Kindia,nat_kind_0015,area of plantation
+nat_labe_0025,11.876018533163618,-12.527406265618762,0,Labe,nat_labe_0025,empty area of land and trees
+nat_fara_0023,10.735210643699272,-11.142456479504615,0,Faranah,nat_fara_0023,empty area of land and trees
+nat_kank_0058_p0,10.476088,-8.661659,1,Kankan,nat_kank_0058,might be dumpsite
+nat_boke_0048,10.62936476451878,-14.460520529377314,0,Boke,nat_boke_0048,might be dumpsite | corrected to negative on review: tree cover
+nat_mamo_0007,10.645647828635855,-12.847356092796254,0,Mamou,nat_mamo_0007,empty area of land and trees
+nat_mamo_0032,11.050797505015753,-12.376136182794724,0,Mamou,nat_mamo_0032,empty area of land and trees and houses
+nat_cona_0010,9.663134796345293,-13.487382852888384,0,Conakry,nat_cona_0010,forest area
+nat_fara_0037_p0,10.967284,-11.053923,1,Faranah,nat_fara_0037,might be dumpsite
+nat_kind_0065,9.779024223633922,-13.276316856941744,0,Kindia,nat_kind_0065,forest area
+nat_mamo_0074,10.611046714478633,-11.83295979571825,0,Mamou,nat_mamo_0074,empty area of land and trees
+nat_mamo_0030_p0,10.36346683,-12.09630391,1,Mamou,nat_mamo_0030,could be dumpsite
+nat_kind_0046,9.537096962186038,-13.270428699310797,0,Kindia,nat_kind_0046,area of plantation
+nat_fara_0044_p0,10.01601433,-10.73546955,1,Faranah,nat_fara_0044,could be dumpsite
+nat_mamo_0027,10.381088888761374,-12.06944653707102,0,Mamou,nat_mamo_0027,residential area
+nat_fara_0036,9.146898223765534,-10.115964595888274,0,Faranah,nat_fara_0036,
+nat_kank_0074,10.97545220946888,-9.412148097240042,0,Kankan,nat_kank_0074,empty area of land and trees
+nat_mamo_0045_p0,10.645844,-12.838822,1,Mamou,nat_mamo_0045,could be dumpsite
+nat_labe_0071,11.360402369803158,-12.477748571693924,0,Labe,nat_labe_0071,forest area
+nat_nzer_0069,8.385256755291117,-8.970693596422567,0,Nzerekore,nat_nzer_0069,forest area
+nat_kind_0048,9.846125157017923,-13.456711888384138,0,Kindia,nat_kind_0048,could be dumpsite | corrected to negative on review: tree cover
+nat_mamo_0049,10.674143991870727,-12.951478582071262,0,Mamou,nat_mamo_0049,forest area
+nat_kind_0066,9.97220772095749,-13.641201102530133,0,Kindia,nat_kind_0066,area of plantation
+nat_boke_0014_p0,11.121738,-13.827043,1,Boke,nat_boke_0014,could be dumpsite
+nat_cona_0052,9.663134796345293,-13.545263215910389,0,Conakry,nat_cona_0052,"built-up / settlement, no visible waste"
+nat_nzer_0055,8.572057899225896,-9.503373640506569,0,Nzerekore,nat_nzer_0055,forest area
+nat_cona_0017_p0,9.630501,-13.622587,1,Conakry,nat_cona_0017,could be dumpsite
+nat_kind_0033_p0,9.782088,-13.484699,1,Kindia,nat_kind_0033,could be dumpsite
+nat_fara_0050,10.6802504454232,-10.841151184974834,0,Faranah,nat_fara_0050,empty area of land and trees
+nat_boke_0001,11.608993877057024,-13.03531318025872,0,Boke,nat_boke_0001,empty area of land and trees
+nat_kind_0043,9.321654072541651,-13.386033415732275,0,Kindia,nat_kind_0043,area of plantation
+nat_kind_0012_p0,9.847647,-13.495617,1,Kindia,nat_kind_0012,could be dumpsite
+nat_kind_0020,9.104230297235059,-13.222564237875735,0,Kindia,nat_kind_0020,area of plantation
+nat_fara_0040,11.291137614035469,-10.723730277646773,0,Faranah,nat_fara_0040,"built-up / settlement, no visible waste"
+nat_kank_0014_p0,10.923813,-8.884383,1,Kankan,nat_kank_0014,could be dumpsite
+nat_boke_0052_p0,9.985766,-13.927775,1,Boke,nat_boke_0052,could be dumpsite
+nat_kind_0054,9.894929111895117,-13.591377142765458,0,Kindia,nat_kind_0054,forest area
+nat_boke_0008,9.892895558474391,-13.717205769652665,0,Boke,nat_boke_0008,area of plantation
+nat_labe_0052,11.413373875766126,-12.65848563201612,0,Labe,nat_labe_0052,forest area
+nat_kind_0055,10.379054154631925,-13.596500103045134,0,Kindia,nat_kind_0055,empty area of land and trees
+nat_boke_0017,10.633435499380717,-14.551404670967575,0,Boke,nat_boke_0017,empty area of land and trees
+nat_kank_0006,9.0859446400778,-8.822725681966716,0,Kankan,nat_kank_0006,empty area of land and trees
+nat_boke_0021,12.387927644919285,-13.54707490067155,0,Boke,nat_boke_0021,forest area
+nat_cona_0028,9.67329992180849,-13.505250609396068,0,Conakry,nat_cona_0028,forest area
+nat_kank_0020,10.627329404874958,-8.717120379738203,0,Kankan,nat_kank_0020,empty area of land and trees
+nat_labe_0009,11.356327794676591,-12.245331961648027,0,Labe,nat_labe_0009,empty area of land and trees
+nat_kank_0041,11.765935308193638,-8.973365215537427,0,Kankan,nat_kank_0041,quarry / borrow pit
+nat_fara_0031,10.731139387021951,-10.716187625747157,0,Faranah,nat_fara_0031,empty area of land and trees
+nat_nzer_0000,8.675625798206983,-8.615656227075943,0,Nzerekore,nat_nzer_0000,quarry / borrow pit
+nat_mamo_0034_p0,11.059124,-12.39715,1,Mamou,nat_mamo_0034,could be dumpsite
+nat_mamo_0031,10.672108517782595,-12.268112241755151,0,Mamou,nat_mamo_0031,forest area
+nat_boke_0062,9.933567543360342,-13.761059090450491,0,Boke,nat_boke_0062,area of plantation
+nat_kank_0046,9.10219853988987,-8.80788883475082,0,Kankan,nat_kank_0046,quarry / borrow pit
+nat_kind_0042,9.545227894909164,-13.290752080847751,0,Kindia,nat_kind_0042,"built-up / settlement, no visible waste"
+nat_nzer_0035,7.752008383911571,-8.806488803678027,0,Nzerekore,nat_nzer_0035,residential area
+nat_labe_0068_p0,11.338503,-12.273639,1,Labe,nat_labe_0068,could be dumpsite
+nat_labe_0068_p1,11.338334,-12.271815,1,Labe,nat_labe_0068,could be dumpsite
+nat_labe_0068_p2,11.338253,-12.272204,1,Labe,nat_labe_0068,could be dumpsite
+nat_kank_0025,11.22799002779906,-8.65986402745177,0,Kankan,nat_kank_0025,empty area of land and trees
+nat_nzer_0045,7.902167791758625,-8.243883483866934,0,Nzerekore,nat_nzer_0045,forest area
+nat_labe_0029,11.91475555688558,-12.303498151668995,0,Labe,nat_labe_0029,"built-up / settlement, no visible waste"
+nat_boke_0037,11.413373875766126,-13.870669792288986,0,Boke,nat_boke_0037,quarry / borrow pit
+nat_kank_0015,10.623258701156413,-9.874279392984164,0,Kankan,nat_kank_0015,empty area of land and trees
+nat_fara_0043_p0,10.046297,-10.758928,1,Faranah,nat_fara_0043,could be local dumpsite
+nat_boke_0034,11.763896889323995,-13.186401567504127,0,Boke,nat_boke_0034,empty area of land and trees
+nat_mamo_0026,10.3851583722144,-12.1174235313012,0,Mamou,nat_mamo_0026,"built-up / settlement, no visible waste"
+nat_boke_0064,10.808496859712962,-14.491027231378483,0,Boke,nat_boke_0064,empty area of land and trees
+nat_fara_0072,11.503026587256633,-10.251277242522784,0,Faranah,nat_fara_0072,empty area of land and trees
+nat_kind_0050,9.817657459094013,-13.49123815912213,0,Kindia,nat_kind_0050,"built-up / settlement, no visible waste"
+nat_nzer_0053,8.864513153470336,-8.253975214754487,0,Nzerekore,nat_nzer_0053,empty area of land and trees
+nat_mamo_0073_p0,10.381357,-12.096876,1,Mamou,nat_mamo_0073,could be dumpsite
+nat_nzer_0058,8.547690556372673,-10.100781566399418,0,Nzerekore,nat_nzer_0058,empty area of land and trees
+nat_labe_0051,12.06768556603296,-12.689699058499885,0,Labe,nat_labe_0051,"built-up / settlement, no visible waste"
+nat_fara_0052,11.690517648297925,-10.697741464400224,0,Faranah,nat_fara_0052,empty area of land and trees
+nat_boke_0012,10.698570087917002,-14.37429594179473,0,Boke,nat_boke_0012,empty area of land and trees
+nat_nzer_0014,8.511140659385857,-9.44467141892667,0,Nzerekore,nat_nzer_0014,empty area of land and trees
+nat_fara_0061,11.272803897666128,-10.705635250554044,0,Faranah,nat_fara_0061,"built-up / settlement, no visible waste"
+nat_boke_0050,11.083381543960268,-13.802819157499613,0,Boke,nat_boke_0050,forest area
+nat_boke_0031,11.111893716906897,-13.849078641722034,0,Boke,nat_boke_0031,empty area of land and trees
+nat_cona_0003,9.711928472454208,-13.498660432584407,0,Conakry,nat_cona_0003,residential area
+nat_boke_0066,11.08949120571386,-13.795426356109918,0,Boke,nat_boke_0066,residential area
+nat_cona_0067_p0,9.656437,-13.559721,1,Conakry,nat_cona_0067,could be dumpsite
+nat_cona_0067_p1,9.656209,-13.561292,1,Conakry,nat_cona_0067,could be dumpsite
+nat_labe_0049,11.33799248192977,-12.47209373817707,0,Labe,nat_labe_0049,empty area of land and trees
+nat_nzer_0048,9.276945926209361,-8.395631358072867,0,Nzerekore,nat_nzer_0048,empty area of land and trees
+nat_nzer_0039,8.592364474949825,-10.119097313153471,0,Nzerekore,nat_nzer_0039,forest area
+nat_fara_0056,10.743353220005083,-11.43517252555289,0,Faranah,nat_fara_0056,empty area of land and trees
+nat_labe_0044,11.604917928254904,-12.53748579129897,0,Labe,nat_labe_0044,empty area of land and trees
+nat_kind_0006,9.833924600191947,-13.451370387186476,0,Kindia,nat_kind_0006,empty area of land and trees
+nat_labe_0061,11.627335928700525,-12.517895989453248,0,Labe,nat_labe_0061,forest area
+nat_boke_0015,12.445056564601753,-13.2628723021366,0,Boke,nat_boke_0015,empty area of land and trees
+nat_kank_0021_p0,11.431983,-9.203969,1,Kankan,nat_kank_0021,could be dumpsite
+nat_boke_0045,10.191880141150065,-14.044953161743267,0,Boke,nat_boke_0045,residential area
+nat_boke_0006,10.788138892805499,-14.424847644565537,0,Boke,nat_boke_0006,forest area
+nat_kank_0039,11.368551586864294,-9.157412532677393,0,Kankan,nat_kank_0039,area of plantation
+nat_labe_0043,11.61918384874666,-12.502510593322045,0,Labe,nat_labe_0043,empty area of land and trees
+nat_kank_0037,10.570341438205169,-8.905188502943695,0,Kankan,nat_kank_0037,empty area of land and trees
+nat_cona_0000_p0,9.589091,-13.595187,1,Conakry,nat_cona_0000,could be dumpsite
+nat_boke_0010,10.63547087460092,-14.46322042572412,0,Boke,nat_boke_0010,forest area
+nat_labe_0063,11.360402369803158,-12.328768066638792,0,Labe,nat_labe_0063,area of plantation
+nat_labe_0050,11.34002971666736,-12.30549984049956,0,Labe,nat_labe_0050,residential area
+nat_nzer_0050,7.892021231593418,-9.014062523787821,0,Nzerekore,nat_nzer_0050,forest area
+nat_nzer_0031,7.644474407574407,-8.807618274559317,0,Nzerekore,nat_nzer_0031,forest area
+nat_kind_0058,10.350568407996766,-13.34879354153765,0,Kindia,nat_kind_0058,forest area
+nat_labe_0010,11.814859096475699,-12.348740090231962,0,Labe,nat_labe_0010,residential area
+nat_kind_0034,10.006781997323325,-12.821178242906687,0,Kindia,nat_kind_0034,empty area of land and trees
+nat_fara_0020,10.149161561726483,-11.358709753918614,0,Faranah,nat_fara_0020,forest area
+nat_nzer_0070,7.749979344068747,-8.808971211991054,0,Nzerekore,nat_nzer_0070,area of plantation
+nat_cona_0069,9.587916511381554,-13.621403507844764,0,Conakry,nat_cona_0069,residential area
+nat_labe_0011,11.702747004099393,-12.477037900863861,0,Labe,nat_labe_0011,empty area of land and trees
+nat_labe_0062,11.392999773117646,-12.279134219607393,0,Labe,nat_labe_0062,area of plantation
+nat_kind_0013,10.309876200122854,-13.380481809444362,0,Kindia,nat_kind_0013,forest area
+nat_mamo_0021,10.368880559913766,-12.046476559229298,0,Mamou,nat_mamo_0021,forest area
+nat_cona_0043_p0,9.641901,-13.552859,1,Conakry,nat_cona_0043,could be dumpsite
+nat_kind_0062,9.921365745118617,-12.992829811385874,0,Kindia,nat_kind_0062,"built-up / settlement, no visible waste"
+nat_boke_0055,10.395332169527698,-14.03794628133211,0,Boke,nat_boke_0055,empty area of land and trees
+nat_cona_0015_p0,9.645859,-13.54288,1,Conakry,nat_cona_0015,could be dumpsite
+nat_cona_0015_p1,9.64733,-13.542491,1,Conakry,nat_cona_0015,could be dumpsite
+nat_labe_0015,11.82505197252635,-12.39199473587274,0,Labe,nat_labe_0015,forest area
+nat_labe_0017,11.305397480902306,-12.34497686345567,0,Labe,nat_labe_0017,forest area
+nat_mamo_0071,10.405506093631482,-12.075069225826713,0,Mamou,nat_mamo_0071,"built-up / settlement, no visible waste"
+nat_nzer_0016,7.889991931006657,-8.23620614864103,0,Nzerekore,nat_nzer_0016,empty area of land and trees
+nat_nzer_0066,8.559874153167186,-9.495650522142206,0,Nzerekore,nat_nzer_0066,forest area
+nat_mamo_0020,10.696534551192318,-12.248548933576767,0,Mamou,nat_mamo_0020,empty area of land and trees
+nat_kank_0004,9.222079816751583,-9.307604618644252,0,Kankan,nat_kank_0004,empty area of land and trees
+nat_kank_0008,10.399401723947095,-9.247402994104911,0,Kankan,nat_kank_0008,empty area of land and trees
+nat_nzer_0023,8.036111382072518,-8.699800599823634,0,Nzerekore,nat_nzer_0023,forest area
+nat_kind_0010,10.293599880582994,-12.452861893632825,0,Kindia,nat_kind_0010,quarry / borrow pit
+nat_cona_0057_p0,9.657373,-13.562481,1,Conakry,nat_cona_0057,could be dumpsite
+nat_nzer_0029,8.592364474949825,-8.858134957139312,0,Nzerekore,nat_nzer_0029,forest area
+nat_kank_0047,11.087454646370364,-8.833930710924687,0,Kankan,nat_kank_0047,"built-up / settlement, no visible waste"
+nat_kank_0017,11.476537153640647,-9.467705485652589,0,Kankan,nat_kank_0017,empty area of land and trees
+nat_kank_0010,10.348533749708299,-9.322069649607196,0,Kankan,nat_kank_0010,empty area of land and trees
+nat_mamo_0067,10.395332169527698,-12.044585629948267,0,Mamou,nat_mamo_0067,empty area of land and trees
+nat_fara_0022,10.014917325696539,-10.726240557745873,0,Faranah,nat_fara_0022,empty area of land and trees
+nat_mamo_0053,11.197436642994148,-12.501144743518822,0,Mamou,nat_mamo_0053,area of plantation
+nat_cona_0021,9.634673069751232,-13.607467170999508,0,Conakry,nat_cona_0021,residential area
+nat_kank_0022,11.43578603482581,-8.898623728510191,0,Kankan,nat_kank_0022,"built-up / settlement, no visible waste"
+nat_mamo_0070,11.248359638075668,-12.54037344834443,0,Mamou,nat_mamo_0070,forest area
+nat_nzer_0073,9.390752794995581,-8.382231766069335,0,Nzerekore,nat_nzer_0073,forest area
+nat_cona_0014,9.687531295105403,-13.520703769851806,0,Conakry,nat_cona_0014,residential area
+nat_labe_0007,11.876018533163618,-12.575437890893056,0,Labe,nat_labe_0007,empty area of land and trees
+nat_labe_0033,11.413373875766126,-12.650909481014416,0,Labe,nat_labe_0033,forest area
+nat_fara_0007,10.977488471937928,-11.049638933589542,0,Faranah,nat_fara_0007,area of plantation
+nat_boke_0046,9.95797166245485,-13.75162194953011,0,Boke,nat_boke_0046,forest area
+nat_kank_0038,10.63547087460092,-9.68794987986489,0,Kankan,nat_kank_0038,empty area of land and trees
+nat_mamo_0008,10.633435499380717,-11.828452744320257,0,Mamou,nat_mamo_0008,"built-up / settlement, no visible waste"
+nat_kank_0005,10.940836568010065,-9.42660532125851,0,Kankan,nat_kank_0005,empty area of land and trees
+nat_cona_0032,9.687531295105403,-13.550903573525744,0,Conakry,nat_cona_0032,residential area
+nat_labe_0005,11.823013385705869,-12.38182702120582,0,Labe,nat_labe_0005,empty area of land and trees
+nat_kind_0072,10.965270977629023,-12.98447658681533,0,Kindia,nat_kind_0072,empty area of land and trees
+nat_boke_0000,10.800353609615128,-14.407554900635152,0,Boke,nat_boke_0000,could be waste location | corrected to negative on review: tree cover
+nat_fara_0046,10.031188216661578,-10.761828724996612,0,Faranah,nat_fara_0046,"built-up / settlement, no visible waste"
+nat_boke_0071,9.966106523909307,-13.872695709371813,0,Boke,nat_boke_0071,forest area
+nat_fara_0015,9.724127316154199,-10.637339904182276,0,Faranah,nat_fara_0015,empty area of land and trees
+nat_cona_0027_p0,9.553478,-13.665376,1,Conakry,nat_cona_0027,could be dumpsite
+nat_cona_0027_p1,9.553625,-13.666234,1,Conakry,nat_cona_0027,could be dumpsite
+nat_labe_0018,11.851554130041949,-12.304262362312578,0,Labe,nat_labe_0018,forest area
+nat_cona_0033_p0,9.627303,-13.587795,1,Conakry,nat_cona_0033,could be dumpsite
+nat_cona_0033_p1,9.627304,-13.587091,1,Conakry,nat_cona_0033,could be dumpsite
+nat_nzer_0061,7.948843200217839,-8.605806543245004,0,Nzerekore,nat_nzer_0061,forest area
+nat_nzer_0022,8.854356980952074,-8.28147706512721,0,Nzerekore,nat_nzer_0022,empty area of land and trees
+nat_nzer_0013,7.583610724613023,-9.273334663772859,0,Nzerekore,nat_nzer_0013,forest area
+nat_kind_0045_p0,9.735339,-13.470785,1,Kindia,nat_kind_0045,could be dumpsite
+nat_kind_0045_p1,9.735061,-13.470728,1,Kindia,nat_kind_0045,could be dumpsite
+nat_kind_0045_p2,9.735101,-13.471009,1,Kindia,nat_kind_0045,could be dumpsite
+nat_labe_0030,11.884173520794928,-11.898159198790012,0,Labe,nat_labe_0030,forest area
+nat_kind_0067,9.132675364491195,-13.200587224334292,0,Kindia,nat_kind_0067,forest area
+nat_fara_0060,11.478574768591013,-10.255779526302831,0,Faranah,nat_fara_0060,empty area of land and trees
+nat_mamo_0014,11.268729799235699,-12.523249369329365,0,Mamou,nat_mamo_0014,forest area
+nat_boke_0026,10.997851392121593,-14.277211109944604,0,Boke,nat_boke_0026,forest area
+nat_fara_0063,11.295211834041492,-10.696052196433183,0,Faranah,nat_fara_0063,"built-up / settlement, no visible waste"
+nat_nzer_0020_p0,8.573336,-10.11939,1,Nzerekore,nat_nzer_0020,could be waste location
+nat_nzer_0020_p1,8.574552,-10.118618,1,Nzerekore,nat_nzer_0020,could be waste location
+nat_kank_0024,11.433748537813589,-8.865752757547583,0,Kankan,nat_kank_0024,empty area of land and trees
+nat_kind_0057,9.421239199905752,-13.096613486289689,0,Kindia,nat_kind_0057,empty area of land and trees
+nat_mamo_0005,11.209657848687746,-12.56710203424669,0,Mamou,nat_mamo_0005,forest area
+nat_mamo_0043_p0,11.049142,-12.379228,1,Mamou,nat_mamo_0043,could be waste collection
+nat_mamo_0043_p1,11.049168,-12.37913,1,Mamou,nat_mamo_0043,could be waste collection
+nat_cona_0059,9.634673069751232,-13.559655450934969,0,Conakry,nat_cona_0059,"built-up / settlement, no visible waste"
+nat_labe_0003,11.533592502970336,-12.482465822977185,0,Labe,nat_labe_0003,empty area of land and trees
+nat_nzer_0056,7.784473531363213,-8.842031203715848,0,Nzerekore,nat_nzer_0056,empty area of land and trees
+nat_labe_0072,11.88621228229518,-12.64651369048626,0,Labe,nat_labe_0072,empty area of land and trees
+nat_kank_0027,10.136956654391778,-8.781729636320252,0,Kankan,nat_kank_0027,empty area of land and trees
+nat_nzer_0036,7.711428297218229,-8.916338644583282,0,Nzerekore,nat_nzer_0036,forest area
+nat_mamo_0046,10.311910762680842,-12.292051759961376,0,Mamou,nat_mamo_0046,forest area
+nat_kind_0061,9.752591947499768,-13.39899675117093,0,Kindia,nat_kind_0061,"built-up / settlement, no visible waste"
+nat_kank_0043,10.604940791107042,-9.710042187910346,0,Kankan,nat_kank_0043,area of plantation
+nat_cona_0065,9.720061016008161,-13.53913177876051,0,Conakry,nat_cona_0065,area of plantation
+nat_nzer_0032,8.403529251418114,-8.955887492348275,0,Nzerekore,nat_nzer_0032,forest area
+nat_fara_0021,10.692463493418222,-11.428942473853132,0,Faranah,nat_fara_0021,empty area of land and trees
+nat_kank_0073,11.344104202811938,-9.151877920618107,0,Kankan,nat_kank_0073,sand / gravel stockpile
+nat_cona_0038_p0,9.60114,-13.612649,1,Conakry,nat_cona_0038,could be waste location
+nat_cona_0038_p1,9.601616,-13.612534,1,Conakry,nat_cona_0038,could be waste location
+nat_cona_0038_p2,9.603075,-13.611999,1,Conakry,nat_cona_0038,could be waste location
+nat_boke_0018,9.911197712772148,-13.810832829332023,0,Boke,nat_boke_0018,forest area
+nat_cona_0001,9.687531295105403,-13.523220420157969,0,Conakry,nat_cona_0001,residential area
+nat_kank_0000,10.839034800919991,-8.64774398329684,0,Kankan,nat_kank_0000,area of plantation
+nat_nzer_0065,8.011756751577709,-8.70700762330673,0,Nzerekore,nat_nzer_0065,empty area of land and trees
+nat_kind_0037,9.98237647984856,-13.674198524475596,0,Kindia,nat_kind_0037,water body
+nat_labe_0016,11.59676609895919,-11.908186067827293,0,Labe,nat_labe_0016,empty area of land and trees
+nat_fara_0038_p0,10.079977,-10.733545,1,Faranah,nat_fara_0038,
+nat_nzer_0071,7.794619087190679,-8.847180933368636,0,Nzerekore,nat_nzer_0071,forest area
+nat_kind_0032,9.87459379429873,-13.117563529209473,0,Kindia,nat_kind_0032,empty area of land and trees
+nat_kind_0044,9.848158599923808,-13.512145872003437,0,Kindia,nat_kind_0044,forest area
+nat_fara_0009,10.169503469768264,-11.39442106948595,0,Faranah,nat_fara_0009,empty area of land and trees
+nat_nzer_0030,7.766211767720051,-8.809181054213042,0,Nzerekore,nat_nzer_0030,residential area
+nat_kind_0030,9.986444017429488,-13.621424854202516,0,Kindia,nat_kind_0030,forest area
+nat_kind_0036,9.866459801915312,-13.497503952691664,0,Kindia,nat_kind_0036,empty area of land and trees
+nat_labe_0034,12.061567727822691,-12.320278550459715,0,Labe,nat_labe_0034,forest area
+nat_labe_0032,11.621221860181777,-12.537938584329972,0,Labe,nat_labe_0032,empty area of land and trees
+nat_fara_0025_p0,10.724941,-10.704204,1,Faranah,nat_fara_0025,
+nat_fara_0025_p1,10.725355,-10.703415,1,Faranah,nat_fara_0025,
+nat_cona_0037_p0,9.65929,-13.571351,1,Conakry,nat_cona_0037,could be local dumpsite
+nat_kank_0036,11.331880811043185,-8.432028966922006,0,Kankan,nat_kank_0036,empty area of land and trees
+nat_boke_0068,9.919332128991954,-13.732994595300339,0,Boke,nat_boke_0068,forest area
+nat_kind_0069,9.87662730440964,-13.585874985320723,0,Kindia,nat_kind_0069,area of plantation
+nat_kank_0018_p0,10.741678,-9.196438,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p1,10.741812,-9.195218,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p2,10.741904,-9.195379,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p3,10.741733,-9.195312,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p4,10.74226,-9.194499,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p5,10.742331,-9.194469,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p6,10.742294,-9.194585,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p7,10.742294,-9.194738,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p8,10.742716,-9.194783,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p9,10.741762,-9.196261,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p10,10.741815,-9.195424,1,Kankan,nat_kank_0018,could be dumpsite
+nat_kank_0018_p11,10.74279,-9.193783,1,Kankan,nat_kank_0018,could be dumpsite
+nat_boke_0065,11.130223533653835,-13.819330277546195,0,Boke,nat_boke_0065,"built-up / settlement, no visible waste"
+nat_mamo_0050,10.733175012738515,-12.088071294394954,0,Mamou,nat_mamo_0050,empty area of land and trees
+nat_cona_0051_p0,9.719169,-13.489153,1,Conakry,nat_cona_0051,could be dumpsite
+nat_cona_0051_p1,9.719193,-13.489016,1,Conakry,nat_cona_0051,could be dumpsite
+nat_mamo_0040,11.260581668598475,-12.535653069389568,0,Mamou,nat_mamo_0040,empty area of land and trees
+nat_mamo_0002,10.692463493418222,-12.263576772550405,0,Mamou,nat_mamo_0002,area of plantation
+nat_labe_0020,11.847476811066082,-12.362288692106203,0,Labe,nat_labe_0020,forest area
+nat_labe_0027,11.602879962393994,-12.532376371869917,0,Labe,nat_labe_0027,empty area of land and trees
+nat_kind_0018,10.136956654391778,-13.29790380466163,0,Kindia,nat_kind_0018,forest area
+nat_kind_0001,9.858325886378825,-13.06681465872275,0,Kindia,nat_kind_0001,empty area of land and trees
+nat_nzer_0068,8.52129327433426,-9.449849274668347,0,Nzerekore,nat_nzer_0068,area of plantation
+nat_mamo_0054,10.401436508766814,-12.039690858623214,0,Mamou,nat_mamo_0054,forest area
+nat_labe_0031_p0,11.585652,-12.469508,1,Labe,nat_labe_0031,could be dumpsite
+nat_labe_0031_p1,11.585692,-12.46952,1,Labe,nat_labe_0031,could be dumpsite
+nat_cona_0062_p0,9.65443,-13.534176,1,Conakry,nat_cona_0062,could be dumpsite
+nat_kind_0038,10.965270977629023,-12.98195361458433,0,Kindia,nat_kind_0038,empty area of land and trees
+nat_boke_0007,9.937634848125361,-13.793896439832777,0,Boke,nat_boke_0007,"built-up / settlement, no visible waste"
+nat_mamo_0017,10.39126263539478,-12.059608938626422,0,Mamou,nat_mamo_0017,forest area
+nat_fara_0029,11.291137614035469,-10.68838425671986,0,Faranah,nat_fara_0029,"built-up / settlement, no visible waste"
+nat_nzer_0027,8.04828890703134,-9.038774725532976,0,Nzerekore,nat_nzer_0027,forest area
+nat_mamo_0052,11.044688151946293,-12.386070651763287,0,Mamou,nat_mamo_0052,"built-up / settlement, no visible waste"
+nat_nzer_0059,8.695934507379201,-8.666190263016857,0,Nzerekore,nat_nzer_0059,empty area of land and trees
+nat_labe_0074,11.335955252747246,-12.242267493552433,0,Labe,nat_labe_0074,empty area of land and trees
+nat_labe_0054,11.32780639154677,-12.345573553402067,0,Labe,nat_labe_0054,empty area of land and trees
+nat_fara_0005,9.163153186504493,-10.076021450392812,0,Faranah,nat_fara_0005,area of plantation
+nat_kind_0039,11.217805428913955,-13.587145587181173,0,Kindia,nat_kind_0039,forest area
+nat_fara_0035,10.718925742792276,-11.109304071857858,0,Faranah,nat_fara_0035,empty area of land and trees
+nat_cona_0022_p0,9.583598,-13.606791,1,Conakry,nat_cona_0022,could be dumpsite
+nat_boke_0020,9.93560119332387,-13.892038229374212,0,Boke,nat_boke_0020,area of plantation
+nat_fara_0003,11.702747004099393,-10.69045242321105,0,Faranah,nat_fara_0003,empty area of land and trees
+nat_boke_0054,10.016951169982708,-13.957135437684487,0,Boke,nat_boke_0054,forest area
+nat_boke_0030,10.637506255015326,-14.450673642235868,0,Boke,nat_boke_0030,forest area
+nat_kind_0004,9.589949353850159,-13.314477393247504,0,Kindia,nat_kind_0004,area of plantation
+nat_boke_0049,11.109857097808426,-13.828829029313647,0,Boke,nat_boke_0049,area of plantation
+nat_kank_0011,11.835244993759343,-10.038947417147487,0,Kankan,nat_kank_0011,empty area of land and trees
+nat_cona_0025,9.705829114402228,-13.495991918459598,0,Conakry,nat_cona_0025,residential area
+nat_kank_0057,11.097637497368646,-8.839168134444071,0,Kankan,nat_kank_0057,empty area of land and trees
+nat_kind_0016,9.305396311792896,-13.375589218378137,0,Kindia,nat_kind_0016,area of plantation
+nat_labe_0024,11.696632300365863,-12.527406817683996,0,Labe,nat_labe_0024,empty area of land and trees
+nat_mamo_0019,11.266692758300016,-12.513096258475192,0,Mamou,nat_mamo_0019,empty area of land and trees
+nat_kind_0051,10.293599880582994,-13.37249661111911,0,Kindia,nat_kind_0051,empty area of land and trees
+nat_boke_0056,10.979524739776446,-14.281709660063498,0,Boke,nat_boke_0056,area of plantation
+nat_boke_0060,10.9062224728883,-14.31484569310822,0,Boke,nat_boke_0060,"built-up / settlement, no visible waste"
+nat_mamo_0004,10.161366647129343,-11.419430929890897,0,Mamou,nat_mamo_0004,"built-up / settlement, no visible waste"
+nat_kank_0054,9.258656859109335,-8.991347827536979,0,Kankan,nat_kank_0054,area of plantation
+nat_kank_0068,9.67329992180849,-9.78322216417166,0,Kankan,nat_kank_0068,empty area of land and trees
+nat_fara_0058,9.146898223765534,-10.08327973451222,0,Faranah,nat_fara_0058,area of plantation
+nat_kind_0003,9.783090798978183,-13.538195012503042,0,Kindia,nat_kind_0003,"built-up / settlement, no visible waste"
+nat_kank_0060,11.551932663035133,-8.782160154833367,0,Kankan,nat_kank_0060,area of plantation
+nat_fara_0017,9.16518507685326,-10.113771533691708,0,Faranah,nat_fara_0017,"built-up / settlement, no visible waste"
+nat_boke_0038,10.423819476944182,-14.05133893671669,0,Boke,nat_boke_0038,forest area
+nat_kind_0025,9.636706019731696,-13.355876207788453,0,Kindia,nat_kind_0025,"built-up / settlement, no visible waste"
+nat_kind_0019,9.831891190812902,-13.521804370289233,0,Kindia,nat_kind_0019,water body
+nat_mamo_0065,10.320049063214368,-12.284688941413096,0,Mamou,nat_mamo_0065,empty area of land and trees
+nat_fara_0013,11.509139668759468,-10.258992475220106,0,Faranah,nat_fara_0013,empty area of land and trees
+nat_cona_0049,9.689564367275002,-13.518237676627573,0,Conakry,nat_cona_0049,residential area
+nat_fara_0004,10.727068151317233,-11.08174962528199,0,Faranah,nat_fara_0004,area of plantation
+nat_boke_0059,10.65582491265608,-14.352876653108519,0,Boke,nat_boke_0059,forest area
+nat_mamo_0024,10.621223357079606,-11.840766603341981,0,Mamou,nat_mamo_0024,empty area of land and trees
+nat_nzer_0040,8.565966007524835,-9.42039127213775,0,Nzerekore,nat_nzer_0040,forest area
+nat_kank_0053,11.63956421979331,-9.63281330299234,0,Kankan,nat_kank_0053,"built-up / settlement, no visible waste"
+nat_fara_0008,10.70264117704687,-11.451873733998566,0,Faranah,nat_fara_0008,empty area of land and trees
+nat_boke_0051,11.759820068910242,-13.219136047980996,0,Boke,nat_boke_0051,empty area of land and trees
+nat_mamo_0013,10.350568407996766,-12.05864115017054,0,Mamou,nat_mamo_0013,empty area of land and trees
+nat_kind_0056,10.043391590086678,-12.902658898746818,0,Kindia,nat_kind_0056,"built-up / settlement, no visible waste"
+nat_fara_0069,9.167216971651298,-10.103750023949114,0,Faranah,nat_fara_0069,residential area
+nat_boke_0074,9.92746662248721,-13.74831183504096,0,Boke,nat_boke_0074,area of plantation
+nat_boke_0004,9.98237647984856,-13.852979133118957,0,Boke,nat_boke_0004,forest area
+nat_mamo_0018,10.393297399925949,-12.105018176063155,0,Mamou,nat_mamo_0018,"built-up / settlement, no visible waste"
+nat_labe_0058,11.390962393579219,-12.425545007978236,0,Labe,nat_labe_0058,"built-up / settlement, no visible waste"
+nat_kind_0011,11.221879251981386,-13.602409969471005,0,Kindia,nat_kind_0011,forest area
+nat_mamo_0035,10.63547087460092,-11.838586509019024,0,Mamou,nat_mamo_0035,empty area of land and trees
+nat_boke_0005,10.149161561726483,-14.011048454634059,0,Boke,nat_boke_0005,area of plantation
+nat_cona_0066,9.571653939382601,-13.618484571344752,0,Conakry,nat_cona_0066,road
+nat_labe_0004,11.857670152166405,-12.516774148795237,0,Labe,nat_labe_0004,empty area of land and trees
+nat_cona_0060,9.620442551030662,-13.634793002509147,0,Conakry,nat_cona_0060,residential area
+nat_kind_0029,9.461889342707439,-12.861099254503372,0,Kindia,nat_kind_0029,forest area
+nat_nzer_0015,7.956960869696426,-8.613439806155792,0,Nzerekore,nat_nzer_0015,empty area of land and trees
+nat_boke_0022,11.319657619143229,-13.183613579114121,0,Boke,nat_boke_0022,empty area of land and trees
+nat_kank_0051,11.272803897666128,-9.135323936830517,0,Kankan,nat_kank_0051,sand / gravel stockpile
+nat_kank_0059,10.712818991389652,-8.895149715580683,0,Kankan,nat_kank_0059,empty area of land and trees
+nat_mamo_0023,11.248359638075668,-12.542897932179024,0,Mamou,nat_mamo_0023,forest area
+nat_nzer_0052,8.019874899681145,-9.018307308729364,0,Nzerekore,nat_nzer_0052,forest area
+nat_kank_0056,11.232063905834103,-8.894708324510916,0,Kankan,nat_kank_0056,empty area of land and trees
+nat_fara_0070,9.236304049387792,-10.102453792075195,0,Faranah,nat_fara_0070,empty area of land and trees
+nat_nzer_0021,7.741863222124673,-8.79381500161327,0,Nzerekore,nat_nzer_0021,residential area
+nat_cona_0045,9.64687083995572,-13.514661853736472,0,Conakry,nat_cona_0045,area of plantation
+nat_cona_0006_p0,9.554594,-13.640872,1,Conakry,nat_cona_0006,could be dumpsite
+nat_cona_0006_p1,9.554317,-13.64071,1,Conakry,nat_cona_0006,could be dumpsite
+nat_cona_0006_p2,9.55475,-13.641053,1,Conakry,nat_cona_0006,could be dumpsite
+nat_labe_0066,11.888251049634516,-12.638988041978248,0,Labe,nat_labe_0066,empty area of land and trees
+nat_kind_0008,10.067798865563487,-13.731829551617674,0,Kindia,nat_kind_0008,"built-up / settlement, no visible waste"
+nat_nzer_0060,7.81085217238996,-8.837357599011977,0,Nzerekore,nat_nzer_0060,empty area of land and trees
+nat_nzer_0054,8.545659971403351,-9.47533835372015,0,Nzerekore,nat_nzer_0054,forest area
+nat_fara_0010,10.0108496517577,-10.753857453388022,0,Faranah,nat_fara_0010,empty area of land and trees
+nat_nzer_0063,8.027993109824594,-9.008379892113846,0,Nzerekore,nat_nzer_0063,empty area of land and trees
+nat_kank_0013,11.148553791687819,-8.756831619253214,0,Kankan,nat_kank_0013,residential area
+nat_labe_0065,12.061567727822691,-12.25199413685766,0,Labe,nat_labe_0065,forest area
+nat_mamo_0037,11.199473496897143,-12.516344394290808,0,Mamou,nat_mamo_0037,area of plantation
+nat_labe_0022,11.399111945237923,-12.387885399300313,0,Labe,nat_labe_0022,empty area of land and trees
+nat_fara_0045,10.016951169982708,-10.716209265686304,0,Faranah,nat_fara_0045,empty area of land and trees
+nat_fara_0041,10.75760293068245,-11.115226031198448,0,Faranah,nat_fara_0041,"built-up / settlement, no visible waste"
+nat_cona_0041,9.587916511381554,-13.618887316192813,0,Conakry,nat_cona_0041,residential area
+nat_labe_0047,11.892328601834707,-12.368601112031126,0,Labe,nat_labe_0047,forest area
+nat_mamo_0039,10.360741775191967,-12.12439958454097,0,Mamou,nat_mamo_0039,forest area
+nat_fara_0014,9.72819363522391,-10.881553166373102,0,Faranah,nat_fara_0014,empty area of land and trees
+nat_cona_0031_p0,9.653484,-13.526301,1,Conakry,nat_cona_0031,could be dumpsite
+nat_cona_0031_p1,9.653458,-13.527613,1,Conakry,nat_cona_0031,could be dumpsite
+nat_cona_0031_p2,9.652043,-13.527425,1,Conakry,nat_cona_0031,could be dumpsite
+nat_cona_0031_p3,9.651464,-13.528506,1,Conakry,nat_cona_0031,could be dumpsite
+nat_cona_0031_p4,9.651797,-13.527709,1,Conakry,nat_cona_0031,could be dumpsite
+nat_mamo_0016,11.207620967356046,-12.556950309444796,0,Mamou,nat_mamo_0016,forest area
+nat_boke_0063,11.782242867196782,-13.507930589432092,0,Boke,nat_boke_0063,forest area
+nat_cona_0030,9.699729798845265,-13.543657697206799,0,Conakry,nat_cona_0030,residential area
+nat_nzer_0011,7.898109156242237,-9.350371460028185,0,Nzerekore,nat_nzer_0011,forest area
+nat_nzer_0043,8.515201692992386,-9.454779520613279,0,Nzerekore,nat_nzer_0043,forest area
+nat_nzer_0004,8.02393399699384,-9.028401409311021,0,Nzerekore,nat_nzer_0004,forest area
+nat_nzer_0067,7.823027144763734,-8.54146930818583,0,Nzerekore,nat_nzer_0067,forest area
+nat_cona_0018,9.604179381755777,-13.64445344005825,0,Conakry,nat_cona_0018,residential area
+nat_labe_0014,11.382812931239117,-12.22583314256389,0,Labe,nat_labe_0014,empty area of land and trees
+nat_mamo_0028,10.395332169527698,-12.09498665779615,0,Mamou,nat_mamo_0028,empty area of land and trees
+nat_labe_0037,11.443936078940922,-11.646582312176733,0,Labe,nat_labe_0037,"built-up / settlement, no visible waste"
+nat_labe_0060,11.87194107435493,-12.474203403151305,0,Labe,nat_labe_0060,forest area
+nat_fara_0048,10.712818991389652,-10.715787020938372,0,Faranah,nat_fara_0048,empty area of land and trees
+nat_cona_0070,9.713961601253,-13.493677502195318,0,Conakry,nat_cona_0070,residential area
+nat_fara_0000,10.035255988246533,-10.75183902261161,0,Faranah,nat_fara_0000,area of plantation
+nat_boke_0039,10.663966673549098,-14.360677917434487,0,Boke,nat_boke_0039,forest area
+nat_nzer_0024,9.2159837842386,-8.065331236807767,0,Nzerekore,nat_nzer_0024,empty area of land and trees
+nat_labe_0028,11.831167767835788,-12.379527197330479,0,Labe,nat_labe_0028,empty area of land and trees
+nat_kind_0022,9.327750807505168,-13.38366277740917,0,Kindia,nat_kind_0022,area of plantation
+nat_kank_0028_p0,11.611197,-9.366879,1,Kankan,nat_kank_0028,could be dumpsite
+nat_kank_0028_p1,11.611397,-9.366753,1,Kankan,nat_kank_0028,could be dumpsite
+nat_labe_0001,11.374663558150283,-12.339249743854712,0,Labe,nat_labe_0001,forest area
+nat_boke_0069,10.674143991870727,-14.562691434002254,0,Boke,nat_boke_0069,residential area
+nat_boke_0002,11.759820068910242,-13.52241419075085,0,Boke,nat_boke_0002,forest area
+nat_kind_0040,9.909164120783759,-13.571599555147177,0,Kindia,nat_kind_0040,empty area of land and trees
+nat_fara_0071,10.157298265529255,-11.368963626933951,0,Faranah,nat_fara_0071,forest area
+nat_nzer_0037,9.022963439114438,-8.221001403886277,0,Nzerekore,nat_nzer_0037,empty area of land and trees
+nat_cona_0071,9.657035777476734,-13.58034283391447,0,Conakry,nat_cona_0071,residential area
+nat_kank_0064,10.643612427434206,-9.683066953793388,0,Kankan,nat_kank_0064,empty area of land and trees
+nat_kank_0016,11.067089351191663,-9.189366203214673,0,Kankan,nat_kank_0016,area of plantation
+nat_labe_0019,12.061567727822691,-12.694578299093205,0,Labe,nat_labe_0019,forest area
+nat_mamo_0044,11.268729799235699,-12.528298557664948,0,Mamou,nat_mamo_0044,"built-up / settlement, no visible waste"
+nat_cona_0039_p0,9.523164,-13.691769,1,Conakry,nat_cona_0039,could be dumpsite
+nat_cona_0039_p1,9.523111,-13.691297,1,Conakry,nat_cona_0039,could be dumpsite
+nat_nzer_0072,7.8027355996315375,-8.53117794033406,0,Nzerekore,nat_nzer_0072,"built-up / settlement, no visible waste"
+nat_mamo_0025,10.362776463788835,-12.094209517799763,0,Mamou,nat_mamo_0025,"built-up / settlement, no visible waste"
+nat_mamo_0006,11.26261869298245,-12.525609627028329,0,Mamou,nat_mamo_0006,empty area of land and trees
+nat_fara_0026,10.163400845357678,-11.389248885467591,0,Faranah,nat_fara_0026,forest area
+nat_nzer_0007,7.56940967374038,-9.253082388347654,0,Nzerekore,nat_nzer_0007,area of plantation
+nat_fara_0018,10.18170885244759,-11.377057065138423,0,Faranah,nat_fara_0018,empty area of land and trees
+nat_kind_0047,9.5777523689497,-13.311665810771117,0,Kindia,nat_kind_0047,empty area of land and trees
+nat_labe_0042,11.867863638872917,-12.501895438273024,0,Labe,nat_labe_0042,forest area
+nat_mamo_0068,10.653789485446966,-12.802183656478375,0,Mamou,nat_mamo_0068,forest area
+nat_labe_0053,12.065646280697356,-12.684581274028707,0,Labe,nat_labe_0053,empty area of land and trees
+nat_labe_0040,11.920872122045477,-12.318838787862028,0,Labe,nat_labe_0040,forest area
+nat_cona_0061,9.718027873028948,-13.53656418732529,0,Conakry,nat_cona_0061,residential area
+nat_mamo_0057,11.197436642994148,-12.52638683285455,0,Mamou,nat_mamo_0057,empty area of land and trees
+nat_kank_0029,11.3257691901238,-8.71218206263509,0,Kankan,nat_kank_0029,"built-up / settlement, no visible waste"
+nat_labe_0039,11.9045613986837,-12.358832182017586,0,Labe,nat_labe_0039,forest area
+nat_labe_0000,11.690517648297925,-12.466589704645923,0,Labe,nat_labe_0000,empty area of land and trees
+nat_nzer_0008,8.565966007524835,-9.513326741293621,0,Nzerekore,nat_nzer_0008,forest area
+nat_mamo_0064,11.065052851476384,-12.416883786849123,0,Mamou,nat_mamo_0064,empty area of land and trees
+nat_kank_0030,10.928619652248397,-10.748301988004672,0,Kankan,nat_kank_0030,empty area of land and trees
+nat_kank_0007,10.674143991870727,-9.260061343844392,0,Kankan,nat_kank_0007,empty area of land and trees
+nat_cona_0058,9.718027873028948,-13.556698520968238,0,Conakry,nat_cona_0058,area of plantation
+nat_boke_0033,12.459339544645385,-13.260791850569898,0,Boke,nat_boke_0033,empty area of land and trees
+nat_cona_0013,9.630607183846445,-13.567103793804954,0,Conakry,nat_cona_0013,residential area
+nat_kank_0065,11.531554735702398,-9.342546382244313,0,Kankan,nat_kank_0065,empty area of land and trees
+nat_boke_0044,10.932691936113635,-14.270223096766996,0,Boke,nat_boke_0044,"built-up / settlement, no visible waste"
+nat_kind_0053,10.395332169527698,-13.574256825131569,0,Kindia,nat_kind_0053,empty area of land and trees
+nat_kind_0041,9.823757601140734,-13.473770662272141,0,Kindia,nat_kind_0041,residential area
+nat_boke_0061,9.951870567285265,-13.912608319512785,0,Boke,nat_boke_0061,area of plantation
+nat_fara_0049,11.700708763779165,-10.690403777652353,0,Faranah,nat_fara_0049,empty area of land and trees
+nat_labe_0026,11.346141454221032,-12.333437616344568,0,Labe,nat_labe_0026,"built-up / settlement, no visible waste"
+nat_nzer_0051,9.289138840308205,-8.40838586016764,0,Nzerekore,nat_nzer_0051,empty area of land and trees
+nat_nzer_0033,8.87466943345092,-10.17911324938791,0,Nzerekore,nat_nzer_0033,forest area
+nat_labe_0045,11.356327794676591,-12.252907174739054,0,Labe,nat_labe_0045,residential area
+nat_kind_0064,9.85629241949431,-13.044107963594863,0,Kindia,nat_kind_0064,empty area of land and trees
+nat_fara_0068,10.175606138788924,-11.359289956103844,0,Faranah,nat_fara_0068,forest area
+nat_kind_0002,9.872560288994872,-13.092338349805424,0,Kindia,nat_kind_0002,empty area of land and trees
+nat_nzer_0006,7.790560853569243,-8.804479155098964,0,Nzerekore,nat_nzer_0006,residential area
+nat_kank_0072,10.934728086065432,-9.497124118109063,0,Kankan,nat_kank_0072,empty area of land and trees
+nat_boke_0073,10.413645324290787,-14.058616102128443,0,Boke,nat_boke_0073,empty area of land and trees
+nat_kank_0070,11.087454646370364,-9.194808326026024,0,Kankan,nat_kank_0070,area of plantation
+nat_boke_0035,11.74351301810704,-13.190853209108012,0,Boke,nat_boke_0035,empty area of land and trees
+nat_labe_0046,11.374663558150283,-12.435206254704298,0,Labe,nat_labe_0046,"built-up / settlement, no visible waste"
+nat_boke_0029,10.425854322729137,-14.477310046487673,0,Boke,nat_boke_0029,area of plantation
+nat_mamo_0069,11.036542423504708,-12.388381840447947,0,Mamou,nat_mamo_0069,"built-up / settlement, no visible waste"
+nat_mamo_0051,10.657860345069803,-12.84010997754338,0,Mamou,nat_mamo_0051,empty area of land and trees
+nat_mamo_0058,10.641577031430929,-12.852292760590156,0,Mamou,nat_mamo_0058,"built-up / settlement, no visible waste"
+nat_kind_0009,10.979524739776446,-12.987386357243505,0,Kindia,nat_kind_0009,forest area
+nat_nzer_0047,9.035153019694137,-8.201063076790103,0,Nzerekore,nat_nzer_0047,empty area of land and trees
+nat_fara_0067,10.690427972366734,-10.859026348851842,0,Faranah,nat_fara_0067,forest area
+nat_boke_0027,11.75778166736401,-13.236766732806945,0,Boke,nat_boke_0027,empty area of land and trees
+nat_mamo_0041,11.199473496897143,-12.521392834098931,0,Mamou,nat_mamo_0041,area of plantation
+nat_nzer_0064,8.565966007524835,-9.460579583124073,0,Nzerekore,nat_nzer_0064,forest area
+nat_fara_0006,9.283042362970505,-10.015264559610406,0,Faranah,nat_fara_0006,forest area
+nat_mamo_0042,11.08541809245285,-12.402275607262169,0,Mamou,nat_mamo_0042,empty area of land and trees
+nat_mamo_0055,10.692463493418222,-12.258533665005404,0,Mamou,nat_mamo_0055,residential area
+nat_cona_0063,9.667200832423099,-13.530264942708943,0,Conakry,nat_cona_0063,residential area
+nat_fara_0062,10.961198522442738,-11.082061304071312,0,Faranah,nat_fara_0062,empty area of land and trees
+nat_cona_0029,9.632640124456492,-13.534441065744746,0,Conakry,nat_cona_0029,water body
+nat_nzer_0046,7.9671080430936465,-8.626118570092624,0,Nzerekore,nat_nzer_0046,empty area of land and trees
+nat_mamo_0056,10.649718646638425,-11.823800079508318,0,Mamou,nat_mamo_0056,empty area of land and trees
+nat_nzer_0002,7.958990296679273,-8.615975514372863,0,Nzerekore,nat_nzer_0002,empty area of land and trees
+nat_fara_0065,10.961198522442738,-11.079538353290646,0,Faranah,nat_fara_0065,empty area of land and trees
+nat_nzer_0009,8.890919705258796,-8.251828877592756,0,Nzerekore,nat_nzer_0009,area of plantation
+nat_fara_0039,10.067798865563487,-10.74243355386065,0,Faranah,nat_fara_0039,"built-up / settlement, no visible waste"
+nat_fara_0064,8.9010762652364,-10.172026622410689,0,Faranah,nat_fara_0064,area of plantation
+nat_nzer_0028,8.541598813881095,-10.10570531341658,0,Nzerekore,nat_nzer_0028,forest area
+nat_fara_0054,10.95916230289177,-11.04669304692694,0,Faranah,nat_fara_0054,area of plantation
+nat_kank_0009,10.397366944201067,-8.972679078596535,0,Kankan,nat_kank_0009,area of plantation
+nat_kank_0034,11.354290515460628,-9.17985525084376,0,Kankan,nat_kank_0034,area of plantation
+nat_boke_0067,9.97220772095749,-13.862784064601687,0,Boke,nat_boke_0067,area of plantation
+nat_boke_0024,10.759638624654823,-14.381132311532731,0,Boke,nat_boke_0024,"built-up / settlement, no visible waste"
+nat_labe_0006,11.388925019623208,-12.390136548713434,0,Labe,nat_labe_0006,empty area of land and trees
+nat_fara_0066,8.888888406202486,-10.174330701329543,0,Faranah,nat_fara_0066,forest area
+nat_kind_0000,9.37449379903287,-13.41747068540706,0,Kindia,nat_kind_0000,area of plantation
+nat_mamo_0003,11.276878018182297,-12.536091780285936,0,Mamou,nat_mamo_0003,forest area
+nat_fara_0073,10.727068151317233,-11.129662526153616,0,Faranah,nat_fara_0073,residential area
+nat_cona_0054,9.65906877906787,-13.55271175220248,0,Conakry,nat_cona_0054,residential area
+nat_kind_0049,9.998646746934938,-12.90911402297813,0,Kindia,nat_kind_0049,area of plantation
+nat_cona_0036,9.703796004496274,-13.561376224310978,0,Conakry,nat_cona_0036,area of plantation
+nat_fara_0016,10.704676729454125,-11.436791519130818,0,Faranah,nat_fara_0016,residential area
+nat_kank_0042,10.942872739358178,-9.49223952603727,0,Kankan,nat_kank_0042,empty area of land and trees
+nat_fara_0057,10.704676729454125,-10.864384579467561,0,Faranah,nat_fara_0057,area of plantation
+nat_boke_0040,11.413373875766126,-13.855517490285575,0,Boke,nat_boke_0040,forest area
+nat_kank_0049,11.816897660077597,-10.058752858239282,0,Kankan,nat_kank_0049,water body
+nat_mamo_0066,11.02839678146003,-12.40330963840788,0,Mamou,nat_mamo_0066,empty area of land and trees
+nat_cona_0004,9.604179381755777,-13.619290778112545,0,Conakry,nat_cona_0004,residential area
+nat_mamo_0010,10.690427972366734,-12.245875180122828,0,Mamou,nat_mamo_0010,residential area
+nat_kind_0027,9.970173983752955,-12.883237017704927,0,Kindia,nat_kind_0027,empty area of land and trees
+nat_boke_0013,9.951870567285265,-13.90505464564462,0,Boke,nat_boke_0013,area of plantation
+nat_kank_0062,11.225953097029565,-8.922360013201772,0,Kankan,nat_kank_0062,empty area of land and trees
+nat_kind_0026,11.071162366869807,-12.934367967176817,0,Kindia,nat_kind_0026,empty area of land and trees
+nat_cona_0046,9.663134796345293,-13.600627041409698,0,Conakry,nat_cona_0046,residential area
+nat_kank_0026,10.676179471172842,-9.257578163208523,0,Kankan,nat_kank_0026,empty area of land and trees
+nat_kank_0003,11.329843598519549,-8.702158998124801,0,Kankan,nat_kank_0003,area of plantation
+nat_labe_0041,12.07380345764562,-12.697465391384522,0,Labe,nat_labe_0041,empty area of land and trees
+nat_mamo_0061,11.034506004896443,-12.398422168353502,0,Mamou,nat_mamo_0061,empty area of land and trees
+nat_fara_0011,9.2159837842386,-10.11466715512369,0,Faranah,nat_fara_0011,residential area
+nat_cona_0008_p0,9.644954,-13.585414,1,Conakry,nat_cona_0008,could be dumpsite
+nat_labe_0070,11.820974804691623,-12.404519063253494,0,Labe,nat_labe_0070,empty area of land and trees
+nat_cona_0042,9.720061016008161,-13.51899736957191,0,Conakry,nat_cona_0042,"built-up / settlement, no visible waste"
+nat_kind_0074,9.699729798845265,-13.392655288615808,0,Kindia,nat_kind_0074,"built-up / settlement, no visible waste"
+nat_mamo_0015,10.733175012738515,-12.045201322139878,0,Mamou,nat_mamo_0015,empty area of land and trees
+nat_mamo_0047,11.219842337700603,-12.516888946592303,0,Mamou,nat_mamo_0047,area of plantation
+nat_boke_0025_p0,10.644641,-14.560739,1,Boke,nat_boke_0025,could be dumpsite
+nat_boke_0025_p1,10.645754,-14.560771,1,Boke,nat_boke_0025,could be dumpsite
+nat_boke_0025_p2,10.645762,-14.560621,1,Boke,nat_boke_0025,could be dumpsite
+nat_boke_0025_p3,10.646443,-14.562017,1,Boke,nat_boke_0025,could be dumpsite
+nat_cona_0035,9.545227894909164,-13.668151572021848,0,Conakry,nat_cona_0035,market / city center
+nat_cona_0074,9.675332961012716,-13.565699294587999,0,Conakry,nat_cona_0074,residential area
+nat_labe_0038,12.075842766722001,-12.672233747099662,0,Labe,nat_labe_0038,empty area of land and trees
+nat_fara_0002,10.963234747354806,-11.087154332712975,0,Faranah,nat_fara_0002,empty area of land and trees
+nat_boke_0016,10.698570087917002,-14.555850069995625,0,Boke,nat_boke_0016,forest area
+nat_mamo_0048,11.252433626203398,-12.520286932618701,0,Mamou,nat_mamo_0048,area of plantation
+nat_kind_0031,9.809524003255428,-13.496068083524206,0,Kindia,nat_kind_0031,residential area
+nat_cona_0034_p0,9.691654,-13.520169,1,Conakry,nat_cona_0034,could be dumpsite
+nat_mamo_0072,10.720961337065562,-11.457344835121038,0,Mamou,nat_mamo_0072,area of plantation
+nat_mamo_0011,10.364811157440734,-12.111897310582204,0,Mamou,nat_mamo_0011,residential area
+nat_mamo_0063,10.637506255015326,-12.837059207789219,0,Mamou,nat_mamo_0063,forest area
+nat_cona_0064,9.67329992180849,-13.605913988577255,0,Conakry,nat_cona_0064,area of plantation
+nat_kank_0012,10.590693817775838,-9.722368426182602,0,Kankan,nat_kank_0012,empty area of land and trees
+nat_mamo_0001,10.313945330267954,-12.297140093507911,0,Mamou,nat_mamo_0001,empty area of land and trees
+nat_kank_0035,11.256507636374865,-9.137528887157423,0,Kankan,nat_kank_0035,empty area of land and trees
+nat_kind_0052,9.10219853988987,-13.272798373930911,0,Kindia,nat_kind_0052,area of plantation
+nat_kank_0045,11.443936078940922,-8.888679702419173,0,Kankan,nat_kank_0045,residential area
+nat_kind_0017,9.740392706057296,-13.41379560516512,0,Kindia,nat_kind_0017,"built-up / settlement, no visible waste"
+nat_kind_0023_p0,9.875984,-13.483064,1,Kindia,nat_kind_0023,could be dumpsite
+nat_nzer_0017,7.332075494665689,-8.966685789547574,0,Nzerekore,nat_nzer_0017,"built-up / settlement, no visible waste"
+nat_kank_0023,11.431711046405887,-9.166246041502992,0,Kankan,nat_kank_0023,"built-up / settlement, no visible waste"
+nat_mamo_0000,10.733175012738515,-12.057810137509017,0,Mamou,nat_mamo_0000,empty area of land and trees
+nat_labe_0035,12.049332211494487,-12.691691740475177,0,Labe,nat_labe_0035,"built-up / settlement, no visible waste"
+nat_nzer_0010,8.549721145482144,-10.105838187205974,0,Nzerekore,nat_nzer_0010,area of plantation
+nat_boke_0019,12.406289989197447,-13.524884554415568,0,Boke,nat_boke_0019,"built-up / settlement, no visible waste"
+nat_kind_0028,9.878660819328633,-13.112628526172415,0,Kindia,nat_kind_0028,empty area of land and trees
+nat_kank_0071,12.057489198669664,-9.447186339348532,0,Kankan,nat_kank_0071,area of plantation
+nat_nzer_0005,7.58563946080398,-9.26834562976489,0,Nzerekore,nat_nzer_0005,empty area of land and trees
+nat_kank_0044,10.944908916057976,-8.359513389940185,0,Kankan,nat_kank_0044,area of plantation
+nat_kind_0063,9.996612946515237,-13.709821471981417,0,Kindia,nat_kind_0063,empty area of land and trees
+nat_kank_0001,11.774089041448642,-10.146242601185092,0,Kankan,nat_kank_0001,area of plantation
+nat_cona_0019,9.67329992180849,-13.57319839034337,0,Conakry,nat_cona_0019,residential area
+nat_boke_0003,9.92339936607603,-13.801079277504344,0,Boke,nat_boke_0003,area of plantation
+nat_mamo_0059,10.377019425565791,-12.09706915968335,0,Mamou,nat_mamo_0059,"built-up / settlement, no visible waste"
+nat_cona_0050,9.713961601253,-13.564147141300321,0,Conakry,nat_cona_0050,area of plantation
+nat_kank_0055,10.955089879868952,-9.386518729673275,0,Kankan,nat_kank_0055,water body
+nat_kank_0061,11.772050599466308,-8.96843367612139,0,Kankan,nat_kank_0061,empty area of land and trees
+nat_cona_0002,9.705829114402228,-13.551360090432766,0,Conakry,nat_cona_0002,area of plantation
+nat_nzer_0038,8.393377824045373,-8.953231823599705,0,Nzerekore,nat_nzer_0038,empty area of land and trees
+nat_labe_0069,11.896406177403975,-12.378828007392931,0,Labe,nat_labe_0069,forest area
+nat_fara_0034,10.031188216661578,-10.724054668397818,0,Faranah,nat_fara_0034,area of plantation
+nat_kind_0071,10.916402928884256,-13.036131759261758,0,Kindia,nat_kind_0071,residential area
+nat_nzer_0074,8.55581293766158,-9.462935540233715,0,Nzerekore,nat_nzer_0074,forest area
+nat_nzer_0062,8.604548620116606,-8.828167644799976,0,Nzerekore,nat_nzer_0062,empty area of land and trees
+nat_kank_0050_p0,9.652229,-9.77422,1,Kankan,nat_kank_0050,could be dumpsite
+nat_kank_0050_p1,9.653056,-9.775508,1,Kankan,nat_kank_0050,could be dumpsite
+nat_kank_0069,10.055595139646327,-8.7576933640526,0,Kankan,nat_kank_0069,empty area of land and trees
+nat_nzer_0041,8.346682564532117,-8.714034897106842,0,Nzerekore,nat_nzer_0041,area of plantation
+nat_fara_0032,9.583850840429653,-10.536474592437596,0,Faranah,nat_fara_0032,empty area of land and trees
+nat_boke_0032,10.651754063441427,-14.582200628230485,0,Boke,nat_boke_0032,forest area
+nat_cona_0005_p0,9.674217,-13.582216,1,Conakry,nat_cona_0005,could be dumpsite
+nat_cona_0005_p1,9.674118,-13.582577,1,Conakry,nat_cona_0005,could be dumpsite
+nat_cona_0005_p2,9.67387,-13.582287,1,Conakry,nat_cona_0005,could be dumpsite
+nat_cona_0005_p3,9.672426,-13.58273,1,Conakry,nat_cona_0005,could be dumpsite
+nat_cona_0005_p4,9.67253,-13.582801,1,Conakry,nat_cona_0005,could be dumpsite
+nat_cona_0005_p5,9.67266,-13.582762,1,Conakry,nat_cona_0005,could be dumpsite
+nat_kind_0007_p0,10.90928,-13.028675,1,Kindia,nat_kind_0007,could be dumpsite
+nat_kind_0007_p1,10.909357,-13.02878,1,Kindia,nat_kind_0007,could be dumpsite
+nat_kank_0033,10.751495880301364,-10.640977868207571,0,Kankan,nat_kank_0033,empty area of land and trees
+nat_boke_0011,10.802389414219082,-14.392482482082379,0,Boke,nat_boke_0011,residential area
+nat_kind_0060,10.670073048907405,-13.006843166155504,0,Kindia,nat_kind_0060,area of plantation
+nat_boke_0043,11.419486215595574,-13.850650981094654,0,Boke,nat_boke_0043,empty area of land and trees
+nat_cona_0011,9.665167812033637,-13.552863383359053,0,Conakry,nat_cona_0011,residential area
+nat_boke_0036,10.922511266530742,-14.277489053223025,0,Boke,nat_boke_0036,forest area
+nat_boke_0058,9.998646746934938,-13.956649658120803,0,Boke,nat_boke_0058,forest area
+nat_boke_0041,10.922511266530742,-14.317853012027086,0,Boke,nat_boke_0041,"built-up / settlement, no visible waste"
+nat_labe_0036_p0,11.328172,-12.309121,1,Labe,nat_labe_0036,could be dumpsite
+nat_labe_0036_p1,11.328351,-12.309237,1,Labe,nat_labe_0036,could be dumpsite
+nat_fara_0059,9.183472290331721,-10.116607741575416,0,Faranah,nat_fara_0059,"built-up / settlement, no visible waste"
+nat_cona_0073,9.652969788384475,-13.612955996320139,0,Conakry,nat_cona_0073,"built-up / settlement, no visible waste"
+nat_cona_0048,9.669233857514714,-13.495083515723916,0,Conakry,nat_cona_0048,forest area
+nat_cona_0023,9.620442551030662,-13.586982525984707,0,Conakry,nat_cona_0023,residential area
+nat_labe_0002,11.356327794676591,-12.449862715105805,0,Labe,nat_labe_0002,empty area of land and trees
+nat_cona_0055,9.608245146032038,-13.571582343489164,0,Conakry,nat_cona_0055,water body
+nat_boke_0023,12.471582338353455,-13.306745469871025,0,Boke,nat_boke_0023,area of plantation
+nat_nzer_0003,8.034081808184716,-8.877960375316992,0,Nzerekore,nat_nzer_0003,forest area
+nat_kind_0070,9.287106676685429,-13.035654865065943,0,Kindia,nat_kind_0070,forest area
+nat_mamo_0062,11.20354722115511,-12.503832011040437,0,Mamou,nat_mamo_0062,area of plantation
+nat_labe_0008,11.443936078940922,-12.709839637000849,0,Labe,nat_labe_0008,forest area
+nat_fara_0051,10.021018873193713,-10.711255804130001,0,Faranah,nat_fara_0051,empty area of land and trees
+nat_kind_0068,10.102377048666002,-13.647106726153176,0,Kindia,nat_kind_0068,empty area with water body
+nat_labe_0012,11.792435279553626,-12.380973900088357,0,Labe,nat_labe_0012,"built-up / settlement, no visible waste"
+nat_kank_0067,10.377019425565791,-9.297393326664247,0,Kankan,nat_kank_0067,residential area
+nat_kank_0031,11.965728545774423,-9.51346774690486,0,Kankan,nat_kank_0031,empty area of land and trees
+nat_fara_0047,10.06576489898745,-11.120157261873086,0,Faranah,nat_fara_0047,"built-up / settlement, no visible waste"
+nat_cona_0020,9.691597444158049,-13.586238311422694,0,Conakry,nat_cona_0020,area of plantation
+nat_nzer_0057,7.80476473716386,-8.814698862601698,0,Nzerekore,nat_nzer_0057,area of plantation
+nat_fara_0019,10.853286247914294,-10.961025903171715,0,Faranah,nat_fara_0019,area of plantation
+nat_kind_0005,10.014917325696539,-12.833967602430295,0,Kindia,nat_kind_0005,area of plantation
+nat_kind_0073,9.303364112048914,-13.40823504938534,0,Kindia,nat_kind_0073,area of plantation
+nat_kank_0002,10.914366827013032,-8.891272754017237,0,Kankan,nat_kank_0002,area of plantation
+nat_cona_0068_p0,9.547495,-13.653905,1,Conakry,nat_cona_0068,could be dumpsite
+nat_cona_0068_p1,9.547016,-13.652016,1,Conakry,nat_cona_0068,could be dumpsite
+nat_cona_0068_p2,9.547427,-13.65298,1,Conakry,nat_cona_0068,could be dumpsite
+nat_cona_0068_p3,9.547385,-13.65304,1,Conakry,nat_cona_0068,could be dumpsite
+nat_fara_0030,10.082036768993996,-10.740207869925456,0,Faranah,nat_fara_0030,empty area of land and trees
+nat_cona_0056,9.65906877906787,-13.484765745831771,0,Conakry,nat_cona_0056,forest area
+nat_boke_0047,11.437823537443599,-13.866357497630467,0,Boke,nat_boke_0047,empty area of land and trees
+nat_kind_0024,9.715994734777572,-13.362855431963567,0,Kindia,nat_kind_0024,empty area of land and trees
+nat_fara_0053,11.287063416153007,-10.708488116073642,0,Faranah,nat_fara_0053,"built-up / settlement, no visible waste"
+nat_cona_0009,9.602146506623649,-13.646919131715798,0,Conakry,nat_cona_0009,residential area
+nat_labe_0023_p0,11.585516,-11.890207,1,Labe,nat_labe_0023,could be dumpsite
+nat_labe_0023_p1,11.585522,-11.890413,1,Labe,nat_labe_0023,could be dumpsite
+nat_labe_0023_p2,11.585208,-11.890804,1,Labe,nat_labe_0023,could be dumpsite
+nat_cona_0016,9.667200832423099,-13.484966929323143,0,Conakry,nat_cona_0016,forest area
+nat_labe_0055,11.356327794676591,-12.285733098133512,0,Labe,nat_labe_0055,"built-up / settlement, no visible waste"
+nat_cona_0044,9.655002780582608,-13.58784172049443,0,Conakry,nat_cona_0044,residential area
+nat_kank_0066,9.126579919888153,-8.883683971934403,0,Kankan,nat_kank_0066,empty area of land and trees
+nat_boke_0057,10.191880141150065,-14.007167438951383,0,Boke,nat_boke_0057,empty area of land and trees
+nat_kind_0021,10.045425502775696,-12.885080614316385,0,Kindia,nat_kind_0021,empty area of land and trees
+nat_kank_0032,10.942872739358178,-10.761235268654346,0,Kankan,nat_kank_0032,empty area of land and trees
+nat_nzer_0049,7.790560853569243,-8.817022935060637,0,Nzerekore,nat_nzer_0049,residential area
+nat_labe_0067,11.688479442418256,-12.615620998784136,0,Labe,nat_labe_0067,empty area of land and trees
+nat_boke_0042_p0,10.694651,-14.550916,1,Boke,nat_boke_0042,could be dumpsite
+nat_boke_0042_p1,10.694658,-14.551464,1,Boke,nat_boke_0042,could be dumpsite
+nat_labe_0013,11.884173520794928,-12.641399144491544,0,Labe,nat_labe_0013,residential area
+nat_kind_0035,9.37449379903287,-13.384772753284032,0,Kindia,nat_kind_0035,forest area
+nat_kank_0048,11.600842002225107,-9.399555693398987,0,Kankan,nat_kank_0048,quarry / borrow pit
+nat_mamo_0038,11.205584091512183,-12.526604660447797,0,Mamou,nat_mamo_0038,area of plantation
+nat_nzer_0025,8.375105510672014,-9.271869137780635,0,Nzerekore,nat_nzer_0025,forest area
+nat_boke_0053,10.83089123351153,-14.47908429186323,0,Boke,nat_boke_0053,forest area
+nat_nzer_0042,7.5754958164535235,-9.265702889425523,0,Nzerekore,nat_nzer_0042,forest area
+nat_cona_0053_p0,9.691493,-13.570449,1,Conakry,nat_cona_0053,could be dumpsite
+nat_cona_0053_p1,9.691004,-13.570868,1,Conakry,nat_cona_0053,could be dumpsite
+nat_cona_0053_p2,9.690856,-13.570725,1,Conakry,nat_cona_0053,could be dumpsite
+nat_boke_0028,9.986444017429488,-13.941217987853264,0,Boke,nat_boke_0028,water body
+nat_fara_0033,9.148930078556893,-10.080801050318806,0,Faranah,nat_fara_0033,area of plantation
+nat_mamo_0009,10.71078341805771,-12.057259212273827,0,Mamou,nat_mamo_0009,empty area of land and trees
+nat_mamo_0060,11.219842337700603,-12.52698626549648,0,Mamou,nat_mamo_0060,area of plantation
+nat_fara_0001,10.718925742792276,-11.079043795189536,0,Faranah,nat_fara_0001,empty area of land and trees
+nat_kank_0019,10.861430048614144,-9.230824878747628,0,Kankan,nat_kank_0019,empty area of land and trees
+nat_nzer_0018,8.533476548473786,-10.14324712989829,0,Nzerekore,nat_nzer_0018,empty area of land and trees
+nat_nzer_0019,8.531445992457133,-10.135678953999577,0,Nzerekore,nat_nzer_0019,area of plantation
+nat_kank_0040,10.971379700634998,-8.332222104930477,0,Kankan,nat_kank_0040,"built-up / settlement, no visible waste"
+nat_kank_0063,11.560083992547172,-9.295135566650703,0,Kankan,nat_kank_0063,area of plantation
+nat_labe_0048,11.829129163590249,-12.369359369588956,0,Labe,nat_labe_0048,forest area
+nat_cona_0072_p0,9.653422,-13.574588,1,Conakry,nat_cona_0072,could be dumpsite
+nat_fara_0027,10.861430048614144,-10.941030991000911,0,Faranah,nat_fara_0027,empty area of land and trees
+nat_cona_0024,9.65906877906787,-13.58039345850166,0,Conakry,nat_cona_0024,residential area
+nat_labe_0073,11.845438160307102,-12.615012237826948,0,Labe,nat_labe_0073,"built-up / settlement, no visible waste"
+nat_labe_0056,11.405224167637801,-12.398151340721483,0,Labe,nat_labe_0056,residential area
+nat_cona_0040,9.677366004923194,-13.598465806043674,0,Conakry,nat_cona_0040,area of plantation
+nat_boke_0072,10.79628201624198,-14.38221343247141,0,Boke,nat_boke_0072,empty area of land and trees
+nat_nzer_0012,8.082792655945683,-8.479552643197538,0,Nzerekore,nat_nzer_0012,area of plantation
+nat_fara_0024,11.264655722882619,-10.71807078305908,0,Faranah,nat_fara_0024,"built-up / settlement, no visible waste"
+nat_cona_0012_p0,9.668906,-13.594538,1,Conakry,nat_cona_0012,could be dumpsite
+nat_cona_0012_p1,9.668423,-13.594585,1,Conakry,nat_cona_0012,could be dumpsite
+nat_nzer_0026,9.272881657564174,-8.400600868521263,0,Nzerekore,nat_nzer_0026,area of plantation
+nat_mamo_0036,10.293599880582994,-12.420107780407283,0,Mamou,nat_mamo_0036,empty area of land and trees
+nat_kind_0014,9.86239283454532,-13.477261362174668,0,Kindia,nat_kind_0014,residential area
+nat_labe_0021_p0,11.290802,-12.284765,1,Labe,nat_labe_0021,could be dumpsite
+nat_mamo_0022,11.077271931021675,-12.379350263897184,0,Mamou,nat_mamo_0022,empty area of land and trees
+nat_boke_0070,9.947803194738292,-13.854590301344091,0,Boke,nat_boke_0070,forest area
+nat_kank_0052,12.07380345764562,-9.450070597531774,0,Kankan,nat_kank_0052,empty area of land and trees
+nat_boke_0009,9.949836878589192,-13.81183956751431,0,Boke,nat_boke_0009,residential area
+nat_kind_0059_p0,10.376221,-13.356374,1,Kindia,nat_kind_0059,could be dumpsite
+nat_kind_0059_p1,10.37658,-13.356596,1,Kindia,nat_kind_0059,could be dumpsite
+nat_kind_0059_p2,10.375906,-13.356185,1,Kindia,nat_kind_0059,could be dumpsite
+nat_fara_0042,11.28298924038571,-10.693246256190896,0,Faranah,nat_fara_0042,area of plantation
+nat_nzer_0034,8.182250975927829,-8.408053964723308,0,Nzerekore,nat_nzer_0034,empty area of land and trees

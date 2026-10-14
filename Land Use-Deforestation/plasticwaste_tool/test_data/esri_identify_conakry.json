@@ -1,0 +1,54 @@
+{
+  "_note": "World_Imagery MapServer identify at Conakry (-13.6, 9.6), bands as read 2026-09-26 (research F7). Reduced to the attributes esri_capture_date reads; the zoom 12-17 band is the one the location check fetches.",
+  "results": [
+    {
+      "layerId": 0,
+      "layerName": "World Imagery",
+      "attributes": {
+        "OBJECTID": "1",
+        "SRC_DATE": "20250315",
+        "SRC_RES": "0.31",
+        "SRC_ACC": "5",
+        "SRC_DESC": "WV03",
+        "NICE_NAME": "Vantor",
+        "DATE (YYYYMMDD)": "20250315",
+        "RESOLUTION (M)": "0.31",
+        "SOURCE": "Vantor",
+        "DESCRIPTION": "WV03",
+        "MinMapLevel": "12",
+        "MaxMapLevel": "17"
+      }
+    },
+    {
+      "layerId": 0,
+      "layerName": "World Imagery",
+      "attributes": {
+        "OBJECTID": "2",
+        "SRC_DATE": "Null",
+        "SRC_RES": "15",
+        "SRC_DESC": "Landsat",
+        "NICE_NAME": "Esri",
+        "DATE (YYYYMMDD)": "Null",
+        "RESOLUTION (M)": "15",
+        "SOURCE": "Esri",
+        "DESCRIPTION": "Landsat",
+        "MinMapLevel": "10",
+        "MaxMapLevel": "11"
+      }
+    },
+    {
+      "layerId": 0,
+      "layerName": "World Imagery",
+      "attributes": {
+        "OBJECTID": "3",
+        "SRC_DATE": "Null",
+        "DATE (YYYYMMDD)": "Null",
+        "RESOLUTION (M)": "300",
+        "SOURCE": "Esri",
+        "DESCRIPTION": "Global",
+        "MinMapLevel": "0",
+        "MaxMapLevel": "9"
+      }
+    }
+  ]
+}

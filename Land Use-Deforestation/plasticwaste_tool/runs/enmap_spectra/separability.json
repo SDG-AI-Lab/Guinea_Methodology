@@ -1,0 +1,283 @@
+{
+  "n_bands": 218,
+  "bad_windows_nm": [
+    [
+      1340,
+      1460
+    ],
+    [
+      1800,
+      1960
+    ]
+  ],
+  "per_scene": {
+    "ENMAP01-____L2A-DT0000055956_20231222T121314Z_001_V010502_20260118T095258Z": {
+      "label": "ENMAP01-____L2A-DT0000055956_20231222T121314Z_001_V010502_20260118T095258Z",
+      "n_spectra": 314,
+      "n_dump_spectra": 35,
+      "n_distinct_sites": 19,
+      "baseline_ap": 0.11146496815286625,
+      "best_raw_ap": 0.2593100985528213,
+      "best_raw_nm": 1541.68,
+      "best_raw_lift": 2.3263820270167392,
+      "best_shape_ap": 0.23500690451923012,
+      "best_shape_nm": 1518.87,
+      "ch_features": {
+        "1215nm": {
+          "raw_ap": 0.18328183151140576,
+          "raw_rank": 41,
+          "shape_ap": 0.120631180275795,
+          "shape_rank": 198,
+          "n_bands": 218
+        },
+        "1730nm": {
+          "raw_ap": 0.23040721778205103,
+          "raw_rank": 28,
+          "shape_ap": 0.19690410451784823,
+          "shape_rank": 24,
+          "n_bands": 218
+        }
+      },
+      "multivariate_raw": {
+        "n": 314,
+        "baseline": 0.11146496815286625,
+        "oof_ap": 0.22245822853654174,
+        "lift": 1.9957681074421172
+      },
+      "multivariate_shape": {
+        "n": 314,
+        "baseline": 0.11146496815286625,
+        "oof_ap": 0.21590754875258378,
+        "lift": 1.9369991516660372
+      }
+    },
+    "ENMAP01-____L2A-DT0000055957_20231225T115153Z_002_V010502_20260119T112900Z": {
+      "label": "ENMAP01-____L2A-DT0000055957_20231225T115153Z_002_V010502_20260119T112900Z",
+      "n_spectra": 337,
+      "n_dump_spectra": 38,
+      "n_distinct_sites": 19,
+      "baseline_ap": 0.11275964391691394,
+      "best_raw_ap": 0.1879761844433205,
+      "best_raw_nm": 1318.88,
+      "best_raw_lift": 1.6670519515105005,
+      "best_shape_ap": 0.18003896570895483,
+      "best_shape_nm": 1484.34,
+      "ch_features": {
+        "1215nm": {
+          "raw_ap": 0.18098255239849162,
+          "raw_rank": 19,
+          "shape_ap": 0.13210981903694127,
+          "shape_rank": 141,
+          "n_bands": 218
+        },
+        "1730nm": {
+          "raw_ap": 0.17942786034074024,
+          "raw_rank": 25,
+          "shape_ap": 0.15113462740121408,
+          "shape_rank": 35,
+          "n_bands": 218
+        }
+      },
+      "multivariate_raw": {
+        "n": 337,
+        "baseline": 0.11275964391691394,
+        "oof_ap": 0.1531232619502291,
+        "lift": 1.3579615599270318
+      },
+      "multivariate_shape": {
+        "n": 337,
+        "baseline": 0.11275964391691394,
+        "oof_ap": 0.15452418299159276,
+        "lift": 1.370385517583336
+      }
+    },
+    "ENMAP01-____L2A-DT0000055958_20231229T115536Z_002_V010502_20260120T200034Z": {
+      "label": "ENMAP01-____L2A-DT0000055958_20231229T115536Z_002_V010502_20260120T200034Z",
+      "n_spectra": 335,
+      "n_dump_spectra": 37,
+      "n_distinct_sites": 18,
+      "baseline_ap": 0.11044776119402985,
+      "best_raw_ap": 0.1983033838756637,
+      "best_raw_nm": 1330.86,
+      "best_raw_lift": 1.7954495567120903,
+      "best_shape_ap": 0.19280009642069088,
+      "best_shape_nm": 1484.34,
+      "ch_features": {
+        "1215nm": {
+          "raw_ap": 0.16738829654106763,
+          "raw_rank": 28,
+          "shape_ap": 0.14815647405215626,
+          "shape_rank": 83,
+          "n_bands": 218
+        },
+        "1730nm": {
+          "raw_ap": 0.1622702839355037,
+          "raw_rank": 40,
+          "shape_ap": 0.15384979525733586,
+          "shape_rank": 69,
+          "n_bands": 218
+        }
+      },
+      "multivariate_raw": {
+        "n": 335,
+        "baseline": 0.11044776119402985,
+        "oof_ap": 0.1678523367859353,
+        "lift": 1.519744130359144
+      },
+      "multivariate_shape": {
+        "n": 335,
+        "baseline": 0.11044776119402985,
+        "oof_ap": 0.23987874914733484,
+        "lift": 2.1718751611988423
+      }
+    },
+    "ENMAP01-____L2A-DT0000060721_20240209T114334Z_002_V010502_20260211T173447Z": {
+      "label": "ENMAP01-____L2A-DT0000060721_20240209T114334Z_002_V010502_20260211T173447Z",
+      "n_spectra": 108,
+      "n_dump_spectra": 12,
+      "n_distinct_sites": 1,
+      "baseline_ap": 0.1111111111111111,
+      "best_raw_ap": 0.41012645201449754,
+      "best_raw_nm": 2445.3,
+      "best_raw_lift": 3.691138068130478,
+      "best_shape_ap": 0.8323544973544973,
+      "best_shape_nm": 982.524,
+      "ch_features": {
+        "1215nm": {
+          "raw_ap": 0.1966447796448971,
+          "raw_rank": 173,
+          "shape_ap": 0.3696768900901965,
+          "shape_rank": 50,
+          "n_bands": 218
+        },
+        "1730nm": {
+          "raw_ap": 0.2686903260529776,
+          "raw_rank": 86,
+          "shape_ap": 0.1629209920170372,
+          "shape_rank": 204,
+          "n_bands": 218
+        }
+      },
+      "multivariate_raw": null,
+      "multivariate_shape": null
+    },
+    "ENMAP01-____L2A-DT0000069186_20240415T115423Z_010_V010502_20260314T155804Z": {
+      "label": "ENMAP01-____L2A-DT0000069186_20240415T115423Z_010_V010502_20260314T155804Z",
+      "n_spectra": 54,
+      "n_dump_spectra": 6,
+      "n_distinct_sites": 3,
+      "baseline_ap": 0.1111111111111111,
+      "best_raw_ap": 0.24052465072050325,
+      "best_raw_nm": 2207.86,
+      "best_raw_lift": 2.164721856484529,
+      "best_shape_ap": 0.347608024691358,
+      "best_shape_nm": 2014.33,
+      "ch_features": {
+        "1215nm": {
+          "raw_ap": 0.13277431373887347,
+          "raw_rank": 155,
+          "shape_ap": 0.1502830060010911,
+          "shape_rank": 132,
+          "n_bands": 218
+        },
+        "1730nm": {
+          "raw_ap": 0.17136457047537762,
+          "raw_rank": 87,
+          "shape_ap": 0.18231611057698013,
+          "shape_rank": 68,
+          "n_bands": 218
+        }
+      },
+      "multivariate_raw": {
+        "n": 54,
+        "baseline": 0.1111111111111111,
+        "oof_ap": 0.0835755514326943,
+        "lift": 0.7521799628942487
+      },
+      "multivariate_shape": {
+        "n": 54,
+        "baseline": 0.1111111111111111,
+        "oof_ap": 0.11148561153509198,
+        "lift": 1.0033705038158278
+      }
+    },
+    "ENMAP01-____L2A-DT0000113031_20250125T114334Z_016_V010502_20250128T204638Z": {
+      "label": "ENMAP01-____L2A-DT0000113031_20250125T114334Z_016_V010502_20250128T204638Z",
+      "n_spectra": 108,
+      "n_dump_spectra": 12,
+      "n_distinct_sites": 1,
+      "baseline_ap": 0.1111111111111111,
+      "best_raw_ap": 0.31311657690968037,
+      "best_raw_nm": 931.204,
+      "best_raw_lift": 2.8180491921871234,
+      "best_shape_ap": 0.34752220806568634,
+      "best_shape_nm": 972.017,
+      "ch_features": {
+        "1215nm": {
+          "raw_ap": 0.2565533948622184,
+          "raw_rank": 53,
+          "shape_ap": 0.1866914438988907,
+          "shape_rank": 96,
+          "n_bands": 218
+        },
+        "1730nm": {
+          "raw_ap": 0.23934417712624578,
+          "raw_rank": 89,
+          "shape_ap": 0.14918190280014754,
+          "shape_rank": 183,
+          "n_bands": 218
+        }
+      },
+      "multivariate_raw": null,
+      "multivariate_shape": null
+    }
+  },
+  "pooled": {
+    "label": "pooled",
+    "n_spectra": 1256,
+    "n_dump_spectra": 140,
+    "n_distinct_sites": 30,
+    "baseline_ap": 0.11146496815286625,
+    "best_raw_ap": 0.12746139395685563,
+    "best_raw_nm": 1461.11,
+    "best_raw_lift": 1.1435107914986475,
+    "best_shape_ap": 0.14393466296829804,
+    "best_shape_nm": 1461.11,
+    "ch_features": {
+      "1215nm": {
+        "raw_ap": 0.11517088895941659,
+        "raw_rank": 140,
+        "shape_ap": 0.1131379189769526,
+        "shape_rank": 163,
+        "n_bands": 218
+      },
+      "1730nm": {
+        "raw_ap": 0.11564795646383097,
+        "raw_rank": 128,
+        "shape_ap": 0.12314429643969774,
+        "shape_rank": 46,
+        "n_bands": 218
+      }
+    },
+    "multivariate_raw": {
+      "n": 1256,
+      "baseline": 0.11146496815286625,
+      "oof_ap": 0.2178560572013341,
+      "lift": 1.9544800560348259
+    },
+    "multivariate_shape": {
+      "n": 1256,
+      "baseline": 0.11146496815286625,
+      "oof_ap": 0.15670753471357943,
+      "lift": 1.405890454287541
+    },
+    "best_band_minus_baseline": {
+      "delta_ap": 0.030216926178105726,
+      "ci95": [
+        0.007055457155166683,
+        0.10041367789625691
+      ],
+      "excludes_zero": true
+    }
+  }
+}

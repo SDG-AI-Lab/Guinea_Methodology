@@ -1,0 +1,239 @@
+{
+  "n_boot": 2000,
+  "footprints": {
+    "250m_box": {
+      "footprint": "250m_box",
+      "n": 651,
+      "n_positive": 111,
+      "baseline": 0.17050691244239632,
+      "scores": {
+        "FDI": {
+          "ap": 0.238201835839204,
+          "sign": -1,
+          "ci95": [
+            0.15516656020356845,
+            0.36669213587475585
+          ],
+          "lift": 1.397021577759656
+        },
+        "NDVI": {
+          "ap": 0.44712363169972824,
+          "sign": -1,
+          "ci95": [
+            0.3228211908457371,
+            0.5696603820403348
+          ],
+          "lift": 2.622319677806514
+        },
+        "PMLI": {
+          "ap": 0.47624686073816286,
+          "sign": -1,
+          "ci95": [
+            0.3368928838252969,
+            0.6132522223252528
+          ],
+          "lift": 2.7931234805454412
+        }
+      },
+      "comparisons": {
+        "FDI_minus_NDVI": {
+          "delta_ap": -0.20588094921448594,
+          "ci95": [
+            -0.3111722743473145,
+            -0.11296443103775988
+          ],
+          "excludes_zero": true
+        },
+        "FDI_minus_PMLI": {
+          "delta_ap": -0.2361133407333814,
+          "ci95": [
+            -0.38818332760237545,
+            -0.09722904143814717
+          ],
+          "excludes_zero": true
+        },
+        "FDI_minus_baseline": {
+          "delta_ap": 0.07263286257462832,
+          "ci95": [
+            -0.015340352238827886,
+            0.1961852234323595
+          ],
+          "excludes_zero": false
+        }
+      },
+      "fdi_median_dump": -0.1327798217535019,
+      "fdi_median_nondump": -0.08867760002613068
+    },
+    "80m_box": {
+      "footprint": "80m_box",
+      "n": 648,
+      "n_positive": 111,
+      "baseline": 0.1712962962962963,
+      "scores": {
+        "FDI": {
+          "ap": 0.28174342903721367,
+          "sign": -1,
+          "ci95": [
+            0.15244877008855562,
+            0.4787099684559454
+          ],
+          "lift": 1.6447724505956256
+        },
+        "NDVI": {
+          "ap": 0.4368402332014395,
+          "sign": -1,
+          "ci95": [
+            0.30673180668896716,
+            0.5709556025425432
+          ],
+          "lift": 2.5502024424732683
+        },
+        "PMLI": {
+          "ap": 0.4598432868400981,
+          "sign": -1,
+          "ci95": [
+            0.32805531152358186,
+            0.5960180943945991
+          ],
+          "lift": 2.684490539390843
+        }
+      },
+      "comparisons": {
+        "FDI_minus_NDVI": {
+          "delta_ap": -0.15458781162692065,
+          "ci95": [
+            -0.27118106662666835,
+            -0.028171159525635033
+          ],
+          "excludes_zero": true
+        },
+        "FDI_minus_PMLI": {
+          "delta_ap": -0.17915917877490906,
+          "ci95": [
+            -0.35292490346529176,
+            0.015795337073566836
+          ],
+          "excludes_zero": false
+        },
+        "FDI_minus_baseline": {
+          "delta_ap": 0.1140621151839836,
+          "ci95": [
+            -0.018847526207740675,
+            0.3074136721596491
+          ],
+          "excludes_zero": false
+        }
+      },
+      "fdi_median_dump": -0.13652482628822327,
+      "fdi_median_nondump": -0.09381531178951263
+    },
+    "native_pixel": {
+      "footprint": "native_pixel",
+      "n": 646,
+      "n_positive": 111,
+      "baseline": 0.17182662538699692,
+      "scores": {
+        "FDI": {
+          "ap": 0.3011743207424539,
+          "sign": -1,
+          "ci95": [
+            0.15301414940849614,
+            0.4838066147430201
+          ],
+          "lift": 1.7527802810777047
+        },
+        "NDVI": {
+          "ap": 0.43954748073480787,
+          "sign": -1,
+          "ci95": [
+            0.3133739546564324,
+            0.581432855968959
+          ],
+          "lift": 2.558087140132305
+        },
+        "PMLI": {
+          "ap": 0.436416770398927,
+          "sign": -1,
+          "ci95": [
+            0.3128288300254941,
+            0.5707619481753864
+          ],
+          "lift": 2.539866970069431
+        }
+      },
+      "comparisons": {
+        "FDI_minus_NDVI": {
+          "delta_ap": -0.14711499403706677,
+          "ci95": [
+            -0.27387066771081003,
+            -0.009089192926375987
+          ],
+          "excludes_zero": true
+        },
+        "FDI_minus_PMLI": {
+          "delta_ap": -0.14685123215572576,
+          "ci95": [
+            -0.32102521000177575,
+            0.04344310617612742
+          ],
+          "excludes_zero": false
+        },
+        "FDI_minus_baseline": {
+          "delta_ap": 0.12302494528624881,
+          "ci95": [
+            -0.01881247597850078,
+            0.31197998935602317
+          ],
+          "excludes_zero": false
+        }
+      },
+      "fdi_median_dump": -0.1408957540988922,
+      "fdi_median_nondump": -0.09812837094068527
+    }
+  },
+  "pipeline_masks": {
+    "250m_box": {
+      "footprint": "250m_box",
+      "n_points": 651,
+      "n_dumps": 111,
+      "survive_ndvi_ndwi_only": 47,
+      "dumps_survive_ndvi_ndwi_only": 23,
+      "survive_with_water_constraint": 0,
+      "dumps_survive_with_water_constraint": 0
+    },
+    "80m_box": {
+      "footprint": "80m_box",
+      "n_points": 648,
+      "n_dumps": 111,
+      "survive_ndvi_ndwi_only": 68,
+      "dumps_survive_ndvi_ndwi_only": 34,
+      "survive_with_water_constraint": 0,
+      "dumps_survive_with_water_constraint": 0
+    },
+    "native_pixel": {
+      "footprint": "native_pixel",
+      "n_points": 646,
+      "n_dumps": 111,
+      "survive_ndvi_ndwi_only": 87,
+      "dumps_survive_ndvi_ndwi_only": 47,
+      "survive_with_water_constraint": 0,
+      "dumps_survive_with_water_constraint": 0
+    }
+  },
+  "worldcover_at_dumps": {
+    "status": "ok",
+    "n_points": 111,
+    "class_counts": {
+      "50": 46,
+      "30": 17,
+      "10": 10,
+      "40": 10,
+      "20": 5,
+      "60": 4,
+      "95": 3,
+      "80": 13,
+      "90": 3
+    },
+    "on_permanent_water": 13
+  }
+}

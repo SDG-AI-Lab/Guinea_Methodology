@@ -1,0 +1,66 @@
+{
+  "aoi": "conakry",
+  "trees": 300,
+  "results": [
+    {
+      "date": "2024-01-11",
+      "aoi": "conakry",
+      "threshold": 0.08440539427101612,
+      "n_water": 4517101,
+      "n_flagged": 108520,
+      "p_debris_median": 0.16301790303917119,
+      "p_debris_mean": 0.35116532200618333,
+      "debris_share_at_cut": 0.33667526723184665,
+      "named": {
+        "Marine Debris": 42163,
+        "Dense Sargassum": 3321,
+        "Sparse Sargassum": 22,
+        "Natural Organic Material": 3318,
+        "Ship": 489,
+        "Clouds": 63,
+        "Sediment-Laden Water": 59123,
+        "Foam": 21
+      },
+      "named_share": {
+        "Marine Debris": 0.3885274603759676,
+        "Dense Sargassum": 0.030602653888684113,
+        "Sparse Sargassum": 0.00020272760781422778,
+        "Natural Organic Material": 0.030575009214891265,
+        "Ship": 0.004506081828234427,
+        "Clouds": 0.0005805381496498341,
+        "Sediment-Laden Water": 0.5448120162182086,
+        "Foam": 0.00019351271654994472
+      },
+      "raster": "D:/gee_cache\\cache\\rasters/conakry_a410b95f_2024-01-11_2024-01-12_composite.tif"
+    },
+    {
+      "date": "2024-01-26",
+      "aoi": "conakry",
+      "threshold": 0.09790419600903988,
+      "n_water": 4503815,
+      "n_flagged": 101788,
+      "p_debris_median": 0.14938811383624148,
+      "p_debris_mean": 0.2404046000242533,
+      "debris_share_at_cut": 0.15283726961920854,
+      "named": {
+        "Marine Debris": 28003,
+        "Dense Sargassum": 1184,
+        "Natural Organic Material": 618,
+        "Ship": 48368,
+        "Clouds": 1332,
+        "Sediment-Laden Water": 1649,
+        "Foam": 20634
+      },
+      "named_share": {
+        "Marine Debris": 0.2751110150508901,
+        "Dense Sargassum": 0.011632019491492122,
+        "Natural Organic Material": 0.006071442606201124,
+        "Ship": 0.4751837151727119,
+        "Clouds": 0.013086021927928636,
+        "Sediment-Laden Water": 0.016200337957323063,
+        "Foam": 0.20271544779345305
+      },
+      "raster": "D:/gee_cache\\cache\\rasters/conakry_a410b95f_2024-01-26_2024-01-27_composite.tif"
+    }
+  ]
+}

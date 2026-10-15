@@ -9,6 +9,7 @@ dependencies = [
     "folium>=0.20.0",
     "geodatasets>=2026.5.1",
     "geopandas>=1.2.0",
+    "h3>=4.5.0",
     "ipykernel>=7.4.0",
     "mapclassify>=2.11.0",
     "matplotlib>=3.11.2",

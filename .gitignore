@@ -126,3 +126,4 @@ Land Use-Deforestation/plasticwaste_tool/dumpsite_data/**
 **/credentials/
 .env
 *.env
+gee-account.json

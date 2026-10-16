@@ -7,12 +7,16 @@ requires-python = ">=3.13"
 dependencies = [
     "earthengine-api>=1.7.48",
     "folium>=0.20.0",
+    "geemap>=0.38.9",
     "geodatasets>=2026.5.1",
     "geopandas>=1.2.0",
     "h3>=4.5.0",
     "ipykernel>=7.4.0",
     "mapclassify>=2.11.0",
     "matplotlib>=3.11.2",
+    "nbformat>=5.11.1",
+    "plotly>=7.1.0",
+    "pyarrow>=26.0.0",
 ]
 
 [project.scripts]

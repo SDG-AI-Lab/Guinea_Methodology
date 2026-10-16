@@ -1,0 +1,13 @@
+{
+  "computed_at_utc": "2026-10-16T10:57:30+00:00",
+  "hansen_asset": "UMD/hansen/global_forest_change_2025_v1_13",
+  "canopy_thresholds": [
+    0,
+    10,
+    30,
+    50
+  ],
+  "seconds": 75.2,
+  "eecu_seconds": 3388.141,
+  "eecu_hours": 0.941
+}

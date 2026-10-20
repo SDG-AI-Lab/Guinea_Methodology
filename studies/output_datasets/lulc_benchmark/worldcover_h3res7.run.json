@@ -1,0 +1,17 @@
+{
+  "computed_at_utc": "2026-10-19T21:22:44+00:00",
+  "asset": {
+    "2020": "ESA/WorldCover/v100",
+    "2021": "ESA/WorldCover/v200"
+  },
+  "years": [
+    2020,
+    2021
+  ],
+  "points": 56712,
+  "points_returned": 56712,
+  "h3_resolution": 7,
+  "seconds": 954.6,
+  "eecu_seconds": 18841.2,
+  "eecu_hours": 5.234
+}

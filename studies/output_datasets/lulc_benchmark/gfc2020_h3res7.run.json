@@ -1,0 +1,13 @@
+{
+  "computed_at_utc": "2026-10-19T20:25:11+00:00",
+  "asset": "JRC/GFC2020/V3",
+  "years": [
+    2020
+  ],
+  "points": 56712,
+  "points_returned": 56712,
+  "h3_resolution": 7,
+  "seconds": 1124.5,
+  "eecu_seconds": 19168.4,
+  "eecu_hours": 5.325
+}

@@ -1,0 +1,86 @@
+{
+  "2015": {
+    "computed_at_utc": "2026-10-19T13:11:48+00:00",
+    "canopy_threshold": 30,
+    "seconds": 14.0,
+    "eecu_seconds": 606.7,
+    "eecu_hours": 0.169
+  },
+  "2015_v1_3": {
+    "computed_at_utc": "2026-10-19T13:12:06+00:00",
+    "canopy_threshold": 30,
+    "seconds": 14.8,
+    "eecu_seconds": 610.6,
+    "eecu_hours": 0.17
+  },
+  "2016_v1_4": {
+    "computed_at_utc": "2026-10-19T13:12:28+00:00",
+    "canopy_threshold": 30,
+    "seconds": 17.8,
+    "eecu_seconds": 800.2,
+    "eecu_hours": 0.222
+  },
+  "2017_v1_5": {
+    "computed_at_utc": "2026-10-19T13:12:52+00:00",
+    "canopy_threshold": 30,
+    "seconds": 20.1,
+    "eecu_seconds": 815.9,
+    "eecu_hours": 0.227
+  },
+  "2018_v1_6": {
+    "computed_at_utc": "2026-10-19T13:13:12+00:00",
+    "canopy_threshold": 30,
+    "seconds": 19.1,
+    "eecu_seconds": 807.4,
+    "eecu_hours": 0.224
+  },
+  "2019_v1_7": {
+    "computed_at_utc": "2026-10-19T13:13:23+00:00",
+    "canopy_threshold": 30,
+    "seconds": 10.4,
+    "eecu_seconds": 585.5,
+    "eecu_hours": 0.163
+  },
+  "2020_v1_8": {
+    "computed_at_utc": "2026-10-19T13:13:35+00:00",
+    "canopy_threshold": 30,
+    "seconds": 11.4,
+    "eecu_seconds": 574.7,
+    "eecu_hours": 0.16
+  },
+  "2021_v1_9": {
+    "computed_at_utc": "2026-10-19T13:13:45+00:00",
+    "canopy_threshold": 30,
+    "seconds": 10.2,
+    "eecu_seconds": 566.8,
+    "eecu_hours": 0.157
+  },
+  "2022_v1_10": {
+    "computed_at_utc": "2026-10-19T13:14:05+00:00",
+    "canopy_threshold": 30,
+    "seconds": 18.2,
+    "eecu_seconds": 752.7,
+    "eecu_hours": 0.209
+  },
+  "2023_v1_11": {
+    "computed_at_utc": "2026-10-19T13:14:22+00:00",
+    "canopy_threshold": 30,
+    "seconds": 17.5,
+    "eecu_seconds": 749.1,
+    "eecu_hours": 0.208
+  },
+  "2024_v1_12": {
+    "computed_at_utc": "2026-10-19T13:14:46+00:00",
+    "canopy_threshold": 30,
+    "seconds": 20.3,
+    "eecu_seconds": 810.9,
+    "eecu_hours": 0.225
+  },
+  "2025_v1_13": {
+    "computed_at_utc": "2026-10-19T13:14:59+00:00",
+    "canopy_threshold": 30,
+    "seconds": 12.4,
+    "eecu_seconds": 621.7,
+    "eecu_hours": 0.173
+  }
+}

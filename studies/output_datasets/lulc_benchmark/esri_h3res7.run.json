@@ -1,0 +1,21 @@
+{
+  "computed_at_utc": "2026-10-19T20:45:45+00:00",
+  "asset": "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS",
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "points": 56712,
+  "points_returned": 56712,
+  "h3_resolution": 7,
+  "seconds": 1173.5,
+  "eecu_seconds": 24910.0,
+  "eecu_hours": 6.919
+}

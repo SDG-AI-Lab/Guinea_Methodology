@@ -1,0 +1,17 @@
+{
+  "computed_at_utc": "2026-10-19T12:19:33+00:00",
+  "asset": "projects/glad/GLCLU2020/v2/LCLUC_{year}",
+  "years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "points": 56712,
+  "points_returned": 56712,
+  "h3_resolution": 7,
+  "seconds": 324.4,
+  "eecu_seconds": 2932.1,
+  "eecu_hours": 0.814
+}

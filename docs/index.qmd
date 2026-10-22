@@ -1,0 +1,15 @@
+---
+title: "Guinea forest monitoring"
+subtitle: "Methodology review for measuring forest and deforestation in Guinea"
+toc: false
+---
+
+This site collects the analyses carried out to design a national method for measuring forest area and forest loss in
+Guinea from satellite data.
+
+## Reports
+
+[**Forest loss in Guinea from global satellite products**](forest_loss_assessment.qmd)
+: Stage 1 assessment. Reviews Hansen Global Forest Change (forest definition, the 2013 break in its series, where and
+  how concentrated forest loss is) and compares it with six global forest and land-cover maps on a common sample of
+  56,712 points.

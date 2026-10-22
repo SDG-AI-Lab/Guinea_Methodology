@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Guinea forest monitoring"
+  site-url: "https://sdg-ai-lab.github.io/Guinea_Methodology/"
+  repo-url: "https://github.com/SDG-AI-Lab/Guinea_Methodology"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: forest_loss_assessment.qmd
+        text: Forest loss assessment
+  page-footer:
+    center: "Guinea deforestation methodology review"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: article
+    grid:
+      body-width: 1000px
+
+execute:
+  freeze: auto

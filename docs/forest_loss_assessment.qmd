@@ -1002,9 +1002,7 @@ larger than any sampling error. No product can be adopted on the strength of its
 
 **How to proceed.**
 
-1. **Agree on the operational forest definition.** The legal 10 % canopy threshold or a stricter operational one
-   reported alongside it. This choice changes forest area and loss by a factor of about three and should be made
-   explicitly, together with the treatment of degradation (forest to open forest), which the NERF reports separately.
+1. **Agree on the operational forest definition.** 30% canopy threshold is the common choice however weighting each ecoregion by a different canopy threshold may increase the results and consider that diferent habits holds different ecological composition, which affects on canopy density.
 2. **Collect reference data.** Interpret a stratified sample of points on high-resolution imagery, using the strata
    produced here (agreed forest, agreed non-forest, disagreement, and the loss hotspots) to concentrate effort where
    the products disagree and where change happens. This gives the accuracy of every product and unbiased estimates
@@ -1012,9 +1010,7 @@ larger than any sampling error. No product can be adopted on the strength of its
 3. **Separate permanent loss from temporary clearing.** Combine Hansen loss from 2013 with what the land becomes
    afterwards (land cover in later years, persistence of the loss), so that rotational agriculture and fallow are not
    counted as deforestation.
-4. **Consider a national map.** If none of the global products matches the national definition, a classification of
-   the Sentinel-2 and Landsat mosaics already prepared for Guinea, trained on the reference data, would give a forest
-   map consistent with the definition and with the NERF.
+4. **Consider time-series for creating a deforestation product.** Using satellite-image time series and other Remote Sensing approaches would create a deforestation product to Guinea that might be considered.
 
 # Reproducibility {.appendix .unnumbered}
 

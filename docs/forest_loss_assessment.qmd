@@ -536,7 +536,7 @@ ru.markdown_table(t, floatfmt=("g", ",.0f", ".1f", ",.0f", ",.0f", "+.0f", ".2f"
 
 ## Where the loss happens
 
-@fig-loss-map shows the mean annual loss per hexagon for 2013–2025 and for 2020–2025, on the same scale, so the two
+@fig-loss-map shows the mean annual loss per hexagon for two periods: 2013–2025 and for 2020–2025.
 layers can be compared directly by switching between them. A third layer shows the change in annual loss between
 2013–2019 and 2020–2025: red where loss accelerated, blue where it slowed down.
 
@@ -558,7 +558,7 @@ ru.value_layer("Values per 3,000 ha hexagon (hover)",
                ["Forest 2013 (ha)", "Loss 2013–2019 (ha/yr)", "Loss 2020–2025 (ha/yr)", "Loss 2013–2025 (% of 2013 forest)"]).add_to(m)
 change_labels = ["< -2", "-2 to -1", "-1 to -0.5", "-0.5 to -0.1", None, "0.1 to 0.5", "0.5 to 1", "1 to 2", "> 2"]
 m.get_root().html.add_child(ru.legend([
-    ("Annual loss (ha per 62 ha hexagon)", [(ru.hex_color(c), l) for c, l in zip(annual_colors, ru.class_labels(annual_bins, "ha/yr", 2))]),
+    ("Annual loss Rate", [(ru.hex_color(c), l) for c, l in zip(annual_colors, ru.class_labels(annual_bins, "ha/yr", 2))]),
     ("Change in annual loss (ha/yr)", [(ru.hex_color(c), l) for c, l in zip(change_colors, change_labels) if l]),
 ]))
 folium.LayerControl(collapsed=False).add_to(m)
@@ -575,8 +575,8 @@ Fouta Djallon, roughly between Kindia, Télimélé and Mamou, where whole landsc
 second is the forest of the south: the lowland forests along the Sierra Leone border east of Forécariah, and Guinée
 forestière in the south-east. The north-east, dominated by savanna, has little loss because it has little forest.
 
-The comparison between periods is encouraging in part. Nationally, annual loss in 2020–2025 was
-`{python} N["nat_decline"]` % lower than in 2013–2019. The decline is strongest in the forest-savanna
+The comparison between periods is encouraging in part.**Nationally, annual loss in 2020–2025 was `{python} N["nat_decline"]` % lower than in 2013–2019**. 
+The decline is strongest in the forest-savanna
 (`{python} N["fs_change"]` %) and the mangroves (`{python} N["mg_change"]` %), and more modest in the montane
 (`{python} N["mt_change"]` %) and lowland forests (`{python} N["lw_change"]` %). The change layer shows that the
 slowdown is spatially uneven: annual loss fell by more than 0.1 ha a year in `{python} N["hex_down"]` % of the
@@ -723,8 +723,7 @@ Classification System used by WorldCover; these classes map onto the six IPCC la
 
 ## Sampling design and the uncertainty of areas {#sec-sampling}
 
-Reading every pixel of seven products would be expensive and unnecessary. Instead, each product is read at the same
-systematic sample of points: the centres of the `{python} N["n_points"]` H3 resolution-7 hexagons (about 434 ha each)
+To sampling the LULC products in efficient and optimize way, a hexagon grid covering Guinea is overlaid with the pixels with around 434 hectares. The centres of the `{python} N["n_points"]` H3 resolution-7 hexagons (about 434 ha each)
 whose centre lies in Guinea, one point every 2.2 km (@fig-sample). Each point stands for its hexagon, and the area of
 a class is the sum of the hexagon areas of the points in that class. Because all products are read at exactly the
 same places, they can be compared point by point, and the same points form the population from which reference
@@ -756,9 +755,23 @@ plt.tight_layout()
 plt.show()
 ```
 
-For a class $c$ (for example "forest according to Dynamic World"), let $y_i = 1$ if point $i$ falls in the class and
-$y_i = 0$ otherwise, $w_i$ the area of its hexagon, $A = \sum_i w_i$ the area of Guinea and $n$ the number of points.
-The estimated share and area of the class, and the standard error of the area, are
+$$For a class \(c\) (for example, “forest according to Dynamic World”),
+let \(y_i = 1\) if point \(i\) falls in the class and \(y_i = 0\)
+otherwise, \(w_i\) the area of its hexagon, \(A = \sum_i w_i\)
+the area of Guinea, and \(n\) the number of points.
+$$
+
+The estimated share and area of the class, and the standard error
+of the area, are:
+
+$$
+\hat{p}_c = \frac{\sum_i w_i y_i}{\sum_i w_i},
+\qquad
+\hat{A}_c = A \hat{p}_c,
+\qquad
+SE(\hat{A}_c) =
+A \sqrt{\frac{\hat{p}_c (1-\hat{p}_c)}{n}}.
+$$
 
 $$
 \hat{p}_c = \frac{\sum_i w_i\, y_i}{\sum_i w_i}, \qquad
@@ -766,16 +779,20 @@ $$
 SE(\hat{A}_c) = A\sqrt{\frac{\hat{p}_c\,(1-\hat{p}_c)}{n}} .
 $$
 
-The 95 % confidence interval is $\hat{A}_c \pm 1.96\,SE(\hat{A}_c)$: if the sampling were repeated many times with a
+$$The 95 % confidence interval is $\hat{A}_c \pm 1.96\,SE(\hat{A}_c)$: if the sampling were repeated many times with a
 randomly shifted grid, 95 % of the intervals built this way would contain the area that a full pixel count of the map
-would give. This is the standard estimator for area from a sample [@olofsson2014], and the same approach underlies
+would give.
+$$
+This is the standard estimator for area from a sample [@olofsson2014], and the same approach underlies
 the activity data of Guinea's forest reference level [@nerf2026]. Treating a systematic sample as a simple random one
 slightly overstates the error when the landscape is spatially structured, so the intervals are conservative
 [@stehman2009].
 
 Two features of the formula deserve attention. The error shrinks with the square root of the number of points, so
 halving it would require four times as many. And the *relative* error depends strongly on how common the class is:
-$p(1-p)$ is largest at 50 %, but divided by the area itself it grows quickly as $p$ becomes small. With
+$$
+$p(1-p)$ is largest at 50 %, but divided by the area itself it grows quickly as $p$ becomes small.
+$$ With
 `{python} N["n_points"]` points a class covering half of Guinea is known to within about ±1 %, while a class covering
 1 % of the country is only known to within about ±8 % (@fig-uncertainty). Rare classes such as built-up land, and above
 all annual change, which affects well under 1 % of the land each year, are the hardest to estimate.

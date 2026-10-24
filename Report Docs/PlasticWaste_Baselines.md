@@ -1,9 +1,9 @@
-# Baselines
+# Plastic Waste: baseline metrics
 
-The method as of `45d7b77` (branch point). Every experiment compares against a
-row here. When a change is promoted, update the row and note the commit.
-
-## Plastic Waste
+The method as of `45d7b77` (the `fix/fdi-bands-and-esri-confirm` calculation
+state). Any change to the Plastic Waste calculation is compared against a row
+here. When a change is adopted, update the row and note the commit. Source paths
+are relative to `Land Use-Deforestation/`.
 
 ### FDI on water + MARIDA debris classifier
 
@@ -42,12 +42,9 @@ zoom 17, stage-1 screen retention 0.8545.
 | Boke    | Esri (free)      | 557 | 243       | 0.687   | 0.580         |
 | Boke    | Google (billed)  | 557 | 243       | 0.738   | 0.640         |
 
-## Land Use
+## Open items
 
-Not recorded yet. First backlog item: measure the current classifier's
-accuracy on a held-out split and record it here.
-
-## Deforestation
-
-Not recorded yet. First backlog item: record the current forest-loss and
-driver-attribution validation figures here.
+| ID  | Item | Status |
+|-----|------|--------|
+| B03 | Raise the stage-2 Esri head on Conakry (AUC 0.594, close to chance) | todo |
+| B04 | Raise recall of the deployed rule (0.247 on the MARIDA test). FDI alone → classifier reaches 0.551 at precision 0.808: weigh switching the published chain | todo |

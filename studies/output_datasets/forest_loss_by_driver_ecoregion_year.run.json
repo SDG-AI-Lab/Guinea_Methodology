@@ -1,0 +1,9 @@
+{
+  "computed_at_utc": "2026-10-22T02:48:18+00:00",
+  "hansen_asset": "UMD/hansen/global_forest_change_2025_v1_13",
+  "drivers_asset": "projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_2_2001_2024",
+  "canopy_threshold": 30,
+  "seconds": 14.8,
+  "eecu_seconds": 548.2,
+  "eecu_hours": 0.152
+}

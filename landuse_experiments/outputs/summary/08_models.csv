@@ -1,0 +1,8 @@
+Configuration,FoM % 2023→2024,FoM % 2024→2025,± across seeds (2024→2025),Check: new-change FoM % 2023→2024,Check: new-change FoM % 2024→2025,Against the rule,× random 2024→2025
+Deployed method (mean of 3 seeds),15.581,19.073,0.019,8.838,7.394,reference,2.189
+Deployed + contagion (mean of 3 seeds),16.622,19.934,0.056,9.727,7.587,improves,2.288
+Logistic regression,17.637,19.359,,8.846,7.609,improves,2.222
+"Deployed method and logistic regression, averaged",17.298,19.485,,9.314,7.763,improves,2.237
+"Deployed + contagion and logistic regression, averaged (mean of 3 seeds)",18.084,19.871,0.042,9.782,7.748,improves,2.281
+Deployed + contagion + seasonal (seed 42),18.052,19.144,,10.276,8.01,improves,2.197
+Random placement (mean of 3 draws),5.113,8.712,,,,floor,1.0

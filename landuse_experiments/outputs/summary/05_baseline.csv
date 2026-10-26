@@ -1,0 +1,4 @@
+Mode,Published (whole box) FoM %,Guinea FoM %,Accuracy %,No-change accuracy %,Hits,False alarms
+Expander-only,13.8,17.32,83.94,87.35,134979,271696
+Patcher-only,11.94,13.04,81.75,87.35,109767,334051
+Growth-mode (dilation),13.73,16.6,84.02,87.35,127630,261116

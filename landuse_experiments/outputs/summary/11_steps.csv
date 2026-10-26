@@ -1,0 +1,13 @@
+Step,Idea,Source,Notebook,FoM % 2023→2024,FoM % 2024→2025,Check: new-change FoM % 2024→2025,Decision,× random 2024→2025
+0,"Deployed method, corrected inputs (mean of 3 seeds)",Reproducing the published score,06,15.581,19.073,7.394,starting point,2.1892791551882462
+1,+ land-cover history features,Intern's review,06–07,25.081,28.026,3.763,not adopted: predicts flicker,3.2169421487603307
+2,"History models, averaged",Intern's review,06–07,25.92,28.595,3.44,not adopted: predicts flicker,3.2822543617998163
+3,Hybrid: returns and new change modelled apart,"Ours, after the intern's review",07,22.014,26.049,5.44,not adopted: predicts flicker,2.9900137741046833
+4,+ seasonal MODIS vegetation features,Intern's review,07,17.451,18.424,7.724,not adopted: no gain on the test year,2.1147842056932964
+5,+ contagion features (mean of 3 seeds),Literature (Rosa et al. 2013),08,16.622,19.934,7.587,adopted,2.2881083562901745
+6,Logistic regression,"Tool comparison: MOLUSCE, CLUE-S",08,17.637,19.359,7.609,"adopted, in step 7",2.222107438016529
+7,"Contagion model and logistic regression, averaged (mean of 3 seeds)",Intern's review (averaging) + MOLUSCE,08,18.084,19.871,7.748,adopted: the improved method of the tool comparison,2.280876951331497
+8,+ first copy of FLUS's network (mean of 3 seeds),Tool comparison: FLUS,09,18.53126182509442,19.933650155812025,7.773120085270858,not adopted: no gain on the test year,2.2880681997029413
+9,+ neural network per transition (mean of 3 seeds),Tool comparison: FLUS,09,17.949246717813903,19.808085731685228,7.868099782351952,not adopted: no gain,2.273655387016211
+10,+ FLUS's own maps (3 runs),Tool comparison: FLUS,09,18.609146471753927,20.47390076108378,8.061069131640734,"passes, but needs FLUS's program each year",2.3500804363043826
+11,+ FLUS's network reproduced in code (mean of 3 seeds),FLUS manual and files,09,18.527526170733317,20.327810654946838,7.972836910080929,adopted: the improved method now,2.3333115995118043

@@ -1,0 +1,9 @@
+Configuration,FoM % 2023→2024,FoM % 2024→2025,New-change FoM % 2023→2024,New-change FoM % 2024→2025,New change found % 2024→2025,New changes predicted 2024→2025
+"Deployed method, rebuilt as run",15.37,19.3,9.08,10.22,23.45,229798
+"Deployed method, corrected inputs (mean of 3 seeds)",15.58,19.07,9.13,10.26,24.38,243364
+Rule: eight-neighbour majority,15.4,17.51,6.69,8.21,24.78,340540
+Rule: revert if just changed,23.14,23.71,0.0,0.0,0.0,0
+Rule: neighbourhood share only,15.12,18.14,8.38,9.16,21.79,240367
+Deployed method + history features (mean of 3 seeds),25.13,28.07,5.76,3.72,4.44,36314
+Multiclass XGBoost,25.33,28.33,5.04,3.34,4.02,36978
+"History models, averaged",25.92,28.6,5.32,3.45,4.04,32055

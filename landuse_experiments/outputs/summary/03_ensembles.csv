@@ -1,0 +1,3 @@
+Configuration,Intern FoM %,"Rerun (Python 3.14, xgboost 3.4.1) FoM %",Δ FoM (pts),Intern accuracy %,"Rerun (Python 3.14, xgboost 3.4.1) accuracy %",Tolerance (pts),Reproduces (|Δ| ≤ tolerance)
+Class-specific ensemble (5 runs),27.87,27.587608813494466,-0.2823911865055351,90.84,90.85072716156695,0.85,yes
+Probability-averaging ensemble,28.06,28.248428945390884,0.18842894539088562,91.25,91.24837711881052,0.85,yes

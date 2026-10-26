@@ -1,0 +1,6 @@
+Configuration,Intern FoM %,"Rerun (Python 3.10, xgboost 3.2) FoM %","Rerun (Python 3.14, xgboost 3.4.1) FoM %",Δ FoM (pts),Intern accuracy %,"Rerun (Python 3.10, xgboost 3.2) accuracy %",Tolerance (pts),Reproduces (|Δ| ≤ tolerance)
+History RF + selected change thresholds,25.6,25.59812627231801,25.59812627231801,-0.0018737276819926763,89.63,89.72939054201461,0.4,yes
+Two-stage RF (selected on validation),26.24,25.88439885237915,26.210338048167767,-0.35560114762084893,88.92,88.96783245520646,0.4,yes
+"  ↳ two-stage RF, fixed demand",23.73,23.63837288849129,23.779914811399465,-0.09162711150871061,,,0.4,yes
+"  ↳ ensemble, fixed demand",24.24,24.28731702576878,24.137505073499568,0.047317025768780496,,,0.4,yes
+Weighted XGBoost + patch features (best final row),26.49,24.83738356663371,25.690459910217918,-1.652616433366287,89.27,89.81621279711693,0.85,NO

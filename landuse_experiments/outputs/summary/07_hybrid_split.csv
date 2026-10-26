@@ -1,0 +1,14 @@
+Transition,Demand 2024→2025 (px),Return share used (from 2023→2024),Return share that happened (diagnostic only)
+Rangeland → Trees,349382,0.878,0.871
+Trees → Rangeland,105175,0.666,0.687
+Crops → Rangeland,15744,0.917,0.923
+Rangeland → Crops,15069,0.531,0.497
+Rangeland → Built Area,4149,0.433,0.652
+Trees → Flooded Vegetation,2757,0.823,0.793
+Trees → Crops,2028,0.377,0.354
+Built Area → Rangeland,2008,0.77,0.772
+Crops → Trees,1805,0.801,0.801
+Rangeland → Flooded Vegetation,1128,0.786,0.657
+Trees → Built Area,952,0.576,0.448
+Flooded Vegetation → Trees,549,0.72,0.874
+Water → Rangeland,174,0.869,0.753

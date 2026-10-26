@@ -1,0 +1,6 @@
+Weight on deployed method + history (1 − weight on multiclass XGBoost),FoM % 2023→2024 (choose),FoM % 2024→2025 (test)
+0.0,25.33,28.33
+0.25,25.83,28.56
+0.5,25.92,28.6
+0.75,25.64,28.42
+1.0,25.08,28.03

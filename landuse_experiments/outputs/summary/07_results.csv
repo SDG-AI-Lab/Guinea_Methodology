@@ -1,0 +1,9 @@
+Configuration,FoM % 2023→2024,FoM % 2024→2025,Check: new-change FoM % 2023→2024,Check: new-change FoM % 2024→2025,Against the rule,× random 2024→2025
+Deployed method,15.534,19.049,8.883,7.443,reference,2.187
+Deployed method + history features,25.081,28.026,5.837,3.763,not chosen: fails the flip-back check,3.217
+"History models, averaged",25.92,28.595,5.45,3.44,not chosen: fails the flip-back check,3.282
+Hybrid (split from the previous interval),22.014,26.049,8.684,5.44,not chosen: fails the flip-back check,2.99
+Deployed method + seasonal,17.451,18.424,9.837,7.724,"chosen, but no gain on 2024→2025",2.115
+History + seasonal,26.089,28.423,7.6,4.792,not chosen: fails the flip-back check,3.263
+"Deployed method + seasonal, standardised within each year",16.484,18.406,9.479,7.498,"chosen, but no gain on 2024→2025",2.113
+Random placement (mean of 3 draws),5.113,8.712,,,floor,1.0

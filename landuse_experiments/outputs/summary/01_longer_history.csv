@@ -1,0 +1,3 @@
+Configuration,"Validation FoM % (intern / Rerun (Python 3.10, xgboost 3.2))",Intern FoM %,"Rerun (Python 3.10, xgboost 3.2) FoM %",Δ FoM (pts),Intern accuracy %,"Rerun (Python 3.10, xgboost 3.2) accuracy %",Tolerance (pts),Reproduces (|Δ| ≤ tolerance)
+Same-protocol RF control,30.40 / 30.30,26.93,26.83728036669213,-0.09271963330786903,90.19,90.35386615875984,0.4,yes
+Pooled joint XGBoost (selected on validation),31.53 / 31.44,25.99,26.081486798335995,0.09148679833599616,,90.35346327126516,0.85,yes

@@ -1,0 +1,7 @@
+Forecast,Raw: intern,"Raw: Rerun (Python 3.14, xgboost 3.4.1)","Cleaned, stable start: intern","Cleaned, stable start: Rerun (Python 3.14, xgboost 3.4.1)","Cleaned, full mask: intern","Cleaned, full mask: Rerun (Python 3.14, xgboost 3.4.1)"
+"Original-style transition RF, local reproduction",20.02,20.00165789364612,12.17,12.18181605784844,18.98,18.949011835536524
+"Original-style binary RF, shared samples/blocks",20.29,20.2909438601284,12.58,12.587284311447544,19.48,19.487860688799252
+"Initial multiclass RF, shared samples/blocks",20.91,20.81977487958376,12.89,12.843652143896245,20.18,20.104999170545582
+Best single member (expanded_typicality_xgb),27.25,27.563904899705086,15.21,15.413110350504745,26.23,26.504349661790705
+Probability-averaging ensemble,28.06,28.248428945390884,15.32,15.402857241530157,27.14,27.28725861591056
+Reversion rule: 2010->2015 changers return to 2010 (diagnostic),19.96,19.95577302319441,1.91,1.9124973437536887,20.74,20.73874349498454

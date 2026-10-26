@@ -1,0 +1,11 @@
+Configuration,FoM % 2023→2024,FoM % 2024→2025,New-change FoM % 2023→2024,New-change FoM % 2024→2025,Return FoM % 2024→2025,New changes predicted 2024→2025,"vs deployed method, 2024→2025"
+Deployed method,15.534,19.049,9.173,10.296,25.245,243224,reference
+Deployed method + history features,25.081,28.026,5.648,3.863,35.025,37843,trade-off
+"History models, averaged",25.92,28.595,5.321,3.453,35.644,32055,trade-off
+"Hybrid, first version (split from training interval)",22.192,25.445,8.672,7.489,33.398,119351,trade-off
+Hybrid (deployed method's own split),19.158,19.953,9.129,10.29,26.892,243319,improves (no loss on either)
+Deployed method + seasonal,17.451,18.424,10.099,10.18,24.214,243498,worse
+History + seasonal,26.089,28.423,7.469,4.923,35.601,47246,trade-off
+"Hybrid: new from Deployed method, returns from History + seasonal",19.2,20.167,9.125,10.29,27.289,243399,improves (no loss on either)
+"Hybrid: new from Deployed + seasonal, returns from History models, averaged",19.854,20.03,10.129,10.162,27.145,243663,trade-off
+"Hybrid: new from Deployed + seasonal, returns from History + seasonal (chosen)",19.921,20.251,10.116,10.158,27.56,243762,trade-off

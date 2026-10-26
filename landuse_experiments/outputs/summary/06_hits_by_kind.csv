@@ -1,0 +1,6 @@
+Configuration,Hits,Back to its 2023 class,Back to a class held 2017–2022,To a class not held since 2017 (new),% of new change found
+Deployed method (reference),160437,62971,78043,19423,20.734675577001088
+Deployed method + history features,219496,133033,81953,4510,4.8145696778188185
+Multiclass XGBoost,221110,142924,74217,3969,4.237034822896428
+"History models, averaged",222892,140091,78822,3979,4.247710143689818
+Rule: revert if just changed,178230,178230,0,0,0.0

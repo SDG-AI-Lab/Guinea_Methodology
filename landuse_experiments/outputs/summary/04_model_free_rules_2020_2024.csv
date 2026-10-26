@@ -1,0 +1,10 @@
+Rule (real years),2020→2024 FoM %,Accuracy %
+Every pixel takes the majority class of its eight 2020 neighbours,19.835940156409386,90.50142370368431
+Every pixel takes the majority class of its 2020 3x3 window,18.34438777923909,91.30760158052765
+Previous changers take the majority class of their eight 2020 neighbours,13.875005528771728,92.15497470370143
+Revert to the 2015 class if changed 2015->2020,17.541429790797675,89.6858786925898
+Revert to the 2010 class if changed 2015->2020,14.419417875141416,90.78082618124095
+Revert to the modal 2005-2020 class if changed 2015->2020,14.44505567464006,90.91448410759916
+Continue: previous changers move to their class's most likely destination,12.718174346081323,89.09031025358746
+Revert to the modal class if changed twice (2010->2015 and 2015->2020),1.7757845208622276,92.36739713526848
+No change,0.0,92.54879722974559

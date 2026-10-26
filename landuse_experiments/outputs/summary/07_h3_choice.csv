@@ -1,0 +1,5 @@
+New-change part,Return part,FoM % 2023→2024,New-change FoM % 2023→2024,Choice (2023→2024 only)
+Deployed method,"History models, averaged",19.158,9.129,
+Deployed method,History + seasonal,19.2,9.125,
+Deployed + seasonal,"History models, averaged",19.854,10.129,
+Deployed + seasonal,History + seasonal,19.921,10.116,chosen

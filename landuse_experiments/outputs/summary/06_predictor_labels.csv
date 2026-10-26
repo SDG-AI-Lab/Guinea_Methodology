@@ -1,0 +1,13 @@
+Position,Label used in the document,Layer actually there,Correct?
+1,Elevation,Elevation,yes
+2,Slope,Population density,NO
+3,Aspect,Precipitation,NO
+4,Population Density,Soil moisture,NO
+5,Precipitation,AGB,NO
+6,Soil Moisture,NDVI,NO
+7,AGB,Slope,NO
+8,NDVI,Aspect,NO
+9,Roads (distance),Roads (distance),yes
+10,Waterways (distance),Waterways (distance),yes
+11,POI (density),POI (density),yes
+12,Protected Areas (zoning),Protected areas,yes

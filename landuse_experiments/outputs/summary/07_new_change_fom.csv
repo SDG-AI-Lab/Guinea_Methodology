@@ -1,0 +1,8 @@
+Configuration,New-change FoM % 2023→2024,New-change FoM % 2024→2025,New changes predicted 2024→2025,Against the rule,× random 2024→2025
+Deployed method,8.883,7.443,187566.0,reference,2.588
+Deployed method + history features,5.837,3.763,31111.0,not chosen: no gain on 2023→2024,1.308
+"History models, averaged",5.45,3.44,26275.0,not chosen: no gain on 2023→2024,1.196
+Hybrid (split from the previous interval),8.684,5.44,91569.0,not chosen: no gain on 2023→2024,1.891
+Deployed method + seasonal,9.837,7.724,191656.0,improves,2.685
+History + seasonal,7.6,4.792,38679.0,not chosen: no gain on 2023→2024,1.666
+Random placement (mean of 3 draws),2.669,2.876,,floor,1.0

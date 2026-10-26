@@ -1,0 +1,6 @@
+,Pixels,Area km²,Observed changes
+Whole grid (bounding box),8414692,,
+Inside Guinea's boundary,4010676,246465.65203041688,
+Scored in the published hold-out,7057727,433967.8098493998,769625.0
+  of which inside Guinea,4010676,246465.65203041688,507539.0
+  of which OUTSIDE Guinea,3047051,187502.1578189827,262086.0

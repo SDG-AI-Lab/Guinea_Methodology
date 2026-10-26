@@ -1,0 +1,6 @@
+Configuration,FoM % 2023→2024,FoM % 2024→2025,± across seeds (2024→2025),Check: new-change FoM % 2023→2024,Check: new-change FoM % 2024→2025,Against the rule,× random 2024→2025
+Deployed method (mean of 3 seeds),15.581,19.073,0.019,8.838,7.394,reference,2.189
+Deployed + contagion (mean of 3 seeds),16.622,19.934,0.056,9.727,7.587,improves,2.288
+"Deployed + seasonal (seed 42, notebook 07)",17.451,18.424,,9.837,7.724,"chosen, but no gain on 2024→2025",2.115
+Deployed + contagion + seasonal (seed 42),18.052,19.144,,10.276,8.01,improves,2.197
+Random placement (mean of 3 draws),5.113,8.712,,,,floor,1.0

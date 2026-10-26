@@ -1,0 +1,6 @@
+Configuration,Intern FoM %,"Rerun (Python 3.10, xgboost 3.2) FoM %",Δ FoM (pts),Intern accuracy %,"Rerun (Python 3.10, xgboost 3.2) accuracy %",Tolerance (pts),Reproduces (|Δ| ≤ tolerance)
+Original-style transition RF,20.02,20.00165789364612,-0.018342106353880894,90.28,90.27973485973976,0.4,yes
+"Binary RF, shared samples",20.29,20.2909438601284,0.0009438601284017523,90.6,90.59580009931176,0.4,yes
+"Multiclass RF, shared samples",20.91,20.81977487958376,-0.09022512041623898,90.72,90.71122736653597,0.4,yes
+"  ↳ binary, spatial hold-out 2010→2015",21.72,21.720650364870053,0.0006503648700544318,,,0.4,yes
+"  ↳ multiclass, spatial hold-out 2010→2015",22.35,22.3570012104355,0.007001210435497285,,,0.4,yes

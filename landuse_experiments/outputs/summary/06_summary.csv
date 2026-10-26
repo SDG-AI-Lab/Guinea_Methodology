@@ -1,0 +1,10 @@
+Configuration,Choose: 2023→2024 FoM %,Test: 2024→2025 FoM %,Test vs reference (pts),× random (test)
+"Published figure (whole box, nb 05)",,13.8,-5.273333333333333,
+"Deployed method, rebuilt as run",15.37,19.3,0.22666666666666657,2.2153555850206863
+"Deployed method, corrected inputs (mean of 3 seeds)",15.58,19.073333333333334,0.0,2.1893375919669027
+Rule: neighbourhood share only,15.12,18.14,-0.9333333333333336,2.0822046793925
+Rule: revert if just changed,23.14,23.71,4.636666666666667,
+Deployed method + history features (mean of 3 seeds),25.129999999999995,28.073333333333334,9.0,3.222404963220072
+Multiclass XGBoost,25.33,28.33,9.256666666666664,3.2518665141780327
+"History models, averaged (weight 0.5, chosen on 2023→2024)",25.92,28.6,9.526666666666667,3.2828585353156283
+Random placement (mean of 3 draws),5.11266741372232,8.711919716409673,-10.361413616923661,1.0

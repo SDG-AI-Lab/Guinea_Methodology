@@ -1,0 +1,13 @@
+Window,Model,AUC (30 m pixels),Fit MedAE (ha),Prediction MedAE (ha),Beats the benchmark on both tests,Next loss in forest without a risk value (%)
+2014–2016 → 2017–2019,VT0007 benchmark (distance to edge),0.6945,251.7597,445.6372,–,0.0004
+2014–2016 → 2017–2019,"Deployed model, half-cell masks (platform)",0.7165,129.9375,278.2409,yes,9.5435
+2014–2016 → 2017–2019,"Improved model, half-cell masks",0.7224,110.379,172.0863,yes,9.5513
+2014–2016 → 2017–2019,"Improved model, weighted by the shares",0.7581,91.1136,230.3557,yes,0.0082
+2017–2019 → 2020–2022,VT0007 benchmark (distance to edge),0.6726,385.3994,376.2904,–,0.0012
+2017–2019 → 2020–2022,"Deployed model, half-cell masks (platform)",0.6809,185.083,216.335,yes,14.8832
+2017–2019 → 2020–2022,"Improved model, half-cell masks",0.6962,150.3414,234.1602,yes,14.8863
+2017–2019 → 2020–2022,"Improved model, weighted by the shares",0.7636,141.7262,173.3868,yes,0.0046
+2019–2021 → 2022–2024,VT0007 benchmark (distance to edge),0.6382,422.4141,297.709,–,0.0021
+2019–2021 → 2022–2024,"Deployed model, half-cell masks (platform)",0.6315,156.3739,213.4744,yes,19.8101
+2019–2021 → 2022–2024,"Improved model, half-cell masks",0.6458,161.7749,199.8876,yes,19.8173
+2019–2021 → 2022–2024,"Improved model, weighted by the shares",0.7378,120.1991,154.9088,yes,0.0097

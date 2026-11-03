@@ -1,0 +1,31 @@
+Test window,Ecoregion,Model,Allocated / observed loss (%),Blocks,Fit MedAE (ha),Prediction MedAE (ha)
+2017–2019,Guinean forest-savanna,National,-0.24,109,164.08,348.93
+2017–2019,Guinean mangroves,National,-3.22,0,,
+2017–2019,Guinean montane forests,National,-2.23,25,172.82,247.59
+2017–2019,West Sudanian savanna,National,-21.94,38,1.8,2.73
+2017–2019,Western Guinean lowland forests,National,3.6,9,363.7,862.38
+2017–2019,Guinean forest-savanna,Per ecoregion,1.54,109,238.57,428.78
+2017–2019,Guinean mangroves,Per ecoregion,-21.07,0,,
+2017–2019,Guinean montane forests,Per ecoregion,4.56,25,88.9,233.76
+2017–2019,West Sudanian savanna,Per ecoregion,-34.25,38,0.56,3.56
+2017–2019,Western Guinean lowland forests,Per ecoregion,-3.8,9,360.07,858.45
+2020–2022,Guinean forest-savanna,National,5.42,109,201.87,261.81
+2020–2022,Guinean mangroves,National,-25.76,0,,
+2020–2022,Guinean montane forests,National,-5.19,25,166.97,232.33
+2020–2022,West Sudanian savanna,National,14.94,38,1.75,4.01
+2020–2022,Western Guinean lowland forests,National,-11.2,9,507.6,512.07
+2020–2022,Guinean forest-savanna,Per ecoregion,7.06,109,163.4,254.82
+2020–2022,Guinean mangroves,Per ecoregion,-58.36,0,,
+2020–2022,Guinean montane forests,Per ecoregion,-10.85,25,86.26,199.28
+2020–2022,West Sudanian savanna,Per ecoregion,23.0,38,2.68,3.37
+2020–2022,Western Guinean lowland forests,Per ecoregion,-10.83,9,287.16,660.74
+2022–2024,Guinean forest-savanna,National,3.29,109,212.66,209.83
+2022–2024,Guinean mangroves,National,-4.81,0,,
+2022–2024,Guinean montane forests,National,-10.11,25,87.84,164.81
+2022–2024,West Sudanian savanna,National,-38.18,38,1.19,2.53
+2022–2024,Western Guinean lowland forests,National,2.13,9,658.94,709.65
+2022–2024,Guinean forest-savanna,Per ecoregion,3.92,109,140.73,253.95
+2022–2024,Guinean mangroves,Per ecoregion,-33.8,0,,
+2022–2024,Guinean montane forests,Per ecoregion,-11.57,25,120.22,176.86
+2022–2024,West Sudanian savanna,Per ecoregion,-33.91,38,1.16,1.31
+2022–2024,Western Guinean lowland forests,Per ecoregion,2.37,9,215.33,376.69

@@ -1,0 +1,5 @@
+Model,AUC (30 m pixels),Fit MedAE (ha),Prediction MedAE (ha),Windows beating the benchmark
+VT0007 benchmark (distance to edge),0.668,353.191,373.212,
+"Deployed model, half-cell masks (platform)",0.676,157.131,236.017,3.0
+"Improved model, half-cell masks",0.688,140.832,202.045,3.0
+"Improved model, weighted by the shares",0.753,117.68,186.217,3.0

@@ -1,0 +1,7 @@
+Window,riskmapjnr,AUC,Fit MedAE (ha),Prediction MedAE (ha)
+2014–2016 → 2017–2019,As designed: calibration map from the calibration window's own loss,0.7642,17.733,187.5776
+2014–2016 → 2017–2019,Same timing as the other models: calibration map from the 3 years before,0.7642,232.0064,280.054
+2017–2019 → 2020–2022,As designed: calibration map from the calibration window's own loss,0.758,26.9733,121.0427
+2017–2019 → 2020–2022,Same timing as the other models: calibration map from the 3 years before,0.758,123.7923,149.9218
+2019–2021 → 2022–2024,As designed: calibration map from the calibration window's own loss,0.7281,20.8043,117.1085
+2019–2021 → 2022–2024,Same timing as the other models: calibration map from the 3 years before,0.7281,136.9742,150.0519

@@ -1,0 +1,22 @@
+Window,Tool,AUC,Fit MedAE (ha),Prediction MedAE (ha),Beats the benchmark on both tests
+2014–2016 → 2017–2019,VT0007 benchmark,0.6945,251.7597,445.6372,–
+2014–2016 → 2017–2019,Deployed model (platform),0.7165,129.9375,278.2409,yes
+2014–2016 → 2017–2019,riskmapjnr (moving window),0.7642,232.0064,280.054,yes
+2014–2016 → 2017–2019,Weights of evidence (Dinamica EGO's method),0.7331,200.527,390.8943,yes
+2014–2016 → 2017–2019,forestatrisk (iCAR),0.7566,143.4051,408.1226,yes
+2014–2016 → 2017–2019,Improved model,0.7574,107.7165,233.9375,yes
+2014–2016 → 2017–2019,Rank average: improved model + riskmapjnr,0.7725,158.3522,234.7785,yes
+2017–2019 → 2020–2022,VT0007 benchmark,0.6726,385.3994,376.2904,–
+2017–2019 → 2020–2022,Deployed model (platform),0.6809,185.083,216.335,yes
+2017–2019 → 2020–2022,riskmapjnr (moving window),0.758,123.7923,149.9218,yes
+2017–2019 → 2020–2022,Weights of evidence (Dinamica EGO's method),0.7341,268.5694,205.2562,yes
+2017–2019 → 2020–2022,forestatrisk (iCAR),0.7542,130.294,185.4249,yes
+2017–2019 → 2020–2022,Improved model,0.763,149.5963,167.5205,yes
+2017–2019 → 2020–2022,Rank average: improved model + riskmapjnr,0.767,126.7549,161.7759,yes
+2019–2021 → 2022–2024,VT0007 benchmark,0.6382,422.4141,297.709,–
+2019–2021 → 2022–2024,Deployed model (platform),0.6315,156.3739,213.4744,yes
+2019–2021 → 2022–2024,riskmapjnr (moving window),0.7281,136.9742,150.0519,yes
+2019–2021 → 2022–2024,Weights of evidence (Dinamica EGO's method),0.7086,222.561,234.9013,yes
+2019–2021 → 2022–2024,forestatrisk (iCAR),0.7245,128.4498,141.3521,yes
+2019–2021 → 2022–2024,Improved model,0.7369,127.6287,137.1213,yes
+2019–2021 → 2022–2024,Rank average: improved model + riskmapjnr,0.7369,122.8637,122.3296,yes

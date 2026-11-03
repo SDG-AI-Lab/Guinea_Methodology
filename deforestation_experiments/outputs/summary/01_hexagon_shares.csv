@@ -1,0 +1,7 @@
+"Loss 2013–2024, % of the forest of 2000",Hexagons,One value per cell / 30 m (median),Per-cell share / 30 m (median),"Per-cell share: error, 95th percentile (%)"
+under 5 %,129.0,1.865,1.0,2.048
+5–10 %,600.0,1.826,1.0,1.431
+10–20 %,1218.0,1.736,1.0,1.112
+20–40 %,1221.0,1.568,1.0,0.888
+40 % or more,1042.0,1.341,1.0,0.616
+All,4210.0,1.608,1.0,1.093

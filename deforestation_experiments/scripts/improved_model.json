@@ -1,0 +1,24 @@
+{
+ "names": [
+  "Elevation",
+  "Points of interest",
+  "Population density",
+  "Precipitation (1991\u20132020 normal)",
+  "Distance to railways",
+  "Distance to roads",
+  "Slope",
+  "Soil moisture",
+  "Land-surface temperature",
+  "Distance to waterways",
+  "Travel time to cities (2015)"
+ ],
+ "predictor_year": "start",
+ "edge": null,
+ "positives": "forest",
+ "extras": [
+  "Distance to recent loss",
+  "Recent loss rate around the cell (5 km)",
+  "Distance to built-up area",
+  "Fire history (years burned of 5)"
+ ]
+}

@@ -1,0 +1,28 @@
+Variant,Test window,AUC,Fit MedAE (ha),Prediction MedAE (ha)
+Improved model,2017–2019,0.7574,106.4764,226.8519
+"Improved model, equal-area classes",2017–2019,0.7574,106.136,273.6437
+Loss rates at several distances,2017–2019,0.7526,107.8515,255.0173
+Loss trend,2017–2019,0.7566,108.9134,225.0973
+Location,2017–2019,0.7587,102.234,220.7254
+Palm-oil price (platform),2017–2019,0.7563,104.2729,206.6619
+Trained for the amount of loss,2017–2019,0.7425,182.0102,348.4555
+Improved model,2020–2022,0.763,134.2798,171.1496
+"Improved model, equal-area classes",2020–2022,0.763,131.5475,168.864
+Loss rates at several distances,2020–2022,0.7652,115.7015,157.0502
+Loss trend,2020–2022,0.7589,126.527,191.5325
+Location,2020–2022,0.7625,118.3016,189.8002
+Palm-oil price (platform),2020–2022,0.763,120.2764,180.5255
+Trained for the amount of loss,2020–2022,0.7466,159.7054,181.9407
+Improved model,2022–2024,0.7369,128.357,127.6551
+"Improved model, equal-area classes",2022–2024,0.7369,124.9443,140.6151
+Loss rates at several distances,2022–2024,0.739,124.4162,146.6735
+Loss trend,2022–2024,0.7367,120.0319,131.2331
+Location,2022–2024,0.7359,125.6834,134.6318
+Palm-oil price (platform),2022–2024,0.7366,119.4142,151.7911
+Trained for the amount of loss,2022–2024,0.7156,181.9833,176.7658
+"riskmapjnr, same timing (notebook 08)",2017–2019,0.7642,232.0064,280.054
+riskmapjnr as designed (notebook 08),2017–2019,0.7642,17.733,187.5776
+"riskmapjnr, same timing (notebook 08)",2020–2022,0.758,123.7923,149.9218
+riskmapjnr as designed (notebook 08),2020–2022,0.758,26.9733,121.0427
+"riskmapjnr, same timing (notebook 08)",2022–2024,0.7281,136.9742,150.0519
+riskmapjnr as designed (notebook 08),2022–2024,0.7281,20.8043,117.1085

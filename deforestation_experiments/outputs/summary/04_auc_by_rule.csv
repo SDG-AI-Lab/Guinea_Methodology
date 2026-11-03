@@ -1,0 +1,13 @@
+Test window,Rule,All forest,The rule's forest cells,Cell AUC on its own terms,Seed SD
+2017–2019,Half the cell (platform),0.7518,0.7584,0.7645,0.0009
+2017–2019,"Any loss, half-forest cells",0.7296,0.7315,0.7249,0.0047
+2017–2019,"Any loss, any forest",0.729,0.729,0.7209,0.0107
+2017–2019,Weighted by the shares,0.7581,0.7581,0.7109,0.0015
+2020–2022,Half the cell (platform),0.761,0.7671,0.7777,0.0002
+2020–2022,"Any loss, half-forest cells",0.7548,0.7586,0.7477,0.0012
+2020–2022,"Any loss, any forest",0.7495,0.7495,0.739,0.0027
+2020–2022,Weighted by the shares,0.7636,0.7636,0.7246,0.0012
+2022–2024,Half the cell (platform),0.7362,0.7393,0.753,0.0003
+2022–2024,"Any loss, half-forest cells",0.7294,0.7307,0.7288,0.0015
+2022–2024,"Any loss, any forest",0.7251,0.7251,0.7224,0.0019
+2022–2024,Weighted by the shares,0.7378,0.7378,0.7102,0.0012

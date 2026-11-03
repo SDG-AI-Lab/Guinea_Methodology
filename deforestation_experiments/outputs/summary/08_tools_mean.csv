@@ -1,0 +1,8 @@
+Tool,AUC,Fit MedAE (ha),Prediction MedAE (ha),Windows beating the benchmark
+VT0007 benchmark,0.668,353.191,373.212,
+Deployed model (platform),0.676,157.131,236.017,3.0
+riskmapjnr (moving window),0.75,164.258,193.343,3.0
+Weights of evidence (Dinamica EGO's method),0.725,230.552,277.017,3.0
+forestatrisk (iCAR),0.745,134.05,244.967,3.0
+Improved model,0.752,128.314,179.526,3.0
+Rank average: improved model + riskmapjnr,0.759,135.99,172.961,3.0

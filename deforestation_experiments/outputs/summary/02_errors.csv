@@ -1,0 +1,81 @@
+Level,Units,Method,Figure,Mean unit (km²),Misplaced (% of total),Median |error| (%),95th pct |error| (%),Bias (%)
+H3 res 7,38924.0,Shares,Forest 2000,4.319,0.729,0.686,2.535,-0.001
+H3 res 7,37767.0,Shares,Forest 2024,4.319,0.798,0.745,2.691,0.0
+H3 res 7,29271.0,Shares,Loss 2001–2024,4.319,0.954,0.889,3.676,-0.003
+H3 res 7,14032.0,Shares,Loss 2022–2024,4.319,1.739,1.159,4.691,-0.004
+H3 res 7,2547.125,Shares,"Loss, single years (mean)",4.319,2.874,1.061,4.846,0.014
+H3 res 7,38924.0,Half-cell masks,Forest 2000,4.319,4.707,4.325,49.585,-0.533
+H3 res 7,37767.0,Half-cell masks,Forest 2024,4.319,8.318,8.76,55.221,-2.606
+H3 res 7,29271.0,Half-cell masks,Loss 2001–2024,4.319,12.987,13.009,42.377,4.728
+H3 res 7,14032.0,Half-cell masks,Loss 2022–2024,4.319,24.304,20.107,51.527,17.728
+H3 res 7,2547.125,Half-cell masks,"Loss, single years (mean)",4.319,43.221,19.543,54.506,-11.129
+H3 res 6,6109.0,Shares,Forest 2000,30.243,0.158,0.162,0.889,-0.001
+H3 res 6,6035.0,Shares,Forest 2024,30.243,0.178,0.184,0.976,0.0
+H3 res 6,5476.0,Shares,Loss 2001–2024,30.243,0.236,0.26,1.316,-0.003
+H3 res 6,4524.0,Shares,Loss 2022–2024,30.243,0.493,0.439,2.073,-0.005
+H3 res 6,1805.333,Shares,"Loss, single years (mean)",30.243,1.002,0.552,2.684,0.012
+H3 res 6,6109.0,Half-cell masks,Forest 2000,30.243,3.925,4.059,60.933,-0.582
+H3 res 6,6035.0,Half-cell masks,Forest 2024,30.243,7.393,10.573,60.94,-2.713
+H3 res 6,5476.0,Half-cell masks,Loss 2001–2024,30.243,10.962,11.797,45.249,4.822
+H3 res 6,4524.0,Half-cell masks,Loss 2022–2024,30.243,19.678,17.398,40.37,17.536
+H3 res 6,1805.333,Half-cell masks,"Loss, single years (mean)",30.243,31.45,24.094,64.508,-11.013
+H3 res 5,883.0,Shares,Forest 2000,211.842,0.04,0.044,0.31,-0.001
+H3 res 5,876.0,Shares,Forest 2024,211.842,0.045,0.049,0.342,0.0
+H3 res 5,828.0,Shares,Loss 2001–2024,211.842,0.063,0.077,0.454,-0.003
+H3 res 5,744.0,Shares,Loss 2022–2024,211.842,0.127,0.131,0.633,-0.005
+H3 res 5,542.042,Shares,"Loss, single years (mean)",211.842,0.32,0.252,1.305,0.01
+H3 res 5,883.0,Half-cell masks,Forest 2000,211.842,3.497,4.102,69.129,-0.646
+H3 res 5,876.0,Half-cell masks,Forest 2024,211.842,6.942,11.995,65.294,-2.946
+H3 res 5,828.0,Half-cell masks,Loss 2001–2024,211.842,9.86,11.035,57.726,5.119
+H3 res 5,744.0,Half-cell masks,Loss 2022–2024,211.842,18.344,16.141,31.564,17.374
+H3 res 5,542.042,Half-cell masks,"Loss, single years (mean)",211.842,25.203,23.726,59.643,-10.61
+Prefecture (ADM2),34.0,Shares,Forest 2000,7180.402,0.011,0.005,0.09,-0.009
+Prefecture (ADM2),34.0,Shares,Forest 2024,7180.402,0.014,0.006,0.137,-0.011
+Prefecture (ADM2),34.0,Shares,Loss 2001–2024,7180.402,0.008,0.009,0.104,-0.004
+Prefecture (ADM2),33.0,Shares,Loss 2022–2024,7180.402,0.01,0.013,0.092,-0.005
+Prefecture (ADM2),31.5,Shares,"Loss, single years (mean)",7180.402,0.04,0.048,0.331,0.01
+Prefecture (ADM2),34.0,Half-cell masks,Forest 2000,7180.402,2.267,2.613,35.339,-0.497
+Prefecture (ADM2),34.0,Half-cell masks,Forest 2024,7180.402,5.486,8.312,36.462,-2.524
+Prefecture (ADM2),34.0,Half-cell masks,Loss 2001–2024,7180.402,7.94,9.292,42.176,4.688
+Prefecture (ADM2),33.0,Half-cell masks,Loss 2022–2024,7180.402,17.798,16.175,29.683,17.762
+Prefecture (ADM2),31.5,Half-cell masks,"Loss, single years (mean)",7180.402,23.088,22.833,49.802,-11.205
+H3 res 4,109.0,Shares,Forest 2000,1482.866,0.009,0.01,0.111,0.0
+H3 res 4,108.0,Shares,Forest 2024,1482.866,0.011,0.013,0.083,0.001
+H3 res 4,107.0,Shares,Loss 2001–2024,1482.866,0.016,0.028,0.274,-0.003
+H3 res 4,102.0,Shares,Loss 2022–2024,1482.866,0.033,0.034,0.245,-0.004
+H3 res 4,91.667,Shares,"Loss, single years (mean)",1482.866,0.107,0.107,0.543,0.012
+H3 res 4,109.0,Half-cell masks,Forest 2000,1482.866,3.048,3.561,61.548,-0.648
+H3 res 4,108.0,Half-cell masks,Forest 2024,1482.866,6.564,11.654,59.714,-3.183
+H3 res 4,107.0,Half-cell masks,Loss 2001–2024,1482.866,9.215,10.051,68.657,5.703
+H3 res 4,102.0,Half-cell masks,Loss 2022–2024,1482.866,16.72,14.923,34.855,16.372
+H3 res 4,91.667,Half-cell masks,"Loss, single years (mean)",1482.866,21.667,22.07,52.129,-9.403
+Region (ADM1),8.0,Shares,Forest 2000,30516.709,0.009,0.002,0.113,-0.009
+Region (ADM1),8.0,Shares,Forest 2024,30516.709,0.011,0.001,0.123,-0.011
+Region (ADM1),8.0,Shares,Loss 2001–2024,30516.709,0.006,0.005,0.468,-0.004
+Region (ADM1),8.0,Shares,Loss 2022–2024,30516.709,0.007,0.008,0.985,-0.005
+Region (ADM1),7.042,Shares,"Loss, single years (mean)",30516.709,0.025,0.026,0.108,0.01
+Region (ADM1),8.0,Half-cell masks,Forest 2000,30516.709,1.246,1.788,8.485,-0.497
+Region (ADM1),8.0,Half-cell masks,Forest 2024,30516.709,4.395,4.96,16.561,-2.524
+Region (ADM1),8.0,Half-cell masks,Loss 2001–2024,30516.709,7.35,9.015,34.157,4.688
+Region (ADM1),8.0,Half-cell masks,Loss 2022–2024,30516.709,17.762,15.55,22.482,17.762
+Region (ADM1),7.042,Half-cell masks,"Loss, single years (mean)",30516.709,22.674,20.291,32.557,-11.205
+Ecoregion,5.0,Shares,Forest 2000,48547.228,0.007,0.004,0.189,-0.007
+Ecoregion,5.0,Shares,Forest 2024,48547.228,0.009,0.005,0.257,-0.009
+Ecoregion,5.0,Shares,Loss 2001–2024,48547.228,0.004,0.002,0.012,-0.003
+Ecoregion,5.0,Shares,Loss 2022–2024,48547.228,0.004,0.003,0.01,-0.004
+Ecoregion,5.0,Shares,"Loss, single years (mean)",48547.228,0.025,0.031,0.117,0.013
+Ecoregion,5.0,Half-cell masks,Forest 2000,48547.228,0.874,1.266,9.386,-0.495
+Ecoregion,5.0,Half-cell masks,Forest 2024,48547.228,3.605,3.086,11.301,-2.534
+Ecoregion,5.0,Half-cell masks,Loss 2001–2024,48547.228,6.373,6.843,12.026,4.708
+Ecoregion,5.0,Half-cell masks,Loss 2022–2024,48547.228,17.772,16.208,24.174,17.772
+Ecoregion,5.0,Half-cell masks,"Loss, single years (mean)",48547.228,22.073,22.117,36.6,-11.215
+Guinea,1.0,Shares,Forest 2000,245435.068,0.009,0.009,0.009,-0.009
+Guinea,1.0,Shares,Forest 2024,245435.068,0.011,0.011,0.011,-0.011
+Guinea,1.0,Shares,Loss 2001–2024,245435.068,0.003,0.003,0.003,-0.003
+Guinea,1.0,Shares,Loss 2022–2024,245435.068,0.004,0.004,0.004,-0.004
+Guinea,1.0,Shares,"Loss, single years (mean)",245435.068,0.021,0.021,0.021,0.012
+Guinea,1.0,Half-cell masks,Forest 2000,245435.068,0.496,0.496,0.496,-0.496
+Guinea,1.0,Half-cell masks,Forest 2024,245435.068,2.518,2.518,2.518,-2.518
+Guinea,1.0,Half-cell masks,Loss 2001–2024,245435.068,4.678,4.678,4.678,4.678
+Guinea,1.0,Half-cell masks,Loss 2022–2024,245435.068,17.788,17.788,17.788,17.788
+Guinea,1.0,Half-cell masks,"Loss, single years (mean)",245435.068,21.376,21.376,21.376,-11.219

@@ -1,0 +1,26 @@
+Change,2017–2019,2020–2022,2022–2024,Mean change,Verdict
+Yearly layers at their latest year,0.0003,0.0004,-0.0005,0.0001,No clear effect
+Without Elevation,-0.0012,-0.0007,-0.0001,-0.0006,No clear effect
+Without Points of interest,0.0012,0.0006,0.0007,0.0009,No clear effect
+Without Population density,0.0011,0.0001,0.0006,0.0006,No clear effect
+Without Precipitation (1991–2020 normal),0.0,0.0001,0.0007,0.0003,No clear effect
+Without Distance to railways,0.0005,0.001,0.0005,0.0006,No clear effect
+Without Distance to roads,0.0014,0.0005,0.0005,0.0008,No clear effect
+Without Slope,-0.0008,-0.0019,-0.0021,-0.0016,No clear effect
+Without Soil moisture,0.0019,0.0012,0.0005,0.0012,No clear effect
+Without Land-surface temperature,-0.0017,0.0011,0.0003,-0.0001,No clear effect
+Without Distance to waterways,0.0011,0.0002,0.0003,0.0005,No clear effect
+Without Travel time to cities (2015),0.0004,0.0008,0.0012,0.0008,No clear effect
+Without Distance to recent loss,-0.0051,-0.0067,-0.0043,-0.0054,Needed
+Without Recent loss rate around the cell (5 km),-0.0023,-0.0197,-0.0146,-0.0122,Needed
+Without Distance to built-up area,-0.0005,-0.0009,-0.0004,-0.0006,No clear effect
+Without Fire history (years burned of 5),-0.0004,-0.0005,-0.0006,-0.0005,No clear effect
+Without Distance to prior loss,0.0006,-0.0014,-0.0022,-0.001,No clear effect
+With Aspect,0.002,0.0012,0.0005,0.0012,No clear effect
+Yearly rainfall instead of the normal,-0.0042,-0.0008,-0.0003,-0.0018,No clear effect
+With Protected area,-0.0003,0.0006,0.0004,0.0002,No clear effect
+With Distance to mines (2019),0.0011,-0.0005,-0.0004,0.0001,No clear effect
+With Distance to roads (GRIP4),0.0,0.0002,0.0004,0.0002,No clear effect
+With Ecoregion,0.0007,0.0001,0.0003,0.0004,No clear effect
+With Night lights,-0.0032,-0.0024,-0.0008,-0.0021,No clear effect
+With Distance to forest edge,0.001,0.0001,0.0005,0.0005,No clear effect

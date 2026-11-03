@@ -1,0 +1,7 @@
+Test window,Model,AUC,Fit MedAE (ha),Prediction MedAE (ha)
+2017–2019,National model,0.7574,107.7165,233.9375
+2017–2019,One model per ecoregion,0.7599,104.8966,296.0518
+2020–2022,National model,0.763,149.5963,167.5205
+2020–2022,One model per ecoregion,0.7638,107.6743,187.8586
+2022–2024,National model,0.7369,127.6287,137.1213
+2022–2024,One model per ecoregion,0.7394,95.422,163.467

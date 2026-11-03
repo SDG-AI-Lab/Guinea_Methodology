@@ -130,6 +130,8 @@ conclude (this laptop; mean of the three windows). On the platform each land-use
 | Path | What |
 |---|---|
 | `1_data/`, `2_model/`, `3_benchmark/` | The notebooks, in order; each adds `../scripts` to Python's path |
+| `PLATFORM_UPDATE.md` | For the platform's developers: what changes in the land-use calculation, where in `Guinea_Project`, why, the task list and how to check it |
+| `CLAUDE_GUIDE.md` | Hand-over for a new Claude chat that implements `PLATFORM_UPDATE.md` in `Guinea_Project` |
 | `scripts/` | `classes100.py` (labels, change, areas), `predictors_lu100.py` (the 12 predictors as `main` builds them, and the files for the platform's code), `platform100.py` (the platform's run with its own code, timed), `deployed100.py` and `run04.py` (notebook 04), `tools_export100.py` (inputs for running MOLUSCE, PLUS and FLUS by hand), `improved100.py` and `run06.py` (notebook 06), `decisions100.py`, `run05.py`, `run05_amounts.py`, `run05_second.py`, `run05_fresh.py` and `fetch_coarse_predictors.py` (notebook 05; the last makes the 2020 rainfall, soil moisture and NDVI with the platform's Earth Engine recipe), `tools100.py` and `run07.py` (notebook 07; with `../scripts/molusce_run.py`, `tools_check250.py`) |
 | `data/platform_main/` | `main`'s `landuse_tool`, read-only (its commit in `COMMIT`; not committed here) |
 | `outputs/` | The small tables the notebooks save |

@@ -1,0 +1,9 @@
+Ecoregion,Reference,Points,Best Hansen threshold (%),Agreement at best (%),Agreement at Hansen 30 % (%),Median Hansen canopy where trees (%)
+Guinean forest-savanna,WorldCover 2020,30904,30,69.0,69.0,37.0
+Guinean forest-savanna,GLanCE interpreters,127,25,80.3,80.3,45.0
+Western Guinean lowland forests,WorldCover 2020,5336,30,71.6,71.6,54.0
+Western Guinean lowland forests,GLanCE interpreters,30,50,83.3,80.0,54.0
+Guinean montane forests,WorldCover 2020,5985,25,71.9,71.6,37.0
+Guinean montane forests,GLanCE interpreters,31,25,74.2,71.0,16.0
+West Sudanian savanna,WorldCover 2020,13608,25,77.3,75.3,20.0
+West Sudanian savanna,GLanCE interpreters,355,15,77.2,60.8,20.0

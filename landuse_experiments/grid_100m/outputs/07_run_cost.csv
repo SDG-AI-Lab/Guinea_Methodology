@@ -1,0 +1,23 @@
+,who,comparison,minutes,peak_GB
+document,code,document's method,9.331362277269363,4.770131968
+blend,code,our best: blend (document + regression + blend),14.160544965664545,7.978139648
+plus_leas,GUI,LEAS (random forests),9.531666666666666,
+plus_cars_observed,GUI,"CARS, observed amount (60 iterations)",405.3632833333333,
+plus_cars_projected,GUI,"CARS, projected amount (1 iteration)",5.668333333333334,
+flus_ann,GUI,ANN training (its probability map not timed),64.06266666666667,
+flus_ca_observed,GUI,"CA, observed amount",10.629950000000001,
+flus_ca_projected,GUI,"CA, projected amount",87.44609999999999,
+clue_s_observed,code,"as it runs, observed amount",21.96204370657603,6.625521664
+clue_s_projected,code,"as it runs, projected amount",422.78289673725766,6.338244608
+clue_s_same,code,same amount,2.1824706395467124,1.824514048
+flus_same_s1,code,same amount,16.364564685026803,5.438189568
+flus_same_s2,code,same amount,16.1844554066658,4.925857792
+flus_same_s42,code,same amount,16.97815754810969,5.590441984
+molusce_ann,code,"as it runs, own amount",103.08416012922923,7.280664576
+molusce_ann_same,code,same amount,0.31556687752405804,2.334879744
+molusce_lr,code,"as it runs, own amount",78.38385980923971,7.823306752
+molusce_lr_s1,code,"as it runs, own amount",80.60522283315659,7.797518336
+molusce_lr_s1_same,code,same amount,0.21139869292577107,1.177731072
+molusce_lr_s2,code,"as it runs, own amount",81.76306674877803,8.801071104
+molusce_lr_s2_same,code,same amount,0.21674160559972128,1.176489984
+molusce_lr_same,code,same amount,0.22639839649200438,2.41395712

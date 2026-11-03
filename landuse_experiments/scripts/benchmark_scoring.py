@@ -1,4 +1,4 @@
-"""Scoring for the tool comparison (notebook 00): the validation set the literature recommends
+"""Scoring for the tool comparison (notebook 09a): the validation set the literature recommends
 (Figure of Merit with producer's and user's accuracy, quantity and allocation disagreement,
 random placement, coarser resolutions, AUC of suitability maps), MOLUSCE's own metrics computed
 exactly as MOLUSCE computes them, and a like-for-like run that places the observed amount of

@@ -51,6 +51,7 @@ jupyter_client==8.10.0
 jupyter_core==5.9.1
 jupyterlab_pygments==0.3.0
 kiwisolver==1.5.1
+llvmlite==0.50.0
 MarkupSafe==3.0.4
 matplotlib==3.10.9
 matplotlib-inline==0.2.2
@@ -61,6 +62,7 @@ nbconvert==7.17.2
 nbformat==5.11.1
 nest-asyncio2==1.7.4
 networkx==3.4.2
+numba==0.68.1
 numpy==2.2.6
 oauthlib==4.0.0
 opentelemetry-api==1.45.1

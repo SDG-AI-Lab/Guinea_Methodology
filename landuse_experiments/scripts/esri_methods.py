@@ -134,7 +134,7 @@ def significant_transitions(start, end, domain, min_pixels=MIN_PIXELS):
 
 def _fit(X, idx_change, idx_persist, seed=SEED, learner="rf"):
     """learner "rf": the deployed Random Forest. "logistic": standardised logistic regression,
-    the transition-potential model of MOLUSCE and CLUE-S (notebook 00). "mlp": a neural
+    the transition-potential model of MOLUSCE and CLUE-S (notebook 09a). "mlp": a neural
     network with one hidden layer of 12 nodes, the size FLUS's manual uses (notebook 09)."""
     if learner in ("logistic", "mlp"):
         from sklearn.linear_model import LogisticRegression
@@ -662,7 +662,7 @@ def occurrence_atlas(phase, tag, transitions, hidden=12, sample_share=0.02, seed
     `hidden` nodes, learns from the predictors (scaled 0-1) which class each pixel of the start
     map has, trained on a random `sample_share` of Guinea's pixels (FLUS's sampling rate 20 per
     thousand). Predictors dated to the start year, as FLUS was run on 2024. For f->t the surface
-    is the probability of class t on class-f pixels, as FLUS's own maps were scored (notebook 00).
+    is the probability of class t on class-f pixels, as FLUS's own maps were scored (notebook 09a).
     Writes RUNS/tag/phase/surfaces/occ_f_to_t.tif; returns the atlas."""
     from sklearn.neural_network import MLPClassifier
     from sklearn.pipeline import make_pipeline

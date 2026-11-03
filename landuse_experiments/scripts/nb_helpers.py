@@ -25,9 +25,9 @@ import pandas as pd
 import rasterio
 
 # landuse_experiments/: this file is in scripts/. The intern's package is in
-# 1_intern_improvement/local_landuse and reads data/ and writes outputs/ here.
+# grid_250m/1_intern_improvement/local_landuse and reads data/ and writes outputs/ here.
 ROOT = Path(__file__).resolve().parents[1]
-INTERN = ROOT / "1_intern_improvement"
+INTERN = ROOT / "grid_250m" / "1_intern_improvement"
 _ENV = {**os.environ, "PYTHONIOENCODING": "utf-8",            # subprocesses find local_landuse
         "PYTHONPATH": os.pathsep.join(filter(None, [str(INTERN), os.environ.get("PYTHONPATH")]))}
 DATA = ROOT / "data"

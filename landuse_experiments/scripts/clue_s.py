@@ -1,4 +1,4 @@
-"""CLUE-S on the benchmark data, for the tool comparison (notebook 00).
+"""CLUE-S on the benchmark data, for the tool comparison (notebook 09a).
 
 The allocation is a line-by-line port of the authors' own source code, Dyna-CLUE 2.7
 (Verburg & Overmars 2009; https://doi.org/10.34894/RLDNDX, CC0), functions calc_reg,

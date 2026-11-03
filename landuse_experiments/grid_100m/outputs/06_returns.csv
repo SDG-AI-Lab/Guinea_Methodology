@@ -1,0 +1,9 @@
+window,method,hits,returns,new,"returns, % of hits"
+backtest,"Deployed (backend, main)",648879,517015,131864,79.67818345176836
+backtest,Improved (blend),749147,595526,153621,79.49387770357487
+validation,"Deployed (backend, main)",667361,531823,135538,79.69045239383182
+validation,Improved (blend),812580,657060,155520,80.8609613822639
+test,"Deployed (backend, main)",927543,811451,116092,87.48392257825243
+test,Improved (blend),1045566,916622,128944,87.66754083434236
+fresh,"Deployed (backend, main)",725440,533086,192354,73.48450595500661
+fresh,Improved (blend),865459,661345,204114,76.41552055036692

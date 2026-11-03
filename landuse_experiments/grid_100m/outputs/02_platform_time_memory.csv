@@ -1,0 +1,7 @@
+stage,minutes,peak_GB,transitions,models,maps,mode
+Predictor stack in memory (assemble_predictor_stack),0.4539318243662516,5.26657536,,,,
+Training transitions (change analysis),0.151891028881073,1.129938944,45.0,,,
+Training (train_transition_models),5.483809761206309,3.312054272,,38.0,,
+Suitability atlas (generate_suitability_atlas),7.738105523586273,3.392466944,,,38.0,
+Demand (change analysis 2017 to base year),1.189280374844869,1.171922944,,,,Non-Linear Trend
+Allocation (run_allocation_simulation),0.8383249402046203,1.289490432,,,,

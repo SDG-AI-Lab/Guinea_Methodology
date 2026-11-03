@@ -1,0 +1,4 @@
+phase,predicted change (cells),observed change (cells),projected vs observed (%)
+backtest,2132417,2612406,-18.373445781398445
+validation,2213703,2692143,-17.77171569266566
+test,2324032,3170045,-26.687728407640897

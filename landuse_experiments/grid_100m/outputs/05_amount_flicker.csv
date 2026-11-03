@@ -1,0 +1,5 @@
+window,transition,observed,trend,last interval,mean of 2 intervals,mean of 3 intervals
+validation,trees → rangeland,1481,472,1021,1218,1201
+validation,rangeland → trees,878,1438,1300,1103,1062
+test,trees → rangeland,666,758,1481,1251,1306
+test,rangeland → trees,2168,1232,878,1089,1028

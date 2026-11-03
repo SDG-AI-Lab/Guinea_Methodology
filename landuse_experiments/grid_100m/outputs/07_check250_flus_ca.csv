@@ -1,0 +1,15 @@
+probability map,amount,simulation,changes forecast,FoM %,iterations
+FLUS run 1,observed,FLUS program,928829,18.110344998738466,
+FLUS run 1,observed,"code, seed 0",777742,19.917404240541376,86.0
+FLUS run 1,observed,"code, seed 1",899737,19.40273897702711,300.0
+FLUS run 1,observed,"code, seed 2",905256,19.220797088095143,300.0
+FLUS run 2,observed,FLUS program,927402,18.048722763190888,
+FLUS run 2,observed,"code, seed 0",908043,19.245262850705142,300.0
+FLUS run 2,observed,"code, seed 1",906958,19.183131456693747,300.0
+FLUS run 2,observed,"code, seed 2",907940,19.202852769450605,300.0
+FLUS run 3,observed,FLUS program,901582,18.29253569037413,
+FLUS run 3,observed,"code, seed 0",922819,19.320065707935786,300.0
+FLUS run 3,observed,"code, seed 1",920822,19.26430281678888,300.0
+FLUS run 3,observed,"code, seed 2",922818,19.248411130818017,300.0
+FLUS run 1,projected,FLUS program,351395,10.099743560695785,
+FLUS run 1,projected,"code, seed 0",173142,5.4362038521898635,300.0

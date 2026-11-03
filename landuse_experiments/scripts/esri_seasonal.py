@@ -32,7 +32,7 @@ import nb_helpers as H
 import esri_methods as E
 
 import sys
-if str(H.INTERN) not in sys.path:          # the intern's package: 1_intern_improvement/local_landuse
+if str(H.INTERN) not in sys.path:          # the intern's package: grid_250m/1_intern_improvement/local_landuse
     sys.path.insert(0, str(H.INTERN))
 from local_landuse.landsat_features import API, download_asset, request_json
 from local_landuse.modis_phenology import TARGET_DAYS, valid_qa

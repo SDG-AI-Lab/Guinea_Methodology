@@ -4,7 +4,7 @@ and the deployed method's twelve predictors dated to each year.
 
     python benchmark_export.py        ->  outputs/benchmark/
 
-See 2_improvement_and_benchmark/BENCHMARK_GUIDE.md for how to use them.
+See grid_250m/2_improvement_and_benchmark/BENCHMARK_GUIDE.md for how to use them.
 """
 import numpy as np
 import pandas as pd

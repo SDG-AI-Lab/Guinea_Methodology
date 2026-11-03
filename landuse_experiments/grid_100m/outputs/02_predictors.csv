@@ -1,0 +1,13 @@
+predictor,file,source,year used,no value (% of cells),Spearman with 250 m,build (s)
+Elevation,DEM_GEE,"SRTM, read at 100 m",static,0.0,0.9979081869162565,4.427207708358765
+Population density,POPULATION_DENSITY,"WorldPop, read at 100 m",2020,0.0,0.9619738942873332,0.7101361751556396
+Precipitation,PRECIPITATION,CHIRPS annual total (0.05°),2023,0.0,0.9951723939739792,1.5171642303466797
+Soil moisture,SOIL_MOISTURE,ERA5-Land annual mean (0.1°),2023,0.0,0.9813278128390508,1.4055960178375244
+Above-ground biomass,AGB_NASA,NASA/ORNL biomass 2010 (300 m),2010,0.0,0.9091809480913838,1.19223952293396
+NDVI,NDVI,MOD13Q1 annual mean (250 m),2023,0.0,0.9803808737316633,1.4434123039245605
+Slope,SLOPE,From the DEM (platform's function),static,6.781751933168308e-05,0.7562639204952002,2.748128652572632
+Aspect,ASPECT,From the DEM (platform's function),static,6.781751933168308e-05,0.478760175409058,3.993837833404541
+Distance to roads,ROADS_distance,"OpenStreetMap highways, distance in cells",static,0.0,0.6736412205731819,4.837753057479858
+Distance to waterways,WATERWAYS_distance,"OpenStreetMap waterways and water, distance in cells",static,0.0,0.975247687670302,4.341452360153198
+Points of interest,POI_heatmap,"OpenStreetMap amenities, decay with distance",static,0.0,0.7425961155936539,3.357152223587036
+Protected areas,PROTECTED_AREAS_zone,"WDPA, inside or not",static,0.0,0.988572345185211,0.3328127861022949

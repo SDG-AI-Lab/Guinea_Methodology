@@ -1,0 +1,7 @@
+mask,chain,px_11,px_26,share_11_also_26_within_1px,expected_random
+deployed water,"Deployed: FDI and NDVI, then forest",0,2137,,0.0008164558268687838
+deployed water,"FDI, then forest",36511,15384,0.1337952945687601,0.0039855044413132455
+deployed water,Forest alone,40752,19239,0.17586866902237927,0.0062440644854941186
+tide-safe water,"Deployed: FDI and NDVI, then forest",0,1,,1.4516203954601055e-06
+tide-safe water,"FDI, then forest",15374,542,0.04344998048653571,0.00021371078044273776
+tide-safe water,Forest alone,15518,542,0.04304678437943034,0.00021371078044273776

@@ -1,0 +1,30 @@
+{
+ "improved_auc": 0.852903111111111,
+ "improved_p05": 0.8318998260738267,
+ "improved_p95": 0.8711053651315472,
+ "deployed_auc": 0.6653826666666667,
+ "diff_p05": 0.020523064629984822,
+ "diff_p95": 0.34764788096359184,
+ "site_spearman_with_deployed": 0.1543757117510281,
+ "top15_cells_shared": 3,
+ "regional_mean_improved": {
+  "Boke": 28.4,
+  "Conakry": 42.9,
+  "Faranah": 10.3,
+  "Kankan": 34.0,
+  "Kindia": 33.5,
+  "Labe": 14.3,
+  "Mamou": 5.7,
+  "Nzerekore": 13.7
+ },
+ "regional_mean_deployed": {
+  "Boke": 11.6,
+  "Conakry": 15.8,
+  "Faranah": 24.9,
+  "Kankan": 39.2,
+  "Kindia": 33.4,
+  "Labe": 4.5,
+  "Mamou": 15.1,
+  "Nzerekore": 53.3
+ }
+}

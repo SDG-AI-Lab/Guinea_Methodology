@@ -1,0 +1,18 @@
+{
+ "nov_patches": 44,
+ "jan_patches": 26,
+ "nov_patches_within_1px_of_jan": 5,
+ "expected_if_random": 0.04917261978731313,
+ "enrichment": 101.68260348190832,
+ "p_value": 0.0,
+ "share_of_water_near_jan": 0.0001864569856472045,
+ "jan_kept_on_either_single_date": 6,
+ "jan_rule_on_either_single_date": 8,
+ "jan_fdi_above_thr_on_11": 22,
+ "jan_fdi_above_thr_on_26": 24,
+ "jan_fdi_above_thr_on_both": 20,
+ "jan_within_100m_of_shore": 14,
+ "jan_median_dist_shore_m": 100.0,
+ "share_water_above_thr_11": 0.023833111993444796,
+ "share_water_above_thr_26": 0.022354633280397704
+}

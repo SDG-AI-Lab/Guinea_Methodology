@@ -1,0 +1,18 @@
+{
+ "n": 651,
+ "n_pos": 111,
+ "centred_auc": 0.8998998998998999,
+ "centred_ap": 0.6479200636321529,
+ "lattice_auc": 0.8897897897897897,
+ "lattice_ap": 0.618180736904282,
+ "pin_offset_median_m": 32.16322517792046,
+ "pin_offset_max_m": 54.621923851132415,
+ "pos_share_at_or_above_0.7_centred": 0.5495495495495496,
+ "pos_share_at_or_above_0.7_lattice": 0.5405405405405406,
+ "neg_share_at_or_above_0.7_centred": 0.07407407407407407,
+ "neg_share_at_or_above_0.7_lattice": 0.07777777777777778,
+ "pos_share_at_or_above_0.5_centred": 0.7207207207207207,
+ "pos_share_at_or_above_0.5_lattice": 0.7117117117117117,
+ "auc_diff_p05": -0.017740514916681528,
+ "auc_diff_p95": -0.003551695154808205
+}

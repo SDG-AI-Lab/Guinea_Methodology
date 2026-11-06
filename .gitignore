@@ -32,6 +32,7 @@
 **/._tile_cache/
 **/tiles/
 **/tiles_*/
+**/lattice_tiles/
 **/scan_demo_cache/
 **/dumpsite_scan_cache/
 **/blindgrid_cache_*/

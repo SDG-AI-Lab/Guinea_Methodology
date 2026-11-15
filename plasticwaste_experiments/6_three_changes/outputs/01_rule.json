@@ -1,0 +1,9 @@
+{
+ "auc_at_least_0.80": true,
+ "gain_above_zero": true,
+ "auc_on_jrc_current": 0.7903395706686931,
+ "auc_on_jrc_height_5m": 0.7878623670212765,
+ "lowest_spearman_between_scales": 0.9220887082523413,
+ "spearman_with_current_at_5m": 0.1543757117510281,
+ "adopt": true
+}

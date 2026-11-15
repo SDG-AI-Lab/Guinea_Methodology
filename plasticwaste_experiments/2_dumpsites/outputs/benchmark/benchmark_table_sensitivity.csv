@@ -1,0 +1,19 @@
+method,key,window_m,curated_ap,curated_auc,curated_f1_at_guat_prev,blind_boke_auc,blind_conakry_auc,town_ap,town_auc,town_top5,town_d_ap_vs_ref,ci_lo,ci_hi,beats_ref
+"Guatemala checkpoint, frozen",aw_guat,80,0.5,0.859,0.613,0.667,0.555,0.178,0.659,0.12,-0.002,-0.116,0.102,False
+"Guatemala checkpoint, frozen",aw_guat,150,0.585,0.888,0.704,0.704,0.561,0.159,0.65,0.135,-0.021,-0.109,0.045,False
+"Guatemala checkpoint, frozen",aw_guat,300,0.576,0.891,0.637,0.656,0.566,0.131,0.63,0.088,-0.049,-0.155,0.026,False
+"AerialWaste ResNet-50+FPN, frozen",aw_italy,80,0.545,0.856,0.584,0.627,0.551,0.16,0.644,0.185,-0.02,-0.12,0.06,False
+"AerialWaste ResNet-50+FPN, frozen",aw_italy,150,0.577,0.88,0.617,0.665,0.587,0.198,0.667,0.255,0.018,-0.075,0.112,False
+"AerialWaste ResNet-50+FPN, frozen",aw_italy,300,0.549,0.867,0.607,0.674,0.536,0.149,0.651,0.04,-0.031,-0.154,0.051,False
+Colour/texture (baseline),colour,80,0.458,0.846,0.643,0.658,0.557,0.153,0.661,0.164,-0.027,-0.135,0.062,False
+Colour/texture (baseline),colour,150,0.517,0.861,0.619,0.639,0.537,0.191,0.671,0.15,0.011,-0.126,0.126,False
+Colour/texture (baseline),colour,300,0.47,0.824,0.625,0.577,0.574,0.13,0.601,0.09,-0.05,-0.17,0.029,False
+"DINOv3 ViT-L, satellite, frozen",dinov3_sat,80,0.681,0.916,0.686,0.706,0.72,0.161,0.695,0.088,-0.019,-0.123,0.051,False
+"DINOv3 ViT-L, satellite, frozen",dinov3_sat,150,0.685,0.916,0.604,0.677,0.719,0.188,0.727,0.193,0.008,-0.119,0.12,False
+"DINOv3 ViT-L, satellite, frozen",dinov3_sat,300,0.701,0.922,0.627,0.629,0.672,0.137,0.651,0.047,-0.043,-0.163,0.03,False
+"DINOv3 ViT-L, web, frozen",dinov3_web,80,0.665,0.91,0.682,0.651,0.684,0.191,0.723,0.188,0.011,-0.08,0.092,False
+"DINOv3 ViT-L, web, frozen",dinov3_web,150,0.653,0.909,0.625,0.701,0.684,0.238,0.741,0.341,0.058,-0.049,0.174,False
+"DINOv3 ViT-L, web, frozen",dinov3_web,300,0.605,0.901,0.549,0.607,0.655,0.165,0.671,0.187,-0.015,-0.124,0.069,False
+ImageNet ResNet-50 (current network),imagenet,80,0.547,0.864,0.639,0.651,0.507,0.18,0.652,0.225,0.0,0.0,0.0,False
+ImageNet ResNet-50 (current network),imagenet,150,0.606,0.894,0.629,0.604,0.509,0.139,0.653,0.14,-0.041,-0.144,0.023,False
+ImageNet ResNet-50 (current network),imagenet,300,0.623,0.882,0.569,0.571,0.519,0.124,0.634,0.068,-0.056,-0.17,0.015,False

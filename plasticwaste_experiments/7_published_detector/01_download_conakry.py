@@ -5,10 +5,16 @@ The cached composites hold fewer bands, so this fetches the two clear dates of J
 2024 from Earth Engine in small pieces and joins them. About 600 MB a date, on the
 same box and projection as the tide mask.
 """
+import os
 import shutil
+import socket
 import sys
+import time
 import urllib.request
 from pathlib import Path
+
+os.environ.pop("PROJ_LIB", None)  # PostGIS points these at its own copy, which rasterio cannot read
+os.environ.pop("GDAL_DATA", None)
 
 import numpy as np
 import rasterio
@@ -26,12 +32,26 @@ MASK = ROOT / "1_floating_debris" / "outputs" / "07_conakry_tide_mask.tif"
 DATES = ("2024-01-11", "2024-01-26")
 BANDS = ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B8A", "B9", "B11", "B12"]
 PIECES = 6  # each side, so each piece stays under Earth Engine's download limit
+socket.setdefaulttimeout(300)  # a stalled transfer fails and is tried again, rather than hanging
 
 
 def project():
     for line in (PROJECT / ".env").read_text(encoding="utf-8").splitlines():
         if line.startswith("GEE_PROJECT_ID="):
             return line.split("=", 1)[1].strip().strip('"')
+
+
+def fetch(url, path, tries=4):
+    part = path.with_suffix(".part")
+    for attempt in range(tries):
+        try:
+            urllib.request.urlretrieve(url, part)
+            part.replace(path)
+            return
+        except OSError as e:
+            print("retry", path.name, e, flush=True)
+            time.sleep(10 * (attempt + 1))
+    raise SystemExit(f"could not download {path.name}")
 
 
 def main():
@@ -58,7 +78,7 @@ def main():
                 if not path.exists():
                     region = ee.Geometry.Rectangle([lons[i], lats[j], lons[i + 1], lats[j + 1]], None, False)
                     url = image.getDownloadURL({"region": region, "scale": 10, "crs": crs, "format": "GEO_TIFF"})
-                    urllib.request.urlretrieve(url, path)
+                    fetch(url, path)
                     print(date, path.name, flush=True)
                 files.append(path)
         sources = [rasterio.open(f) for f in files]

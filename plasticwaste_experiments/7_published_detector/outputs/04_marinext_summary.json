@@ -1,0 +1,28 @@
+{
+ "swing": 1.7,
+ "overlap": 0.299,
+ "flat_classes": {
+  "2024-01-11": {
+   "Marine Debris": 0.007,
+   "Sparse Floating Algae": 0.008,
+   "Ship": 0.012,
+   "Oil Spill": 0.122,
+   "Marine Water": 0.265,
+   "Sediment-Laden Water": 0.429,
+   "Foam": 0.022,
+   "Turbid Water": 0.065,
+   "Waves & Wakes": 0.055,
+   "Sea snot": 0.006
+  },
+  "2024-01-26": {
+   "Ship": 0.016,
+   "Oil Spill": 0.085,
+   "Marine Water": 0.279,
+   "Sediment-Laden Water": 0.522,
+   "Foam": 0.016,
+   "Turbid Water": 0.017,
+   "Waves & Wakes": 0.038,
+   "Sea snot": 0.01
+  }
+ }
+}

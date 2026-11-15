@@ -1,0 +1,41 @@
+{
+ "method": "aw_protocol",
+ "window_m": 80,
+ "input_px": 256,
+ "bs": 4,
+ "lr": 5e-05,
+ "epochs": 50,
+ "patience": 10,
+ "folds": [
+  {
+   "fold": 0,
+   "best_epoch": 10,
+   "val_ap": 0.416,
+   "minutes": 7.9
+  },
+  {
+   "fold": 1,
+   "best_epoch": 8,
+   "val_ap": 0.419,
+   "minutes": 7.6
+  },
+  {
+   "fold": 2,
+   "best_epoch": 20,
+   "val_ap": 0.548,
+   "minutes": 12.6
+  },
+  {
+   "fold": 3,
+   "best_epoch": 20,
+   "val_ap": 0.436,
+   "minutes": 12.9
+  },
+  {
+   "fold": 4,
+   "best_epoch": 2,
+   "val_ap": 0.408,
+   "minutes": 5.4
+  }
+ ]
+}

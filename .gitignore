@@ -128,3 +128,14 @@ Land Use-Deforestation/plasticwaste_tool/dumpsite_data/**
 .env
 *.env
 gee-account.json
+# --- plastic waste benchmark (2026-11) ------------------------------------
+# Esri image crops (604 MB; imagery, see LARGE_FILES.md) and frozen features
+# (~300 MB), both regenerable with 2_dumpsites/05 and 06. The out-of-fold
+# scores and result tables that the notebook reads ARE committed.
+plasticwaste_experiments/2_dumpsites/outputs/benchmark/crops_*.npy
+plasticwaste_experiments/2_dumpsites/outputs/benchmark/feat_*.npy
+plasticwaste_experiments/2_dumpsites/outputs/benchmark/archive_uneven_folds/
+plasticwaste_experiments/2_dumpsites/outputs/benchmark/logs/
+plasticwaste_experiments/2_dumpsites/outputs/benchmark/*.bak
+# Publisher PDFs of Meijer et al. (2021), kept locally
+plasticwaste_experiments/3_leakage/*.pdf

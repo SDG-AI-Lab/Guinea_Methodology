@@ -7,11 +7,10 @@ read-only and nothing on the platform was changed.
 
 To follow the work step by step, start with the three walkthrough notebooks in this folder:
 `1_floating_debris`, `2_dumpsites` and `3_leakage`. They read the saved outputs, so they run in
-seconds. Notebooks 4 to 6 are the follow-up tests, prepared and not yet run.
+seconds. Notebooks 4 to 7 are the follow-up tests.
 
 Scripts run in order inside each folder, with the system Python (scikit-learn 1.4.2,
 the version of the frozen models). Outputs are in each `outputs/`.
-`scripts/build_paper.py` rebuilds the paper from those outputs.
 
 ## 1_floating_debris
 
@@ -39,6 +38,17 @@ the version of the frozen models). Outputs are in each `outputs/`.
 `03` compares two windows at one fixed C. Its absolute AUC (0.90) is optimistic; the
 honest figure is the published nested one, 0.832, reproduced exactly from these features.
 
+**Benchmark against published methods (November 2026).** Plan in `2_dumpsites/BENCHMARK_PLAN.md`, sources in `2_dumpsites/LITERATURE_NOTES.md`. Run everything with `2_dumpsites/run_benchmark.sh`, or from section 7 of the notebook. These scripts use the GPU environment `E:\SDG AI Lab\Guinea\national_scan_2026\venv_gpu`, and the Esri tile cache of the national scan on E:.
+
+| Script | Question | Result |
+|---|---|---|
+| `05_label_pool_and_crops` | One pool of about 2,440 labels; true 80, 150 and 300 m crops | 2,441 labels, 1,124 leakage-safe groups, all imaged |
+| `06_frozen_features` | Colour, ImageNet, AerialWaste (Italy and Guatemala), DINOv3 (satellite and web) | Done, see section 7 |
+| `07_linear_probe_benchmark` | Logistic step, nested spatial-block CV; curated, blind-grid and town tests | Done, see section 7 |
+| `08_trained_methods` | Guatemala's protocol and a fully fine-tuned ResNet-50 | Done, see section 7 (Guatemala's protocol not run at 300 m) |
+| `09_benchmark_report` | One table, intervals against the current network | Done, see section 7 |
+| `10_document_table` | The comparison in the methodology document: beat the current network on all four tests, then the best town score | Done, see section 7 |
+
 ## 3_leakage
 
 | Script | Question | Result |
@@ -46,19 +56,19 @@ honest figure is the published nested one, 0.832, reproduced exactly from these 
 | `01_mobilisation_flood_test` | Score against floods on 3,000 independent settled cells | Initial 0.67, HAND 0.86, JRC map 0.80 |
 | `02_leakage_variants` | Reproduction and structural variants | 18,166 and 84,017 t reproduced. Central 40,307 t, 10.9 kg per person |
 | `03_improved_mobilisation` | Inundation term from HAND | AUC 0.85, +0.19 (0.02 to 0.35) |
+| `04_meijer_flood_test` | Meijer et al. (2021) cell terms, best-calibrated values (Table S15 of the supplementary; the PDFs stay local), same flood test | 0.65 to 0.66: same as initial, below HAND-based (−0.32 to −0.08) |
 
-## Follow-up tests, prepared and not yet run
+## Follow-up tests
 
 | Folder and notebook | Question | Needs |
 |---|---|---|
 | `4_plastic_content` | More EnMAP sites, the mixing limit, a positive control, PRISMA coverage | DLR login, 0.5 GB per scene; PRISMA is by hand |
 | `5_floating_debris_flags` | Label Conakry patches by tide and movement, without deleting them | Cached imagery only |
 | `6_three_changes` | Are the height-based score and the central leakage case worth adding? | Saved outputs only |
-| `7_published_detector` | Does the Russwurm et al. (2023) detector stay off the tidal flats? | Earth Engine, about 1.5 GB, its own Python environment |
+| `7_published_detector` | Does the Russwurm et al. (2023) detector stay off the tidal flats? And MariNeXt (Kikaki et al. 2024, MADOS), scripts 03 and 04 | Earth Engine, about 1.5 GB, its own Python environment; MariNeXt in `E:\SDG AI Lab\Guinea\marinext_test` (100 MB). MariNeXt: 96 % of its debris on flats on L2A, 94–95 % on Acolite reflectance (scripts 05, 06; CDSE login kept in `C:\Users\ASUS\.cdse`) |
 
 The rule for each decision is written at the top of the script, before any result exists.
-PRISMA is by hand: see `4_plastic_content/PRISMA_coverage_guide.md`. MariNeXt is left out: its
-code has no ready way to run on a new image.
+PRISMA is by hand: see `4_plastic_content/PRISMA_coverage_guide.md`.
 
 ## Published figures for Guinea
 

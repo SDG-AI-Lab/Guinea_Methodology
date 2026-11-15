@@ -1,0 +1,62 @@
+{
+  "n_bands": 218,
+  "bad_windows_nm": [
+    [
+      1340,
+      1460
+    ],
+    [
+      1800,
+      1960
+    ]
+  ],
+  "per_scene": {},
+  "pooled": {
+    "label": "pooled",
+    "n_spectra": 144,
+    "n_dump_spectra": 16,
+    "n_distinct_sites": 10,
+    "baseline_ap": 0.1111111111111111,
+    "best_raw_ap": 0.19754670477758707,
+    "best_raw_nm": 1330.86,
+    "best_raw_lift": 1.7779203429982837,
+    "best_shape_ap": 0.2602393474210157,
+    "best_shape_nm": 2337.94,
+    "ch_features": {
+      "1215nm": {
+        "raw_ap": 0.18741932058071673,
+        "raw_rank": 11,
+        "shape_ap": 0.2012217075426066,
+        "shape_rank": 36,
+        "n_bands": 218
+      },
+      "1730nm": {
+        "raw_ap": 0.17003586499753393,
+        "raw_rank": 120,
+        "shape_ap": 0.11557217602683321,
+        "shape_rank": 206,
+        "n_bands": 218
+      }
+    },
+    "multivariate_raw": {
+      "n": 144,
+      "baseline": 0.1111111111111111,
+      "oof_ap": 0.25146283664866753,
+      "lift": 2.263165529838008
+    },
+    "multivariate_shape": {
+      "n": 144,
+      "baseline": 0.1111111111111111,
+      "oof_ap": 0.2330132908713617,
+      "lift": 2.0971196178422553
+    },
+    "best_band_minus_baseline": {
+      "delta_ap": 0.13125404286808645,
+      "ci95": [
+        0.029835941185480712,
+        0.2626472178966925
+      ],
+      "excludes_zero": true
+    }
+  }
+}

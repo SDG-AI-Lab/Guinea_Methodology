@@ -33,6 +33,9 @@ the scene IDs above.
 | `manual_qa/` imagery: region chips, `tiles_*`, `blindgrid_cache_*`, `scan_demo_cache`, `_covmap` (~28,300 PNGs) | 5.8 GB | Exceeds GitHub's 2 GB push limit. Much of it is Google Maps imagery, which Google's terms do not allow us to redistribute. The labels, QA metrics and GeoJSONs **are** committed. |
 | `runs/` rest of the scene folders (XML, metadata), `runs/hyperspectral_coverage/enmap_items.json` and `emit_granules.json`, `runs/dumpsite_extent/second_read_crops/`, `runs/benchmark/`, `runs/feature_probe/` | ~90 MB | Raw catalogue dumps and intermediates, all regenerable. Summary JSON/CSV and figures **are** committed. |
 | `aerialwaste_model/` (code + LICENSE) | <1 MB | CC BY-NC-ND 4.0: no derivatives, non-commercial. |
+| `plasticwaste_experiments/2_dumpsites/outputs/benchmark/crops_*.npy` (path from the repo root) | 604 MB | Esri basemap crops of the 2,441 benchmark labels; regenerable with `2_dumpsites/05`. |
+| `plasticwaste_experiments/2_dumpsites/outputs/benchmark/feat_*.npy`, `archive_uneven_folds/`, `logs/` | ~300 MB | Frozen features and superseded runs; regenerable with `2_dumpsites/06` to `08`. The scores and tables the notebook reads are committed. |
+| `plasticwaste_experiments/3_leakage/*.pdf` | 2.6 MB | Meijer et al. (2021), paper and supplementary; publisher copies. |
 
 ## Never upload anywhere shared
 

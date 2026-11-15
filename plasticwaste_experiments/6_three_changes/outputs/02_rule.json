@@ -1,0 +1,16 @@
+{
+ "central_kg": 10.884857074326256,
+ "central_to_env_t": 40218.3482855037,
+ "central_conakry_share": 0.28166697233419236,
+ "share_in_window": 0.6933333333333334,
+ "to_env_range_t": [
+  28246.832260570627,
+  63676.513911769944
+ ],
+ "conakry_share_range": [
+  0.17346837058431652,
+  0.3462352325204982
+ ],
+ "lowest_spearman": 0.9047619047619048,
+ "inside_published_range": true
+}

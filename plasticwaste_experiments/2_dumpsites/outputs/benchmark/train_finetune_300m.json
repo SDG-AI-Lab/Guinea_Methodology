@@ -1,0 +1,41 @@
+{
+ "method": "finetune",
+ "window_m": 300,
+ "input_px": 224,
+ "bs": 16,
+ "lr": 0.0001,
+ "epochs": 30,
+ "patience": 6,
+ "folds": [
+  {
+   "fold": 0,
+   "best_epoch": 1,
+   "val_ap": 0.329,
+   "minutes": 3.9
+  },
+  {
+   "fold": 1,
+   "best_epoch": 2,
+   "val_ap": 0.407,
+   "minutes": 4.6
+  },
+  {
+   "fold": 2,
+   "best_epoch": 6,
+   "val_ap": 0.434,
+   "minutes": 6.5
+  },
+  {
+   "fold": 3,
+   "best_epoch": 6,
+   "val_ap": 0.41,
+   "minutes": 6.6
+  },
+  {
+   "fold": 4,
+   "best_epoch": 5,
+   "val_ap": 0.32,
+   "minutes": 6.3
+  }
+ ]
+}

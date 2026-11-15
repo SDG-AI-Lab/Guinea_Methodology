@@ -1,0 +1,207 @@
+{
+ "rows": [
+  {
+   "key": "imagenet_80m",
+   "seeds": 1,
+   "curated_ap": 0.546,
+   "boke_auc": 0.637,
+   "conakry_auc": 0.483,
+   "town_ap": 0.094,
+   "town_auc": 0.682,
+   "town_auc_90": [
+    0.59,
+    0.77
+   ],
+   "town_top5": 0.151,
+   "gain_ap": 0.0,
+   "gain_90": [
+    0.0,
+    0.0
+   ],
+   "beats_initial_on": null,
+   "passes_mark": false
+  },
+  {
+   "key": "colour_80m",
+   "seeds": 1,
+   "curated_ap": 0.461,
+   "boke_auc": 0.642,
+   "conakry_auc": 0.513,
+   "town_ap": 0.065,
+   "town_auc": 0.633,
+   "town_auc_90": [
+    0.55,
+    0.71
+   ],
+   "town_top5": 0.0,
+   "gain_ap": -0.029,
+   "gain_90": [
+    -0.106,
+    0.007
+   ],
+   "beats_initial_on": 2,
+   "passes_mark": false
+  },
+  {
+   "key": "aw_italy_150m",
+   "seeds": 1,
+   "curated_ap": 0.592,
+   "boke_auc": 0.648,
+   "conakry_auc": 0.581,
+   "town_ap": 0.114,
+   "town_auc": 0.692,
+   "town_auc_90": [
+    0.58,
+    0.8
+   ],
+   "town_top5": 0.104,
+   "gain_ap": 0.02,
+   "gain_90": [
+    -0.04,
+    0.092
+   ],
+   "beats_initial_on": 4,
+   "passes_mark": false
+  },
+  {
+   "key": "aw_guat_80m",
+   "seeds": 1,
+   "curated_ap": 0.491,
+   "boke_auc": 0.638,
+   "conakry_auc": 0.464,
+   "town_ap": 0.162,
+   "town_auc": 0.725,
+   "town_auc_90": [
+    0.6,
+    0.84
+   ],
+   "town_top5": 0.128,
+   "gain_ap": 0.068,
+   "gain_90": [
+    -0.038,
+    0.194
+   ],
+   "beats_initial_on": 2,
+   "passes_mark": false
+  },
+  {
+   "key": "aw_protocol_150m",
+   "seeds": 1,
+   "curated_ap": 0.679,
+   "boke_auc": 0.628,
+   "conakry_auc": 0.559,
+   "town_ap": 0.097,
+   "town_auc": 0.67,
+   "town_auc_90": [
+    0.56,
+    0.78
+   ],
+   "town_top5": 0.097,
+   "gain_ap": 0.003,
+   "gain_90": [
+    -0.04,
+    0.064
+   ],
+   "beats_initial_on": 3,
+   "passes_mark": false
+  },
+  {
+   "key": "finetune_80m",
+   "seeds": 3,
+   "curated_ap": 0.612,
+   "boke_auc": 0.649,
+   "conakry_auc": 0.635,
+   "town_ap": 0.122,
+   "town_auc": 0.739,
+   "town_auc_90": [
+    0.64,
+    0.84
+   ],
+   "town_top5": 0.18,
+   "gain_ap": 0.028,
+   "gain_90": [
+    -0.043,
+    0.103
+   ],
+   "beats_initial_on": 4,
+   "passes_mark": false
+  },
+  {
+   "key": "dinov3_sat_80m",
+   "seeds": 1,
+   "curated_ap": 0.682,
+   "boke_auc": 0.688,
+   "conakry_auc": 0.711,
+   "town_ap": 0.118,
+   "town_auc": 0.751,
+   "town_auc_90": [
+    0.68,
+    0.82
+   ],
+   "town_top5": 0.129,
+   "gain_ap": 0.024,
+   "gain_90": [
+    -0.032,
+    0.096
+   ],
+   "beats_initial_on": 4,
+   "passes_mark": false
+  },
+  {
+   "key": "dinov3_web_80m",
+   "seeds": 1,
+   "curated_ap": 0.701,
+   "boke_auc": 0.626,
+   "conakry_auc": 0.641,
+   "town_ap": 0.174,
+   "town_auc": 0.801,
+   "town_auc_90": [
+    0.73,
+    0.86
+   ],
+   "town_top5": 0.182,
+   "gain_ap": 0.08,
+   "gain_90": [
+    0.012,
+    0.196
+   ],
+   "beats_initial_on": 3,
+   "passes_mark": true
+  },
+  {
+   "key": "dinov3_web_150m",
+   "seeds": 1,
+   "curated_ap": 0.695,
+   "boke_auc": 0.658,
+   "conakry_auc": 0.685,
+   "town_ap": 0.149,
+   "town_auc": 0.775,
+   "town_auc_90": [
+    0.7,
+    0.84
+   ],
+   "town_top5": 0.199,
+   "gain_ap": 0.055,
+   "gain_90": [
+    0.002,
+    0.13
+   ],
+   "beats_initial_on": 4,
+   "passes_mark": false
+  }
+ ],
+ "qualifiers": [
+  "aw_italy_150m",
+  "finetune_80m",
+  "dinov3_sat_80m",
+  "dinov3_web_150m"
+ ],
+ "adopted": "dinov3_web_150m",
+ "base_rates": {
+  "curated": 0.171,
+  "boke": 0.437,
+  "conakry": 0.254,
+  "town": 0.05
+ },
+ "town_sites": 21
+}

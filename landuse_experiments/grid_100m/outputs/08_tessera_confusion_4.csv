@@ -1,0 +1,8 @@
+GLanCE,Built-up,Cropland,Herbaceous wetland,Shrub & grassland,Tree cover,Water
+Bare,0,0,0,1,0,0
+Built-up,40,0,0,0,0,0
+Cropland,8,2,1,49,3,0
+Herbaceous wetland,0,0,0,3,0,0
+Shrub & grassland,3,1,0,110,21,1
+Tree cover,5,0,0,44,200,2
+Water,0,0,0,0,0,9

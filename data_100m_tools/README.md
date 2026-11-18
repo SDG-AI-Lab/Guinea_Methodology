@@ -10,6 +10,10 @@ holds that grid and a shared store of layers on it, used by the 100 m runs of
 | `fetch.py` | Layers read from Earth Engine as the platform reads them (getDownloadURL at 100 m), OpenStreetMap from the Geofabrik extract with the platform's tags, and local polygons, saved in the store: Hansen shares, Esri land cover (class and class shares), predictors |
 | `platform_utils.py` | A verbatim, read-only copy of the platform's `landuse_tool/utils.py` from its main branch (slope, aspect, distance, heatmap), which fixes slope on geographic grids; do not edit |
 | `memory_check.py` | Time and peak memory of the heavy steps of a 100 m run on this machine |
+| `tessera_blocks.py` | The 24 sample blocks for the TESSERA tests (0.1° tiles: 16 forest blocks drawn by ecoregion in proportion to loss, 8 random land blocks) |
+| `tessera_fetch.py` | TESSERA embeddings (Feng et al. 2026, CC0) of the blocks, 2017–2025: each cell's mean of its 10 × 10 pixels. Needs Python 3.12 or later (`geotessera`): `E:\SDG AI Lab\Guinea
+ational_scan_2026env_tessera` |
+| `tessera_national.py` | The same over all 2,048 tiles with forest, kept as 16 principal components per forest cell (0.4 GB a year; about 9 hours a year with four workers; restartable). Read for 2018 and 2021 |
 
 How the grid was derived and checked, and the memory results: `deforestation_experiments/grid_100m/01_grid_and_store.ipynb`.
 
@@ -31,6 +35,8 @@ own entry, and `grid100.rebuild_manifest()` rewrites the manifest from the files
 Layers so far (see `manifest.json` for sources): `hansen/hansen_shares`; `landcover/esri_2017`
 … `esri_2025`; `predictors/dem`, `worldpop`, `ghsl_built`, `wdpa_year`, `grip4_roads`,
 `gaul_admin1`, `osm` (roads, railways, waterways, poi), `ecoregions`, `mines`.
+
+TESSERA (`tessera/`): `blocks.json`, `blocks_cells.npz`, `<year>/<block>.npy` (128 numbers per cell, float16), `glance_points.npz`, and `national/` (`index.npz`, `pca16.npz`, `pc16_2018.npy`, `pc16_2021.npy`).
 
 ## Use
 

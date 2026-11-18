@@ -1,0 +1,7 @@
+Map,Points,Agreement %,95 % CI
+"Esri, 10 m pixel (notebook 02)",503,75.1,71-79
+"Esri, 100 m cell (module input)",503,68.0,64-72
+"TESSERA probe taught by Esri, 10 m pixel",503,75.0,71-79
+"TESSERA probe taught by Esri, 100 m cell",503,71.8,68-76
+"TESSERA probe taught by GLanCE (5 folds), 10 m pixel",503,79.7,76-83
+"TESSERA probe taught by GLanCE (5 folds), 100 m cell",503,76.3,72-80

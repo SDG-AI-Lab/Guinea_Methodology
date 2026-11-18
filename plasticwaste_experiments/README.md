@@ -48,6 +48,9 @@ honest figure is the published nested one, 0.832, reproduced exactly from these 
 | `08_trained_methods` | Guatemala's protocol and a fully fine-tuned ResNet-50 | Done, see section 7 (Guatemala's protocol not run at 300 m) |
 | `09_benchmark_report` | One table, intervals against the current network | Done, see section 7 |
 | `10_document_table` | The comparison in the methodology document: beat the current network on all four tests, then the best town score | Done, see section 7 |
+| `11_geotessera_embeddings` | TESSERA yearly embeddings (Feng et al. 2026, CC0) at the labelled points: the 10 m pixel and the mean and spread over about 150 m. Needs Python 3.12 or later: `E:\SDG AI Lab\Guinea\national_scan_2026\venv_tessera` | 2024 and 2025, all 2,441 points |
+| `12_geotessera_benchmark` | TESSERA alone and added to DINOv3 web at 150 m, with section 7's protocol | Alone weak on the blind grids; with DINOv3 town AP 0.18–0.20, AUC 0.82, passes the published mark in both years. Adopted, see section 8 |
+| `13_freeze_dinov3_tessera_head` | The adopted model frozen for the platform: fitted on all 2,348 labels (TESSERA 2025), tiers set on the out-of-fold scores to keep the initial tiers' recall | C = 0.001; tiers 0.64 / 0.52 / 0.45; copied to the platform's `dumpsite_tool/models/` (branch `feat/waste-site-dinov3-tessera`) |
 
 ## 3_leakage
 

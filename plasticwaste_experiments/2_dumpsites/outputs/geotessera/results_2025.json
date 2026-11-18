@@ -1,0 +1,224 @@
+{
+ "year": 2025,
+ "valid_points": 2348,
+ "labeled_points": 2348,
+ "tessera_pixel": {
+  "curated": {
+   "ap": 0.605,
+   "auc": 0.901,
+   "prec_at33": 0.76,
+   "rec": 0.604,
+   "f1_at33": 0.673,
+   "prev": 0.171
+  },
+  "blind_boke": {
+   "ap": 0.516,
+   "auc": 0.646,
+   "prev": 0.437
+  },
+  "blind_conakry": {
+   "ap": 0.308,
+   "auc": 0.553,
+   "prev": 0.254
+  },
+  "town": {
+   "ap": 0.176,
+   "auc": 0.699,
+   "top5": 0.177,
+   "top10": 0.1,
+   "prev": 0.05
+  },
+  "town_ap_per_seed": [
+   0.107,
+   0.166,
+   0.178
+  ],
+  "vs_initial": {
+   "gain_ap": 0.082,
+   "gain_90": [
+    -0.023,
+    0.202
+   ],
+   "town_auc_90": [
+    0.58,
+    0.81
+   ],
+   "beats_on": 4,
+   "passes_mark": false
+  },
+  "vs_dinov3_web_150": {
+   "gain_ap": 0.027,
+   "gain_90": [
+    -0.114,
+    0.158
+   ],
+   "town_auc_90": [
+    0.58,
+    0.81
+   ],
+   "beats_on": 1,
+   "passes_mark": false
+  }
+ },
+ "tessera_ctx150": {
+  "curated": {
+   "ap": 0.671,
+   "auc": 0.917,
+   "prec_at33": 0.864,
+   "rec": 0.559,
+   "f1_at33": 0.679,
+   "prev": 0.171
+  },
+  "blind_boke": {
+   "ap": 0.459,
+   "auc": 0.549,
+   "prev": 0.437
+  },
+  "blind_conakry": {
+   "ap": 0.272,
+   "auc": 0.521,
+   "prev": 0.254
+  },
+  "town": {
+   "ap": 0.172,
+   "auc": 0.721,
+   "top5": 0.198,
+   "top10": 0.187,
+   "prev": 0.05
+  },
+  "town_ap_per_seed": [
+   0.217,
+   0.149,
+   0.16
+  ],
+  "vs_initial": {
+   "gain_ap": 0.078,
+   "gain_90": [
+    -0.003,
+    0.209
+   ],
+   "town_auc_90": [
+    0.59,
+    0.84
+   ],
+   "beats_on": 3,
+   "passes_mark": false
+  },
+  "vs_dinov3_web_150": {
+   "gain_ap": 0.023,
+   "gain_90": [
+    -0.093,
+    0.161
+   ],
+   "town_auc_90": [
+    0.59,
+    0.84
+   ],
+   "beats_on": 1,
+   "passes_mark": false
+  }
+ },
+ "dinov3_web_150": {
+  "curated": {
+   "ap": 0.695,
+   "auc": 0.918,
+   "prec_at33": 0.89,
+   "rec": 0.495,
+   "f1_at33": 0.637,
+   "prev": 0.171
+  },
+  "blind_boke": {
+   "ap": 0.573,
+   "auc": 0.658,
+   "prev": 0.437
+  },
+  "blind_conakry": {
+   "ap": 0.384,
+   "auc": 0.685,
+   "prev": 0.254
+  },
+  "town": {
+   "ap": 0.149,
+   "auc": 0.775,
+   "top5": 0.199,
+   "top10": 0.176,
+   "prev": 0.05
+  },
+  "town_ap_per_seed": [
+   0.168,
+   0.17,
+   0.125
+  ],
+  "vs_initial": {
+   "gain_ap": 0.055,
+   "gain_90": [
+    0.002,
+    0.13
+   ],
+   "town_auc_90": [
+    0.7,
+    0.84
+   ],
+   "beats_on": 4,
+   "passes_mark": false
+  }
+ },
+ "dinov3_web_150+ctx150": {
+  "curated": {
+   "ap": 0.717,
+   "auc": 0.925,
+   "prec_at33": 0.869,
+   "rec": 0.505,
+   "f1_at33": 0.638,
+   "prev": 0.171
+  },
+  "blind_boke": {
+   "ap": 0.575,
+   "auc": 0.655,
+   "prev": 0.437
+  },
+  "blind_conakry": {
+   "ap": 0.383,
+   "auc": 0.685,
+   "prev": 0.254
+  },
+  "town": {
+   "ap": 0.198,
+   "auc": 0.816,
+   "top5": 0.26,
+   "top10": 0.217,
+   "prev": 0.05
+  },
+  "town_ap_per_seed": [
+   0.181,
+   0.178,
+   0.192
+  ],
+  "vs_initial": {
+   "gain_ap": 0.104,
+   "gain_90": [
+    0.037,
+    0.208
+   ],
+   "town_auc_90": [
+    0.75,
+    0.89
+   ],
+   "beats_on": 4,
+   "passes_mark": true
+  },
+  "vs_dinov3_web_150": {
+   "gain_ap": 0.049,
+   "gain_90": [
+    -0.001,
+    0.116
+   ],
+   "town_auc_90": [
+    0.75,
+    0.89
+   ],
+   "beats_on": 2,
+   "passes_mark": false
+  }
+ }
+}

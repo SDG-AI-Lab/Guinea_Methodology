@@ -1,0 +1,20 @@
+24 blocks, 296,752 cells, 134,190 stable cells ({'Trees': 89130, 'Rangeland': 32261, 'Built area': 8326, 'Flooded vegetation': 4038, 'Water': 412, 'Crops': 20, 'Bare ground': 3})
+fold 0: trained on 19,915 cell-years
+fold 1: trained on 18,160 cell-years
+fold 2: trained on 19,915 cell-years
+fold 3: trained on 17,755 cell-years
+                     changed (% of area)  of it, back the next year (%)
+map                                                                    
+Esri (module input)                 10.1                           31.6
+TESSERA probe                        9.9                           35.1
+                     cells  out of trees the year after (%)
+map                                                        
+Esri (module input)  16394                             61.7
+TESSERA probe        16411                             53.8
+                                                 Map  Points  Agreement % 95 % CI
+                      Esri, 10 m pixel (notebook 02)     503         75.1   71-79
+                     Esri, 100 m cell (module input)     503         68.0   64-72
+            TESSERA probe taught by Esri, 10 m pixel     503         75.0   71-79
+            TESSERA probe taught by Esri, 100 m cell     503         71.8   68-76
+TESSERA probe taught by GLanCE (5 folds), 10 m pixel     503         79.7   76-83
+TESSERA probe taught by GLanCE (5 folds), 100 m cell     503         76.3   72-80

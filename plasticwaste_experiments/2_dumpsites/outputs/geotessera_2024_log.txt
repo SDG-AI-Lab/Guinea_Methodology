@@ -1,0 +1,17 @@
+years in store: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+first 20 valid: 20
+pixel (2441, 128) {'valid': 2441}
+ctx150 200/2441
+ctx150 400/2441
+ctx150 600/2441
+ctx150 800/2441
+ctx150 1000/2441
+ctx150 1200/2441
+ctx150 1400/2441
+ctx150 1600/2441
+ctx150 1800/2441
+ctx150 2000/2441
+ctx150 2200/2441
+ctx150 2400/2441
+ctx150 2441/2441
+saved D:\Guinea_Methodology\plasticwaste_experiments\2_dumpsites\outputs\geotessera\tessera_2024.npz
